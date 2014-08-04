@@ -57,6 +57,8 @@ Deletes your applications and CoreOS VM; reinstalls to latest Panamax version.
 **Actions**:
 Shut downs the VM, detaches images.vdi and deletes the Virtualbox VM. Creates a new VM. (optionally downloads a new coreOS Vagrant Box if there's an updated CoreOS version specified in settings), re-attaches images.vdi to VM and updates panamax images. All existing user images will still be available. Panamax Containers/DB is dropped off and re-created, so all items stored in the DB/Container will have to be re-initialized. DB is rehydrated with latest templates when panamax is reinstalled. 
 
+*Note*:    If dev/stable version of panamax is selected during install/reinstall/update, all sub-sequent panamax install/reinstall/updates will be on that branch of panamax. It needs to be overwritten by passing --dev/stable.
+
 ###info
 Displays version of your local panamax install.
 
@@ -68,3 +70,48 @@ Displays version of your local panamax install.
 
 **Actions**: Display UI, API and Installer Versions
 
+###check
+Checks for available updates for Panamax.
+
+**Alias**: check
+
+**Parameters**: none
+
+**Example usage**: ``$ panamax check``
+
+**Actions**: checks for updates to setup or panamax images. If running dev version, displays message that new builds are pushed nightly.
+
+###download
+Updates to latest Panamax version.
+
+**Alias**: download/update/-op=update
+
+**Parameters**:-ppUi=UI Port, -ppApi=Api Port, --dev/–stable (dev: nightly build, stable:  stable release), --cpu=cores, --memory=MemoryinMB
+
+**Example usage**: ``$ panamax download --cpu=2 --memory=2048``
+
+**Actions**: Updates panamax images to latest version and drops and re-creates Panamax Containers. DB volume is left behind, so all settings in DB remain in tact, (apps/git config etc is preserved). DB is rehydrated with latest templates when panamax is reinstalled. 
+
+*Note*: If dev/stable version of panamax is selected during install/reinstall/update, all sub-sequent panamax install/reinstall/updates will be on that branch of panamax. It needs to be overwritten by passing --dev/stable.
+
+###delete
+Uninstalls Panamax, deletes applications and CoreOS VM.
+
+**Alias**: delete/uninstall/-op=uninstall
+
+**Parameters**: none
+
+**Example usage**: ``$ panamax delete``
+
+**Actions**: Deletes the CoreOS VM and deletes the associated Vagrant Box. Everything else is left in-tact (brew & the folders created by brew setup on Mac OS X installations).
+
+###ssh 
+ssh into Panamax CoreOS VM.
+
+**Alias**: ssh
+
+**Parameters**: none
+
+**Example usage**: ``$ panamax ssh``
+
+**Actions**: Shortcut to ssh into panamax-vm.
