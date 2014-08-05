@@ -25,12 +25,12 @@ The 2nd method to set port forwarding is vis the VirtualBox GUI. Follow these st
 2. Find the `panamax-vm` in the list of virtual machines and select Settings from the top nav
 3. Click on the Network icon on the top nav
 
-![](http://panamax.ca.tier3.io/panamax_ui_wiki_screens/virtualbox_network.png)
+  ![](http://panamax.ca.tier3.io/panamax_ui_wiki_screens/virtualbox_network.png)
 
 4. Select Port Forwarding 
 5. Click the Add rule icon on the top right and fill in your Host port, 8997, and your Guest port, 8080.
 
-![](http://panamax.ca.tier3.io/panamax_ui_wiki_screens/virtualbox_portforward.png)
+  ![](http://panamax.ca.tier3.io/panamax_ui_wiki_screens/virtualbox_portforward.png)
 
 6. Click OK and OK and the forward is set
 
