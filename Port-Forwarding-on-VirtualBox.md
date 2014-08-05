@@ -16,7 +16,7 @@ This command invokes the VirutalBox command VirtualManage to add a port forwardi
 
 *NOTE*: The empty values between the ports is intentional. Be sure to add the `,,` around the local host port to ensure the mapping works correctly.
 
-By browsing to `http://localhost:8997`, your browser is forwarded to port 8080 on the CoreOS host and then forwarded again to port 80 on the container to render the GUI. You can use any free port on your local machine to forward to the CoreOS host. The following illustrates the forwarding hops:
+By browsing to `http://localhost:8997`, your browser is forwarded to port 8080 on the CoreOS host and then forwarded again to port 80 on the container to render the GUI. You can use any free port on your local machine to forward to the CoreOS host. 
 
 ###Port Forwarding via the VirtualBox GUI
 The 2nd method to set port forwarding is vis the VirtualBox GUI. Follow these steps to enable port forwarding to your CoreOS host:
@@ -34,4 +34,4 @@ The 2nd method to set port forwarding is vis the VirtualBox GUI. Follow these st
 
 6. Click OK and OK and the forward is set
 
-By browsing to `http://localhost:8997`, your browser is forwarded to port 8080 on the CoreOS host and then forwarded again to port 80 on the container to render the GUI. You can use any free port on your local machine to forward to the CoreOS host. The following illustrates the forwarding hops:
+By browsing to `http://localhost:8997`, your browser is forwarded to port 8080 on the CoreOS host and then forwarded again to port 80 on the container to render the GUI. You can use any free port on your local machine to forward to the CoreOS host.
