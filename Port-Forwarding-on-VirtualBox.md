@@ -20,3 +20,23 @@ By browsing to `http://localhost:8997`, your browser is forwarded to port 8080 o
 
 screenshot 2 - visio of the forwarding
 
+###Port Forwarding via the VirtualBox GUI
+The 2nd method to set port forwarding is vis the VirtualBox GUI. Follow these steps to enable port forwarding to your CoreOS host:
+
+1. Open the VirtualBox GUI on your local machine. Should be available in your Application diretory.
+2. Find the `panamax-vm` in the list of virtual machines and select Settings from the top nav
+3. Click on the Network icon on the top nav
+
+Screenshot 3 - VB network tab
+
+4. Select Port Forwarding 
+5. Click the Add rule icon on the top right and fill in your Host port, 8997, and your Guest port, 8080.
+
+Screenshot 4 - Port forwarding window
+
+6. Click OK and OK and the forward is set
+
+By browsing to `http://localhost:8997`, your browser is forwarded to port 8080 on the CoreOS host and then forwarded again to port 80 on the container to render the GUI. You can use any free port on your local machine to forward to the CoreOS host. The following illustrates the forwarding hops:
+
+screenshot 2 - visio of the forwarding
+
