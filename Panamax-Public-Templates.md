@@ -1,5 +1,5 @@
-<h2>What is the Panamax Public Template Repo?&nbsp;</h2>
-<p>The Panamax Public Template Repo contains templates available to all users of Panamax. They have been crafted with certain standards for the image and template, to<span style="line-height: 1.4285715;">&nbsp;ensure their functionality. Learn more about what we think makes a good image and template.</span></p>
+<h2>What are the Panamax Public Templates?&nbsp;</h2>
+<p>The <a href="https://github.com/CenturyLinkLabs/panamax-public-templates">Panamax Public Template repository </a> contains Panamax templates available to all users of Panamax. They have been crafted with certain standards for the image and template, to<span style="line-height: 1.4285715;">&nbsp;ensure their functionality. Learn more about what we think makes a good image and template.</span></p>
 <h2>What we think makes a good image ( WIP)</h2>
 <ul>
 <li><strong>Size matters!</strong>&nbsp;- See <a href="http://www.centurylinklabs.com/optimizing-docker-images/">Brian DeHamer's blog post</a> on great ways to keep your image under control. He section on chaining commands is worth the read! You'd be surprise how unwieldy an image can get! Downloading 200MB vs. 2GB is a BIG difference on time and needed storage space.</li>
