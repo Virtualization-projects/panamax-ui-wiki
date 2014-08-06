@@ -15,7 +15,7 @@ Mac OS X 10.9.x and higher
 [Vagrant 1.6](http://www.vagrantup.com/downloads.html/) or higher
 
 
-The Panamax installer, creates a VM in VirtualBox called panamax-vm. This VM is built on [http://coreos.com/docs/running-coreos/platforms/vagrant/](CoreOS.)
+The Panamax installer creates a VM in VirtualBox called panamax-vm. This VM is built on [http://coreos.com/docs/running-coreos/platforms/vagrant/](CoreOS.)
 
 ## Mac OS X: 
 
@@ -41,19 +41,19 @@ For a menu of all commands available to you, simply run
 ## CenturyLink Cloud
 
 ## Amazon Web Services - EC2
-This is a guide to installing panamax on [EC2 CoreOS AMI](http://coreos.com/docs/running-coreos/cloud-providers/ec2/)
+This is a guide to installing Panamax on [EC2 CoreOS AMI](http://coreos.com/docs/running-coreos/cloud-providers/ec2/)
 
 ### Create a CoreOS VM in EC2
 1. Choose Launch Instance in EC2 Dashboard 
 1. Select "AWS Marketplace" in AMI Selection wizard and search for "CoreOS".
 1. Make sure the AMI has the following specs at **minimum**: 1 vCPU, 4 GB RAM, 20 GB HDD
 1. Configure the following security rules
-1. Open Ports 22, 3000 from anywhere. (these are for Panamax if your App requires additional ports make sure to go back and add them) 
+1. Open Ports 22, 3000 from anywhere. (These are for Panamax. If your App requires additional ports, make sure to go back and add them.) 
 1. Add a public IP to the VM
 1. Save private-key.pem to a local file (e.g coreos-private-key.pem).
 
 ### Install Panamax
-1. Once the VM is created, SSH into the with
+1. Once the VM is created, SSH into the box with
 
 `$ ssh -i  coreos-private-key.pem core@<AMI public DNS ID or Public IP of the VM>`
 
