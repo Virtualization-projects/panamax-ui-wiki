@@ -3,7 +3,7 @@
 The [Panamax Public Template repository](https://github.com/CenturyLinkLabs/panamax-public-templates) contains Panamax templates available to all users of Panamax. They have been crafted with certain standards for the image and template, to ensure their functionality. Learn more about what we think makes a good image and template below.
 
 ##What we think makes a good image
-* **Optimize your image!**- See <a href="http://www.centurylinklabs.com/optimizing-docker-images/">Brian DeHamer's blog post</a> on great ways to keep your image under control. He section on chaining commands is worth the read! You'd be surprise how unwieldy an image can get! Downloading 200MB vs. 2GB is a BIG difference on time and needed storage space.
+* **Optimize your image!**- See <a href="http://www.centurylinklabs.com/optimizing-docker-images/">Brian DeHamer's blog post</a> on great ways to keep your image under control. His section on chaining commands is worth the read! You'd be surprise how unwieldy an image can get! Downloading 200MB vs. 2GB is a BIG difference on time and needed storage space.
 
 * **Know your sources!**- Its good to use official images from Docker when you can, however they tend not to always publish a Dockerfile and you'll need to hunt for the repo and source (many of the official images can be found here <a href="https://github.com/docker-library">https://github.com/docker-library</a>). Always a good idea to look at the project repo directly to see what exactly is in it and if its right for you as a starting point.
 
