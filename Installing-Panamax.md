@@ -8,7 +8,6 @@ Panamax can be installed locally or theoretically anywhere [CoreOS can run.](htt
 
 **Local Installation Requirements**
 
-Mac OS X 10.9.x and higher
 
 [VirtualBox 4.2](https://www.virtualbox.org/wiki/Downloads/) or higher
 
@@ -17,7 +16,7 @@ Mac OS X 10.9.x and higher
 
 The Panamax installer creates a VM in VirtualBox called panamax-vm. This VM is built on [http://coreos.com/docs/running-coreos/platforms/vagrant/](CoreOS.)
 
-## Mac OS X: 
+## Mac OS X:10.9.x and higher
 
 To install Panamax on Mac, use [Homebrew](http://brew.sh/). Here are the steps:
 On your terminal window, run:
@@ -35,6 +34,16 @@ For a menu of all commands available to you, simply run
 
 * [List of all available commands, aliases and parameters](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Panamax-Installer-Commands) for the Panamax Installer.
 * [Release Notes](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Release-Notes)
+
+##Linux
+
+`$ wget http://download.panamax.io/installer/pmx-installer-latest.zip`
+
+`$ unzip pmx-installer-latest.zip -d ~/.panamax`
+
+`$ sudo ln -s ~/.panamax/panamax /usr/local/bin/panamax`
+
+`$ panamax init`
 
 # Cloud Provider Installation
 
