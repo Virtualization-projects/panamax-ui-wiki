@@ -1,8 +1,8 @@
-If your application has a GUI, you need a port exposed on the CoreOS host that points to the port running the GUI on the container. For example, if your application runs a GUI on port 80, you need to bound a port from CoreOS to port 80 within Panamax. The following shows the host port, 8080, bound to the container port, 80.
+If your application has a GUI, you need a port exposed on the CoreOS host that points to the port running the GUI on the container. For example, if your application runs a GUI on port 80, you need to bind a port from CoreOS to port 80 within Panamax. The following shows the host port, 8080, bound to the container port, 80.
 
 ![](http://panamax.ca.tier3.io/panamax_ui_wiki_screens/port_binding.png)
 
-CoreOS can now access the web app via port 8080, however, in order to view the GUI itself, we need to make another hop from our local machine to the CoreOS port. To do this, we need to make a port forwarding rule in VirtualBox to port 8080.
+CoreOS can now access the web app via port 8080; however, in order to view the GUI itself, we need to make another hop from our local machine to the CoreOS port. To do this, we need to make a port forwarding rule in VirtualBox to port 8080.
 
 This can be accomplished in two ways: 1) via the terminal windows of your local machine, or 2) via the VirtualBox GUI.
 
@@ -19,9 +19,9 @@ This command invokes the VirutalBox command VirtualManage to add a port forwardi
 By browsing to `http://localhost:8997`, your browser is forwarded to port 8080 on the CoreOS host and then forwarded again to port 80 on the container to render the GUI. You can use any free port on your local machine to forward to the CoreOS host. 
 
 ###Port Forwarding via the VirtualBox GUI
-The 2nd method to set port forwarding is vis the VirtualBox GUI. Follow these steps to enable port forwarding to your CoreOS host:
+The second method to set port forwarding is via the VirtualBox GUI. Follow these steps to enable port forwarding to your CoreOS host:
 
-1. Open the VirtualBox GUI on your local machine. Should be available in your Application diretory.
+1. Open the VirtualBox GUI on your local machine. Should be available in your Application directory.
 2. Find the `panamax-vm` in the list of virtual machines and select Settings from the top nav
 3. Click on the Network icon on the top nav
 
