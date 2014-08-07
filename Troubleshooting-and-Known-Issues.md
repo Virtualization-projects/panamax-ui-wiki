@@ -12,3 +12,11 @@ Panamax has been tested with Vagrant VirtualBox provider. If you have VMWare pro
 
 While we work on to provide a fix, you can set the environment variable VAGRANT_DEFAULT_PROVIDER to 'virtualbox', to resolve the issue. 
 
+##### Panamax reinstall fails if Vagrant CoreOS base box is re-downloaded.
+If you are trying to reinstall Panamax, and you choose to re-download the Vagrant CoreOS base box, you may see issues.
+
+While we work on to provide a fix, you can do the following, to resolve the issue:
+
+    panamax delete
+    panamax init
+
