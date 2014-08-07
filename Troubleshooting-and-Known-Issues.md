@@ -1,5 +1,5 @@
 # Installation and Setup
-As and when, issues are discovered, this section will be updated.
+Common issues as discovered will be updated below. If you don't find an answer you might try searching or posting on the [panamax_IO Google group](https://groups.google.com/forum/#!forum/panamax_io). 
 
 ## Known Issues
 
@@ -35,4 +35,3 @@ The guest machine entered an invalid state while waiting for it to boot. Valid s
 ```
 
 Please reinstall VirtualBox to resolve the issue. 
-
