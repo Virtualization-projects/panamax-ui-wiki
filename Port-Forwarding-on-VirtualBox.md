@@ -1,8 +1,8 @@
-If your application has a GUI, you need a port exposed on the CoreOS host that points to the port running the GUI on the container. For example, if your application runs a GUI on port 80, you need to bind a port from CoreOS to port 80 within Panamax. The following shows the host port, 8080, bound to the container port, 80.
+If your application has an endpoint that you need to be able to access outside of the container, you need a port exposed on the CoreOS host that points to the port in the container hosting the endpoint. For example, if your application runs an HTTP server on port 80, you need to bind a port from CoreOS to port 80 within Panamax. The following shows the host port, 8080, bound to the container port, 80.
 
 ![](http://panamax.ca.tier3.io/panamax_ui_wiki_screens/port_binding.png)
 
-CoreOS can now access the web app via port 8080; however, in order to view the GUI itself, we need to make another hop from our local machine to the CoreOS port. To do this, we need to make a port forwarding rule in VirtualBox to port 8080.
+CoreOS can now access the web app via port 8080; however, in order to reach that endpoint from your local machine, we need to make another hop from our local machine to the CoreOS port. To do this, we need to make a port forwarding rule in VirtualBox to port 8080.
 
 This can be accomplished in two ways: 1) via the terminal windows of your local machine, or 2) via the VirtualBox GUI.
 
