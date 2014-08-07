@@ -41,6 +41,14 @@ Ubuntu Desktop Users: Download and run script as shown.
 
 `$ wget http://download.panamax.io/installer/ubuntu.sh && ./ubuntu.sh`
 
+After the installation, Panamax will open a browser window automatically.
+For a menu of all commands available to you, simply run
+
+`$ panamax`
+
+* [List of all available commands, aliases and parameters](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Panamax-Installer-Commands) for the Panamax Installer.
+* [Release Notes](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Release-Notes)
+
 # Cloud Provider Installation
 
 ## CenturyLink Cloud
