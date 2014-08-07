@@ -1,1 +1,1 @@
-\- _[Panamax](http://panamax.io) is an opensource project by [CenturyLink](http://centurylinklabs.com)_
+\- _[Panamax](http://panamax.io) is an opensource project by [CenturyLink Labs](http://centurylinklabs.com)_
