@@ -29,7 +29,7 @@ The [Panamax Public Template repository](https://github.com/CenturyLinkLabs/pana
 
 ##Submit a Template!
 
-**NOTE: This process references the official template repository, if you want to enter the Contest please be sure to follow the instructions from:** [http://panamax.io/contest](http://panamax.io/contest)
+**\--> NOTE: This process is to submit template to the official template repository, if you want to enter the Panamax App Template Challenge (Contest) please be sure to follow the instructions from:** [http://panamax.io/contest](http://panamax.io/contest)
 
 1. Fork the official the official Panamax Template Repository from [https://github.com/CenturyLinkLabs/panamax-public-templates](https://github.com/CenturyLinkLabs/panamax-public-templates) to your personal GitHub account.
 
