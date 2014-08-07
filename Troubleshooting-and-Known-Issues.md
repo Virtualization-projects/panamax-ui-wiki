@@ -1,5 +1,5 @@
 # Installation and Setup
-Common issues as discovered will be updated below. If you don't find an answer you might try searching or posting on the [panamax_IO Google group](https://groups.google.com/forum/#!forum/panamax_io). 
+Common issues as discovered will be updated below. If you don't find an answer you might try searching or posting on the [panamax_io Google group](https://groups.google.com/forum/#!forum/panamax_io). 
 
 ## Known Issues
 
