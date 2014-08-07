@@ -34,7 +34,7 @@ For a menu of all commands available to you, simply run
 
 Ubuntu Desktop Users: Download and run script as shown.
 
-`$ wget http://download.panamax.io/installer/ubuntu.sh && ./ubuntu.sh`
+`$ \curl  http://download.panamax.io/installer/ubuntu.sh | bash`
 
 After the installation, Panamax will open a browser window automatically.
 For a menu of all commands available to you, simply run
