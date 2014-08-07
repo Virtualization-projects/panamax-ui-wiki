@@ -4,6 +4,8 @@ If your application has an endpoint that you need to be able to access outside o
 
 CoreOS can now access the web app via port 8080; however, in order to reach that endpoint from your local machine, we need to make another hop from our local machine to the CoreOS port. To do this, we need to make a port forwarding rule in VirtualBox to port 8080.
 
+![](http://panamax.ca.tier3.io/panamax_ui_wiki_screens/port_forwarding_visual.png)
+
 This can be accomplished in two ways: 1) via the terminal windows of your local machine, or 2) via the VirtualBox GUI.
 
 ###Port Forwarding via the terminal window
