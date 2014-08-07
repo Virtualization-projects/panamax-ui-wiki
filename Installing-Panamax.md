@@ -38,6 +38,7 @@ For a menu of all commands available to you, simply run
 ##Linux
 
 Ubuntu Desktop Users: Download and run script as shown.
+
 `$ wget http://download.panamax.io/installer/ubuntu.sh && ./ubuntu.sh`
 
 # Cloud Provider Installation
