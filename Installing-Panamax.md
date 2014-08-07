@@ -8,11 +8,9 @@ Panamax can be installed locally or theoretically anywhere [CoreOS can run.](htt
 
 **Local Installation Requirements**
 
-
 [VirtualBox 4.2](https://www.virtualbox.org/wiki/Downloads/) or higher
 
 [Vagrant 1.6](http://www.vagrantup.com/downloads.html/) or higher
-
 
 The Panamax installer creates a VM in VirtualBox called panamax-vm. This VM is built on [http://coreos.com/docs/running-coreos/platforms/vagrant/](CoreOS.)
 
@@ -32,9 +30,6 @@ For a menu of all commands available to you, simply run
 
 `$ panamax`
 
-* [List of all available commands, aliases and parameters](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Panamax-Installer-Commands) for the Panamax Installer.
-* [Release Notes](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Release-Notes)
-
 ##Linux
 
 Ubuntu Desktop Users: Download and run script as shown.
@@ -46,8 +41,8 @@ For a menu of all commands available to you, simply run
 
 `$ panamax`
 
-* [List of all available commands, aliases and parameters](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Panamax-Installer-Commands) for the Panamax Installer.
-* [Release Notes](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Release-Notes)
+[List of all available commands, aliases and parameters](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Panamax-Installer-Commands) for the Panamax Installer.
+[Release Notes](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Release-Notes)
 
 # Cloud Provider Installation
 
