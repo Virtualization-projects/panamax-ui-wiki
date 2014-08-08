@@ -10,7 +10,7 @@ Also next to the Application name in the Manage my Applications page.
 
 **NOTE: Panamax will let you create a template from any application even one that is not working regardless of the reason.  So you shouldn't save a template until you have configured and tested everything is working locally.**
 
-On Clicking the [Save as Template] button you will be asked to enter a new Github token.  This is to allow Panamax to write the template definition to a repo of your choosing. 
+If you have never saved a template beofre, on clicking the [Save as Template] button, you will be asked to enter a new Github token. This is to allow Panamax to write the template definition file to a repo of your choosing. 
 
 ![](github token)
 
