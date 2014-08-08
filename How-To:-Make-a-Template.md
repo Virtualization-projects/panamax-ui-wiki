@@ -2,11 +2,11 @@ You can easily turn any application you have in Panamax into a reusable template
 
 There is a [Save as Template] button in two places, first in the application details screen for a specific application you have.
 
-![](AppDetails)
+![http://panamax.ca.tier3.io/panamax_ui_wiki_screens/app_details.png](AppDetails)
 
 Also next to the Application name in the Manage my Applications page. 
 
-![](ManageMyApplications)
+![http://panamax.ca.tier3.io/panamax_ui_wiki_screens/app_manage.png](ManageMyApplications)
 
 **NOTE: Panamax will let you create a template from any application even one that is not working regardless of the reason.  So you shouldn't save a template until you have configured and tested everything is working locally.**
 
