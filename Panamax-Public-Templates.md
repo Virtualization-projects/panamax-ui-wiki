@@ -12,7 +12,7 @@ The [Panamax Public Template repository](https://github.com/CenturyLinkLabs/pana
 
 * **Optimize your image** - See <a href="http://www.centurylinklabs.com/optimizing-docker-images/">Brian DeHamer's blog post</a> on great ways to keep your image size under control. His section on chaining commands is worth the read. You'd be surprised how unwieldy an image can get! Downloading 200MB vs. 2GB is a BIG difference on time and needed storage space.
 
-* **Publish your Dockerfile** - The Docker Registry has a lot of goodness, but one badness is that Dockerfiles are not always published, making image construction a black hole. Here at CenturyLinkLabs, we always publish our Dockerfile and supporting files into a Github repo and then link it to the Docker Registry using their automated builds feature. If you find an image with no Dockerfile, check out [Brian DeHamer's dockerfile-from-image](https://registry.hub.docker.com/u/centurylink/dockerfile-from-image/), a great tool to reverse engineer an image.</li>
+* **Publish your Dockerfile** - The Docker Registry has a lot of goodness, but one badness is that Dockerfiles are not always published, making image construction a black hole. Here at CenturyLinkLabs, we always publish our Dockerfile and supporting files into a Github repo and then link it to the Docker Registry using their automated builds feature. If you find an image with no Dockerfile, check out [dockerfile-from-image](https://registry.hub.docker.com/u/centurylink/dockerfile-from-image/), a great tool to reverse engineer an image.</li>
 
 ##What we think makes a good template.
 
