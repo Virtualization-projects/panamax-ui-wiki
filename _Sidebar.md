@@ -1,6 +1,6 @@
 * [[Panamax|Home]]
 * [[Installing Panamax]]
-  * [[Mac OSX|Installing-Panamax#mac-os-x109x-and-higher]]
+  * [[Mac OSX|Installing-Panamax#mac-os-x-1090-or-higher]]
   * [[Linux|Installing-Panamax#linux]]
   * [[Cloud Providers|Installing-Panamax#cloud-provider-installation]] 
 * [[Public Templates|Panamax-Public-Templates]]
