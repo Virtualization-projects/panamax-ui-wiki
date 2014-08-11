@@ -1,4 +1,5 @@
-## Panamax - Docker Management for Humans
+![Panamax - Docker Management for Humans](http://panamax.ca.tier3.io/panamax_ui_wiki_screens/panamax_logo-title.png)
+
 [Panamax](http://panamax.io) is an open-source project that makes deploying complex containerized apps as easy as Drag-and-Drop.  The Panamax project source is currently comprised of several code repositories. 
 * [Panamax-UI](https://github.com/CenturyLinkLabs/panamax-ui) 
 * [Panamax-API](https://github.com/CenturyLinkLabs/panamax-api)
