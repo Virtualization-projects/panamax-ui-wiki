@@ -1,3 +1,5 @@
+[![Installing Panamax Video](http://img.youtube.com/vi/koAwYsyP5-w/0.jpg)](http://www.youtube.com/watch?v=koAwYsyP5-w) 
+
 You can easily turn any application you have in Panamax into a reusable template.  
 
 There is a ![Save as Template](http://panamax.ca.tier3.io/panamax_ui_wiki_screens/saveastemplate.png) button in two places, first in the application details screen for a specific application you have.
