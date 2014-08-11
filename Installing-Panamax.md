@@ -1,9 +1,7 @@
 Panamax can be installed locally or theoretically anywhere [CoreOS can run.](http://coreos.com/docs/) The  instructions on this page represent known tested installations. 
 
-
+[![Installing Panamax Video](http://img.youtube.com/vi/15IKkYCfymk/0.jpg)](http://www.youtube.com/watch?v=15IKkYCfymk) 
 ***
-
-
 # Local Installation
 Panamax is currently in BETA
 
