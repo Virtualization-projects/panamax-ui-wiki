@@ -11,6 +11,7 @@
 ***
 
 * How To:
+  * [[Installing Panamax|Installing Panamax]]
+  * [[Create your first Application|How-To:-Create-your-first-Application]]
   * [[Make a Template|How-To:-Make-a-Template]]
   * [[Setup Port Forwarding on VirtualBox|How-To:-Port-Forwarding-on-VirtualBox]]
-  * [[Create your first Application|How-To:-Create-your-first-Application]]
