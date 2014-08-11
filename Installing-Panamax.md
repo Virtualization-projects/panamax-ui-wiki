@@ -5,6 +5,7 @@ Panamax can be installed locally or theoretically anywhere [CoreOS can run.](htt
 
 
 # Local Installation
+Panamax is currently in BETA
 
 **Local Installation Requirements**
 
@@ -14,7 +15,7 @@ Panamax can be installed locally or theoretically anywhere [CoreOS can run.](htt
 
 The Panamax installer creates a VM in VirtualBox called panamax-vm. This VM is built on [http://coreos.com/docs/running-coreos/platforms/vagrant/](CoreOS.)
 
-## Mac OS X:10.9.x and higher
+## Mac OS X 10.9.0 or higher
 
 To install Panamax on Mac, use [Homebrew](http://brew.sh/). Here are the steps:
 On your terminal window, run:
@@ -30,7 +31,7 @@ For a menu of all commands available to you, simply run
 
 `$ panamax`
 
-##Linux
+##Ubuntu Linux 12.04 or higher
 
 Ubuntu Desktop Users: Download and run script as shown.
 
