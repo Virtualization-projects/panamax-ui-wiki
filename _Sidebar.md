@@ -1,7 +1,7 @@
 * [[Panamax|Home]]
 * [[Installing Panamax]]
   * [[Mac OSX|Installing-Panamax#mac-os-x-1090-or-higher]]
-  * [[Linux|Installing-Panamax#ubuntu-linux-1204-or-higher]]
+  * [[Ubuntu Linux|Installing-Panamax#ubuntu-linux-1204-or-higher]]
   * [[Cloud Providers|Installing-Panamax#cloud-provider-installation]] 
 * [[Public Templates|Panamax-Public-Templates]]
   * [[Submitting a Template|Panamax-Public-Templates#submit-a-template]]
