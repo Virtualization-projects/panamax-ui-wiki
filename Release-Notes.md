@@ -13,7 +13,7 @@ To view the version of the components of your Panamax installation, run `$ panam
   <td>UI:  0.1.1</td>
   <td>API:  0.1.1</td>
   <td>CoreOS:  367.1.0</td>
-  <td>docker:  1.0.1</td>
+  <td>Docker:  1.0.1</td>
 </tr>
 </table>
 * Added image and source management functionality.
@@ -31,7 +31,7 @@ To view the version of the components of your Panamax installation, run `$ panam
   <td>UI:  0.1.0</td>
   <td>API:  0.1.0</td>
   <td>CoreOS:  367.1.0</td>
-  <td>docker:  1.0.1</td>
+  <td>Docker:  1.0.1</td>
 </tr>
 </table>
 * Initial BETA release of Panamax.
