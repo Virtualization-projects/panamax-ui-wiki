@@ -1,4 +1,4 @@
-The view the version of the components of your Panamax installation, run `$ panamax info` on your terminal window. To update, run `$ panamax download`.
+To view the version of the components of your Panamax installation, run `$ panamax info` on your terminal window. To update, run `$ panamax download`.
 
 <table border=0 style="width:300px">
 <tr>
