@@ -11,11 +11,12 @@ Panamax is currently in BETA
 
 [Vagrant 1.6](http://www.vagrantup.com/downloads.html/) or higher
 
-The Panamax installer creates a VM in VirtualBox called panamax-vm. This VM is built on [http://coreos.com/docs/running-coreos/platforms/vagrant/](CoreOS.)
+The Panamax installer creates a VM in VirtualBox called _panamax-vm_. This VM is built on [http://coreos.com/docs/running-coreos/platforms/vagrant/](CoreOS.)
 
 ## Mac OS X 10.9.0 or higher
 
 To install Panamax on Mac, use [Homebrew](http://brew.sh/). Here are the steps:
+
 On your terminal window, run:
 
 `$ brew install http://download.panamax.io/installer/brew/panamax.rb`
@@ -25,9 +26,12 @@ Install and run Panamax!
 `$ panamax init`
 
 After the installation, Panamax will open a browser window automatically.
-For a menu of all commands available to you, simply run
+For a menu of all commands available to you, simply run:
 
 `$ panamax`
+
+[List of all available commands, aliases and parameters](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Panamax-Installer-Commands) for the Panamax Installer.
+[Release Notes](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Release-Notes)
 
 ##Ubuntu Linux 12.04 or higher
 
@@ -47,8 +51,6 @@ For a menu of all commands available to you, simply run
 
 *NOTE: Panamax does not provide any authentication measures out of the box. When installing Panamax in any sort of public space both the API and the UI ought to be secured.*
 
-## CenturyLink Cloud
-
 ## Amazon Web Services - EC2
 This is a guide to installing Panamax on [EC2 CoreOS AMI](http://coreos.com/docs/running-coreos/cloud-providers/ec2/)
 
@@ -62,7 +64,7 @@ This is a guide to installing Panamax on [EC2 CoreOS AMI](http://coreos.com/docs
 1. Save private-key.pem to a local file (e.g coreos-private-key.pem).
 
 ### Install Panamax
-1. Once the VM is created, SSH into the box with
+Once the VM is created, SSH into the box with
 
 `$ ssh -i  coreos-private-key.pem core@<AMI public DNS ID or Public IP of the VM>`
 
