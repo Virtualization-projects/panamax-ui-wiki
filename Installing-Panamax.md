@@ -74,6 +74,7 @@ Once the VM is created, SSH into the box with:
 1. Download & unzip the latest setup script from [http://download.panamax.io/installer/pmx-installer-latest.zip](http://download.panamax.io/installer/pmx-installer-latest.zip)
 
 1. Run:
+
 `$ sudo su`
 
 `$ ./coreos install --stable`
