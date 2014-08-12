@@ -18,6 +18,9 @@ To view the version of the components of your Panamax installation, run `$ panam
 </table>
 * Added image and source management functionality.
 
+
+***
+
 <table border=0 style="width:300px">
 <tr>
   <th>Past Releases</th>
@@ -35,5 +38,3 @@ To view the version of the components of your Panamax installation, run `$ panam
 </tr>
 </table>
 * Initial BETA release of Panamax.
-
-***
