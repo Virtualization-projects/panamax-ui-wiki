@@ -39,7 +39,7 @@ Please reinstall VirtualBox to resolve the issue.
 ##### Message: "A VirtualBox machine with the name 'panamax-vm' already exists."
 This can happen if your CoreOS VM stops responding. You can delete the _panamax-vm_ by running `panamax delete`, to uninstall Panamax and then performing a `panamax init` to reinstall Panamax and the VM.
 
-##### Panamax installer fails due to port conflicts on 8888
+##### Panamax installer fails due to port conflicts
 
 Panamax installer by default tries to use port 8888 and 8889 to host the Panamax application. So, if that port is being used by some other VM on your machine, you will get a message as shown below:
 
