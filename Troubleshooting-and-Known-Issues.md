@@ -1,4 +1,3 @@
-
 Common issues will be updated below as they are discovered. If you don't find an answer you might try searching or posting on the [panamax_io Google group](https://groups.google.com/forum/#!forum/panamax_io). 
 
 # Installation and Setup
@@ -41,6 +40,6 @@ Please reinstall VirtualBox to resolve the issue.
 
 ## Known Issues
 
-##### Any service whose name contains the pattern _{A-F}{A-F} will fail to start and crash the systemd service
+##### Any service whose name contains the pattern _{a-f}{a-f} will fail to start and crash the systemd service
 
 This is a [known issue](https://github.com/coreos/go-systemd/pull/49) with the CoreOS implementation of systemd. The issue has been resolved and the fix will be available in the next release of CoreOS. 
