@@ -5,7 +5,7 @@
 * [Panamax-API](https://github.com/CenturyLinkLabs/panamax-api)
 * [CTL Base UI kit](https://github.com/CenturyLinkLabs/ctl-base-ui)
 
-**Please note:** Panamax is **not** [even near 1.0 yet](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Release-Notes). It does function, but when it doesn’t we’d hope you report the bug or get involved actively developing it.  We think there are many possibilities to further enhance and extend the tool and welcome your feedback and help. 
+**Please note:** Panamax is **not** [even near 1.0 yet](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Release-Notes). It does function, but when it doesn’t we’d hope you report the bug or get involved actively developing it.  We think there are many possibilities to further enhance and extend the tool and [welcome your feedback and help](http://feedback.panamax.io/). 
 
 * [Installing Panamax](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Installing-Panamax)
 * [Panamax Public Templates](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Panamax-Public-Templates)
