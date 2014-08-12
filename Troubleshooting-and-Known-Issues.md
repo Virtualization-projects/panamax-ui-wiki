@@ -18,15 +18,15 @@ If you are trying to reinstall Panamax, and you choose to re-download the Vagran
 While we work on to provide a fix, you can do the following, to resolve the issue: 
 
 ```
-panamax delete
-panamax init 
+$ panamax delete
+$ panamax init 
 ```
 
 ##### Panamax installer and Vagrant boot issues 
 In certain cases, if the version of VirtualBox is not up-to-date or misconfigured, Panamax installer gives issues. 
 
 ```
-panamax init
+$ panamax init
 
 Message -> ==> panamax-vm: Running 'pre-boot' VM customizations...
 ==> panamax-vm: Booting VM...
@@ -35,6 +35,9 @@ The guest machine entered an invalid state while waiting for it to boot. Valid s
 ```
 
 Please reinstall VirtualBox to resolve the issue. 
+
+##### Message: "A VirtualBox machine with the name 'panamax-vm' already exists."
+This can happen if your CoreOS VM stops responding. You can delete the _panamax-vm_ by running `panamax delete`, to uninstall Panamax and then performing a `panamax init` to reinstall Panamax and the VM.
 
 # Launching Applications/Services
 
