@@ -1,1 +1,1 @@
-\- The _[Panamax](http://panamax.io) project is provided under the Apache 2.0 license by [CenturyLink Labs](http://centurylinklabs.com)_
+\- The _[Panamax](http://panamax.io) project is provided under the Apache 2.0 license by [CenturyLink](http://centurylinklabs.com)_
