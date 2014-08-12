@@ -1,8 +1,9 @@
+
+Common issues will be updated below as they are discovered. If you don't find an answer you might try searching or posting on the [panamax_io Google group](https://groups.google.com/forum/#!forum/panamax_io). 
+
 # Installation and Setup
-Common issues as discovered will be updated below. If you don't find an answer you might try searching or posting on the [panamax_io Google group](https://groups.google.com/forum/#!forum/panamax_io). 
 
 ## Known Issues
-
 
 ##### Panamax installer requires write permissions on the home folder 
 Panamax needs write access to the `/Users/username` folder otherwise the Panamax installer will fail. Panamax and Vagrant store its configuration in this folder at `~/.panamax` and `~/.panamax/.vagrant`, so it should be writable.
@@ -35,3 +36,11 @@ The guest machine entered an invalid state while waiting for it to boot. Valid s
 ```
 
 Please reinstall VirtualBox to resolve the issue. 
+
+# Launching Applications/Services
+
+## Known Issues
+
+##### Any service whose name contains the pattern _{A-F}{A-F} will fail to start and crash the systemd service
+
+This is a [known issue](https://github.com/coreos/go-systemd/pull/49) with the CoreOS implementation of systemd. The issue has been resolved and the fix will be available in the next release of CoreOS. 
