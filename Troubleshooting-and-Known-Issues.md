@@ -37,7 +37,7 @@ The guest machine entered an invalid state while waiting for it to boot. Valid s
 Please reinstall VirtualBox to resolve the issue. 
 
 ##### Message: "A VirtualBox machine with the name 'panamax-vm' already exists."
-This can happen if your CoreOS VM stops responding. You can delete the _panamax-vm_ by running `panamax delete`, to uninstall Panamax and then performing a `panamax init` to reinstall Panamax and the VM.
+This can happen if your CoreOS VM stops responding. You can delete the _panamax-vm_ by running `panamax delete`, to uninstall Panamax and then performing a `panamax init` to reinstall Panamax and the VM. If you continue to receive an error, manually remove _panamax-vm_ from VirtualBox directly.
 
 ##### Panamax installer fails due to port conflicts
 
