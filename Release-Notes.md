@@ -3,7 +3,25 @@ To view the version of the components of your Panamax installation, run `$ panam
 <table border=0 style="width:300px">
 <tr>
   <th>Stable Release</th>
-  <td></td> 
+  <td>08/12/2014</td> 
+  <td></td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>Installer:  0.1.1</td> 
+  <td>UI:  0.1.1</td>
+  <td>API:  0.1.1</td>
+  <td>CoreOS:  367.1.0</td>
+  <td>docker:  1.0.1</td>
+</tr>
+</table>
+* Added image and source management functionality.
+
+<table border=0 style="width:300px">
+<tr>
+  <th>Past Releases</th>
+  <td>08/04/2014</td> 
   <td></td>
   <td></td>
   <td></td>
