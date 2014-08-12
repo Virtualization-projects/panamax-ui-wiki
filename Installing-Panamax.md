@@ -75,8 +75,8 @@ Once the VM is created, SSH into the box with:
 
 1. Run:
 
-`$ sudo su`
+  `$ sudo su`
 
-`$ ./coreos install --stable`
+  `$ ./coreos install --stable`
 
 1. Once the installer completes, you can access panamax at http:// _Public IP_ :3000/
