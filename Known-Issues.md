@@ -72,7 +72,7 @@ See `panamax help` for other install options.
 
 This is a [known issue](https://github.com/coreos/go-systemd/pull/49) with the CoreOS implementation of systemd. The issue has been resolved and the fix will be available in the next release of CoreOS. 
 
-Note that the naming issue only affects services whose name contains the pattern `_[a-f][a-f]` (specifically, an underscore followed by two occurrences of the letters A through F) -- so neither 'tutum_mysql_latest' nor 'dockerfile_mongodb_latest' should be impact by that particular issue.
+Note that the naming issue only affects services whose name contains the pattern `_[a-f][a-f]` (specifically, an underscore followed by two occurrences of the letters A through F) -- so neither `tutum_mysql_latest` nor `dockerfile_mongodb_latest` should be impact by that particular issue.
 
 To resolve the issue, till the root issue us resolved, do the following:
 
