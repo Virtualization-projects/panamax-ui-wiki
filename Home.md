@@ -17,6 +17,7 @@
 * [Panamax_io Google Group](https://groups.google.com/forum/#!forum/panamax_io)
 * IRC Channel [#panamax](https://botbot.me/freenode/panamax/) 
 * [HipChat Support Room](http://www.hipchat.com/gUjLli7k5)
+* [Customer Feedback](http://feedback.panamax.io/) 
 
 ## Contributing
 Help us make Panamax better by participating in its development.  We will be adding details around how to contribute code to the Panamax projects shortly.  The Panamax project is provided under the [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0.html). 
