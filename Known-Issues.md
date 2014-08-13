@@ -1,8 +1,6 @@
 Common issues will be updated below as they are discovered. If you don't find an answer you might try searching or posting on the [panamax_io Google group](https://groups.google.com/forum/#!forum/panamax_io). 
 
-# Installation and Setup
-
-## Known Issues
+## Installation and Setup
 
 ##### Panamax installer requires write permissions on the home folder 
 Panamax needs write access to the `/Users/username` folder otherwise the Panamax installer will fail. Panamax and Vagrant store its configuration in this folder at `~/.panamax` and `~/.panamax/.vagrant`, so it should be writable.
@@ -68,9 +66,7 @@ where, 7777 and 7778 are the new ports for the UI and the API respectively.
 
 See `panamax help` for other install options.
 
-# Launching Applications/Services
-
-## Known Issues
+## Launching Applications/Services
 
 ##### Any service whose name contains the pattern _{a-f}{a-f} will fail to start and crash the systemd service
 
