@@ -25,3 +25,7 @@ We also have a web-based terminal packaged as a Docker image that you can run --
 ##### Can I increase the memory and CPU cores for the VM that Panamax uses?
 
 Sure you can. To change the memory allocation for the VM you will either need to issue a `panamax reinstall [--memory=1024] [--cpu=2]` and completely tear-down/re-create the CoreOS machine, or you can stop the VM (`panamax pause`), manually edit the `PMX_VM_MEMORY` and `PMX_VM_CPUS` entries in the `~/.panamax/.env` file and then restart the VM (`panamax up`).
+
+##### How can I easily see all of the Public Panamax Templates
+
+You can see them in the [Panamax Public Templates repository](https://github.com/CenturyLinkLabs/panamax-public-templates). Or from within Panamax simply search for: **all**
