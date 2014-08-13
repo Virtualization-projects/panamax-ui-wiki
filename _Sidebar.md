@@ -5,7 +5,7 @@
   * [[Cloud Providers|Installing-Panamax#cloud-provider-installation]] 
 * [[Public Templates|Panamax-Public-Templates]]
   * [[Submitting a Template|Panamax-Public-Templates#submit-a-template]]
-* [[Troubleshooting|Troubleshooting]]
+* [[Known Issues|Known Issues]]
 * [[FAQs|FAQs]]
 * [[Release Notes|Release-Notes]]
 
