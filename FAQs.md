@@ -20,6 +20,8 @@ Well, yes and no. Although Panamax can possibly (read not tested by us) be insta
 
 Yes, you can. `$ panamax ssh` will let you ssh into your coreos virtual machine. Once inside, you can run any command directly if you would like. 
 
+We also have a web-based terminal packaged as a Docker image that you can run -- this will allow you to interact with the Docker command line right from your browser. Check-out the [centurylink/coreos-cli-wetty](https://registry.hub.docker.com/u/centurylink/coreos-cli-wetty/) image on the Docker hub for more information.
+
 ##### Can I increase the memory and CPU cores for the VM that Panamax uses?
 
 Sure you can. To change the memory allocation for the VM you will either need to issue a `panamax reinstall` and completely tear-down/re-create the CoreOS machine, or you can stop the VM (`panamax pause`), manually edit the `PMX_VM_MEMORY` and `PMX_VM_CPUS` entries in the `~/.panamax/.env` file and then restart the VM (`panamax up`).
