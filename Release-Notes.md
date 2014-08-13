@@ -4,12 +4,14 @@ To view the version of the components of your Panamax installation, run `$ panam
 <tr>
   <th>Stable Release</th>
   <td>08/12/2014</td> 
-  <td></td>
+  <td>08/12/2014</td>
+  <td>08/12/2014</td>
   <td></td>
   <td></td>
 </tr>
 <tr>
-  <td>Installer:  0.1.1</td> 
+  <td></td>
+  <td>Installer:  0.1.2</td> 
   <td>UI:  0.1.1</td>
   <td>API:  0.1.1</td>
   <td>CoreOS:  367.1.0</td>
@@ -17,6 +19,7 @@ To view the version of the components of your Panamax installation, run `$ panam
 </tr>
 </table>
 * Added image and source management functionality.
+* Fixed wrong URI format for COREOS_ENDPOINT in Panamax Installer
 
 
 ***
@@ -25,7 +28,7 @@ To view the version of the components of your Panamax installation, run `$ panam
 <tr>
   <th>Past Releases</th>
   <td>08/04/2014</td> 
-  <td></td>
+  <td>08/04/2014/td>
   <td></td>
   <td></td>
 </tr>
