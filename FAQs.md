@@ -4,9 +4,9 @@
 
 Sure you can. To have a private image, you need to 'panamax ssh' into the coreos vm, and then build the private image locally there. Then when you search Panamax, you will see your private image. Now, you can use that private image to build your stealth application.
 
-##### Can I save my stealth Panamax application as a template to a private repo?
+##### Are the templates I create in Panamax exposed to the public? My start-up is in Stealth Mode. 
 
-Sure you can. As long as your Github access token in Panamax can access your private repos, you can save templates to private repos.
+They don't have to be. If the Github access token you provided to Panamax is scoped to access your private repos, you can save them there. We don't force saving to public repositories.
 
 ##### Can I create an application in Panamax that runs across multiple hosts? 
 
