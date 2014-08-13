@@ -28,4 +28,4 @@ Sure you can. To change the memory allocation for the VM you will either need to
 
 ##### How can I easily see all of the Public Panamax Templates
 
-You can see them in the [Panamax Public Templates repository](https://github.com/CenturyLinkLabs/panamax-public-templates). Or from within Panamax simply search for: **all**
+You can see them in the [Panamax Public Templates repository](https://github.com/CenturyLinkLabs/panamax-public-templates) or from within Panamax by doing a search for: **all**
