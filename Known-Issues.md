@@ -71,3 +71,12 @@ See `panamax help` for other install options.
 ##### Any service whose name contains the pattern _{a-f}{a-f} will fail to start and crash the systemd service
 
 This is a [known issue](https://github.com/coreos/go-systemd/pull/49) with the CoreOS implementation of systemd. The issue has been resolved and the fix will be available in the next release of CoreOS. 
+
+To resolve the issue, till the root issue us resolved, do the following:
+
+1. Create your application.
+2. Save the application as a Panamax template to one of your source repos.
+3. Delete your application.
+4. Search for your template by name.
+5. Create a new application with your template.
+6. Enjoy!
