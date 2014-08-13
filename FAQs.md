@@ -1,8 +1,8 @@
 # Frequently Asked Questions
 
-##### Can I use private images to build apps in Panamax, while I am still in stealth mode?
+##### Can I use private registries and private images to build apps in Panamax?
 
-Sure you can. To have a private image, you need to 'panamax ssh' into the coreos vm, and then build the private image locally there. Then when you search Panamax, you will see your private image. Now, you can use that private image to build your stealth application.
+Although we don't search private docker registries, you can use them in Panamax. To use a private image, first enter the CoreOS host with `$ panamax ssh` and pull your image using the docker pull command. After pulling the image, you can search for your image directly in Panamax. It will show up as a 'Local' image. You can now use it to build your application and template.
 
 ##### Are the templates I create in Panamax exposed to the public? My start-up is in Stealth Mode. 
 
