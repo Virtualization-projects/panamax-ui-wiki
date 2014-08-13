@@ -6,6 +6,7 @@
 * [[Public Templates|Panamax-Public-Templates]]
   * [[Submitting a Template|Panamax-Public-Templates#submit-a-template]]
 * [[Troubleshooting|Troubleshooting]]
+* [[FAQs|FAQs]]
 * [[Release Notes|Release-Notes]]
 
 ***
