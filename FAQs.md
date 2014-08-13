@@ -17,4 +17,9 @@ Not yet, currently an application exists on a single host but since CoreOS/Fleet
 Well, yes and no. Although Panamax can possibly (read not tested by us) be installed on Windows, we don't have an installer for Windows. But, that is a great opportunity for you to contribute to Panamax. Please find the Panamax installer [source code repo](https://github.com/CenturyLinkLabs/panamax-coreos) on Github.
 
 ##### Can I user the Docker command line ? 
-Yes, you can `$ panamax ssh` will ssh into your coreos virtual machine.  Once inside you can run any command directly if you would like. 
+
+Yes, you can. `$ panamax ssh` will let you ssh into your coreos virtual machine. Once inside, you can run any command directly if you would like. 
+
+##### Can I increase the memory and CPU cores for the VM that Panamax uses?
+
+Sure you can. To change the memory allocation for the VM you will either need to issue a `panamax reinstall` and completely tear-down/re-create the CoreOS machine, or you can stop the VM (`panamax pause`), manually edit the `PMX_VM_MEMORY` and `PMX_VM_CPUS` entries in the `~/.panamax/.env` file and then restart the VM (`panamax up`).
