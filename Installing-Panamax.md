@@ -83,3 +83,6 @@ This is a guide to installing Panamax on [EC2 CoreOS AMI](http://coreos.com/docs
 1. Change to the /var/panamax directory: `$ cd /var/panamax`
 1. Run: `$ ./coreos install --stable`
 1. Once the installer completes, you can access panamax at: `http:// _Public IP_ :3000/`
+
+## OpenStack
+[Running Panamax In CoreOS On Top Of OpenStack](http://cloudssky.com/en/blog/Running-Panamax-In-CoreOS-On-Top-Of-OpenStack/)
