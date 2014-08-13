@@ -11,3 +11,7 @@ Sure you can. As long as your Github access token in Panamax can access your pri
 ##### Can I create an application in Panamax that runs across multiple hosts? 
 
 Not yet, currently an application exists on a single host but since CoreOS/Fleet has strong support for multi-hosts, we will support eventually as well. 
+
+##### Can I install Panamax on Windows?
+
+Well, yes and no. Although Panamax can possibly (read not tested by us) be installed on Windows, we don't have an installer for Windows. But, that is a great opportunity for you to contribute to Panamax. Please find the Panamax installer [source code repo](https://github.com/CenturyLinkLabs/panamax-coreos) on Github.
