@@ -8,3 +8,6 @@ Sure you can. To have a private image, you need to 'panamax ssh' into the coreos
 
 Sure you can. As long as your Github access token in Panamax can access your private repos, you can save templates to private repos.
 
+##### Can I create an application in Panamax that runs on multiple hosts? 
+
+Not yet, currently you can only deploy on a single host but since CoreOS/Fleet has strong support for multi-hosts, we will support eventually as well. 
