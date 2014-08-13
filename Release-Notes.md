@@ -12,8 +12,8 @@ To view the version of the components of your Panamax installation, run `$ panam
 <tr>
   <td></td>
   <td>Installer:  0.1.2</td> 
-  <td>UI:  0.1.1</td>
-  <td>API:  0.1.1</td>
+  <td>UI:    0.1.1</td>
+  <td>API:    0.1.1</td>
   <td>CoreOS:  367.1.0</td>
   <td>Docker:  1.0.1</td>
 </tr>
@@ -28,11 +28,13 @@ To view the version of the components of your Panamax installation, run `$ panam
 <tr>
   <th>Past Releases</th>
   <td>08/04/2014</td> 
-  <td>08/04/2014/td>
+  <td>08/04/2014</td>
+  <td></td>
   <td></td>
   <td></td>
 </tr>
 <tr>
+  <td></td>  
   <td>Installer:  0.1.0</td> 
   <td>UI:  0.1.0</td>
   <td>API:  0.1.0</td>
