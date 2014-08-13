@@ -17,4 +17,4 @@ Not yet, currently an application exists on a single host but since CoreOS/Fleet
 Well, yes and no. Although Panamax can possibly (read not tested by us) be installed on Windows, we don't have an installer for Windows. But, that is a great opportunity for you to contribute to Panamax. Please find the Panamax installer [source code repo](https://github.com/CenturyLinkLabs/panamax-coreos) on Github.
 
 ##### Can I user the Docker command line ? 
-Yes, you can `panamax ssh` will ssh into your coreos virtual machine.  Once inside you can run any command directly if you would like. 
+Yes, you can `$ panamax ssh` will ssh into your coreos virtual machine.  Once inside you can run any command directly if you would like. 
