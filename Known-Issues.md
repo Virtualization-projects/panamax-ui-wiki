@@ -87,4 +87,4 @@ To resolve the issue, till the root issue us resolved, do the following:
 
 ##### Receive error "PanamaxAgent::BadRequest (Standby Internal Error):" or "Job state 'loaded' could not be achieved" after rebooting VM
 
-This is an issue we have found with later versions of CoreOS (including 367.1.0). To remedy, after a reboot, run: `./coreos restart` to restart the CoreOS related services.
+This is an issue we have found with later versions of CoreOS (including 367.1.0). To remedy, after a reboot, run: `./coreos restart` from your installation directory (typically /var/panamax) to restart the CoreOS related services.
