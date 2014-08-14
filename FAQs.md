@@ -34,29 +34,29 @@ You can see them in the [Panamax Public Templates repository](https://github.com
 
 When launching an image you will sometimes see a pattern like the following in the journal output:
 
-	Aug 13 08:15:20 systemd Starting mysql_latest.service...
-	Aug 13 08:16:20 docker Pulling repository mysql
-	Aug 13 08:16:33 docker Error response from daemon: No such container: mysql_latest
-	Aug 13 08:16:33 docker 2014/08/13 15:16:33 Error: failed to remove one or more containers
-	Aug 13 08:16:33 systemd Started mysql_latest.service.
-	Aug 13 08:16:33 docker error: database is uninitialized and MYSQL_ROOT_PASSWORD not set
-	Aug 13 08:16:33 docker Did you forget to add -e MYSQL_ROOT_PASSWORD=... ?
-	Aug 13 08:16:33 systemd mysql_latest.service: main process exited, code=exited, status=1/FAILURE
-	Aug 13 08:16:33 docker Error response from daemon: No such container: mysql_latest
-	Aug 13 08:16:33 docker 2014/08/13 15:16:33 Error: failed to kill one or more containers
-	Aug 13 08:16:33 systemd mysql_latest.service: control process exited, code=exited status=1
-	Aug 13 08:16:33 docker Error response from daemon: No such container: mysql_latest
-	Aug 13 08:16:33 docker 2014/08/13 15:16:33 Error: failed to remove one or more containers
-	Aug 13 08:16:33 systemd Unit mysql_latest.service entered failed state.
-	Aug 13 08:16:43 systemd mysql_latest.service holdoff time over, scheduling restart.
-	Aug 13 08:16:43 systemd Stopping mysql_latest.service...
-	Aug 13 08:16:43 systemd Starting mysql_latest.service...
-	Aug 13 08:16:43 docker Pulling repository mysql
-	Aug 13 08:16:46 docker Error response from daemon: No such container: mysql_latest
-	Aug 13 08:16:46 docker 2014/08/13 15:16:46 Error: failed to remove one or more containers
-	Aug 13 08:16:46 systemd Started mysql_latest.service.
-	Aug 13 08:16:46 docker error: database is uninitialized and MYSQL_ROOT_PASSWORD not set
-	Aug 13 08:16:46 docker Did you forget to add -e MYSQL_ROOT_PASSWORD=... ?
+	systemd Starting mysql_latest.service...
+	docker Pulling repository mysql
+	docker Error response from daemon: No such container: mysql_latest
+	docker 2014/08/13 15:16:33 Error: failed to remove one or more containers
+	systemd Started mysql_latest.service.
+	docker error: database is uninitialized and MYSQL_ROOT_PASSWORD not set
+	docker Did you forget to add -e MYSQL_ROOT_PASSWORD=... ?
+	systemd mysql_latest.service: main process exited, code=exited, status=1/FAILURE
+	docker Error response from daemon: No such container: mysql_latest
+	docker 2014/08/13 15:16:33 Error: failed to kill one or more containers
+	systemd mysql_latest.service: control process exited, code=exited status=1
+	docker Error response from daemon: No such container: mysql_latest
+	docker 2014/08/13 15:16:33 Error: failed to remove one or more containers
+	systemd Unit mysql_latest.service entered failed state.
+	systemd mysql_latest.service holdoff time over, scheduling restart.
+	systemd Stopping mysql_latest.service...
+	systemd Starting mysql_latest.service...
+	docker Pulling repository mysql
+	docker Error response from daemon: No such container: mysql_latest
+	docker 2014/08/13 15:16:46 Error: failed to remove one or more containers
+	systemd Started mysql_latest.service.
+	docker error: database is uninitialized and MYSQL_ROOT_PASSWORD not set
+	docker Did you forget to add -e MYSQL_ROOT_PASSWORD=... ?
         . . . continues trying to start the service, fails, restarts . . .
 
 While it can be disconcerting to see all of these errors piling up in the log output it's not entirely unexpected.
