@@ -82,3 +82,9 @@ To resolve the issue, till the root issue us resolved, do the following:
 4. Search for your template by name.
 5. Create a new application with your template.
 6. Enjoy!
+
+## Running on EC2
+
+#### Receive error "PanamaxAgent::BadRequest (Standby Internal Error):" or "Job state could not be loaded" after rebooting VM
+
+This is an issue we have found with later versions of CoreOS (including 367.1.0). To remedy, after a reboot, run: `./coreos restart` to restart the CoreOS related services.
