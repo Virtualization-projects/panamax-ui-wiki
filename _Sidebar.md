@@ -8,6 +8,8 @@
 * [[Known Issues|Known Issues]]
 * [[FAQs|FAQs]]
 * [[Contributing to Panamax|Contributing to Panamax]]
+  * [[Reporting Issues|Contributing-to-Panamax#reporting-issues]]
+  * [[Feature Requests|Contributing-to-Panamax#feature-requests]]
 * [[Release Notes|Release-Notes]]
 
 ***
