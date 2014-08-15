@@ -16,6 +16,7 @@ The Panamax installer creates a VM in VirtualBox called _panamax-vm_. This VM is
 **NOTE**: The _panamax-vm_ runs with 2 CPUs and 1GB of RAM by default. These may need to be increased based on the number of containers you have running on your VM or the resources they consume. Templates may specify system recommendations for proper performance in their documentation. Reference the [list of all available commands, aliases and parameters](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Panamax-Installer-Commands) on how to change your VM's specs to increase CPUs and RAM.
 
 ## Mac OS X 10.9.0 or higher
+_Before installing, please review these [installation notes.](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Installing-Panamax#local-installation)_
 
 To install Panamax on Mac, use [Homebrew](http://brew.sh/). Here are the steps:
 
@@ -36,6 +37,7 @@ For a menu of all commands available to you, simply run:
 [Release Notes](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Release-Notes)
 
 ##Ubuntu Linux 12.04 or higher
+_Before installing, please review these [installation notes.](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Installing-Panamax#local-installation)_
 
 Ubuntu Desktop Users: Download and run the script as shown.
 
@@ -55,6 +57,7 @@ For a menu of all commands available to you, simply run:
 See [Ubuntu instructions.](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Installing-Panamax#ubuntu-linux-1204-or-higher)
 
 ## Windows with Cgywin
+_Before installing, please review these [installation notes.](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Installing-Panamax#local-installation)_
 
 Please use the following instructions to install Panamax on Windows that has [Cygwin](https://cygwin.com/install.html) installed. A big thanks to Alan Kent for providing the instructions via his [blog post](http://alankent.wordpress.com/2014/08/13/playing-with-docker-coreos-and-panamax-on-windows/).
 
