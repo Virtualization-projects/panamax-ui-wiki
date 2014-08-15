@@ -19,12 +19,6 @@
 * [HipChat Support Room](http://www.hipchat.com/gUjLli7k5)
 * [Customer Feedback](http://feedback.panamax.io/) 
 
-## Feature Requests
-Have a useful idea for a Panamax feature? Please use the [customer feedback](http://feedback.panamax.io/) site to comment on or request a feature.
-
-## Issues
-Github Issues is a good place to track issues. However, it can be confusing to determine which repo an error occurred in. Installation issues should be logged in [panamax-coreos](https://github.com/CenturyLinkLabs/panamax-coreos/issues). Once Panamax is up and running it's a little more difficult to pinpoint which codebase contains the issue. Most folks start at [panamax-ui](https://github.com/CenturyLinkLabs/panamax-ui/issues), but issues can also be logged in [panamax-api](https://github.com/CenturyLinkLabs/panamax-api/issues), which is where the CoreOS interactions take place.
-
 ## Contributing
 Help us make Panamax better by participating in its development. The Panamax project is provided under the [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0.html). 
 
