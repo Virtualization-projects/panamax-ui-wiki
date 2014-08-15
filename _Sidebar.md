@@ -2,6 +2,7 @@
 * [[Installing Panamax]]
   * [[Mac OSX|Installing-Panamax#mac-os-x-1090-or-higher]]
   * [[Ubuntu Linux|Installing-Panamax#ubuntu-linux-1204-or-higher]]
+  * [[Windows|Installing-Panamax#windows-with-cgywin]]
   * [[Cloud Providers|Installing-Panamax#cloud-provider-installation]]
     * [[CenturyLink Cloud|Installing-Panamax#centurylink-cloud]]
     * [[Amazon EC2|Installing-Panamax#amazon-web-services---ec2]]
