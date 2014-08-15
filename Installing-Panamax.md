@@ -78,6 +78,21 @@ For a menu of all commands available to you, simply run:
 
 *NOTE: Panamax does not provide any authentication measures out of the box. When installing Panamax in any sort of public space both the API and the UI ought to be secured.*
 
+## CenturyLink Cloud
+This is a guide to installing Panamax on [CenturyLink Cloud](http://www.centurylinkcloud.com)
+
+### Create a DHCP_PXE Server in CLC
+1. Login to your [CLC control panel](https://control.tier3.com)
+1. Add a VLAN (e.g. CoreOSVLAN) in the data center you want to deploy Panamax to. You need to add a VLAN specific for panamax. [Here are specific steps to add a VLAN.](https://t3n.zendesk.com/entries/21806469-Creating-and-Deleting-VLANs)
+1. Browse to Blueprints Library and deploy the **DHCP-PXE Server** blueprint. _NOTE_: Be sure to select the VLAN created above for network.
+
+### Create a CoreOS Server with Panamax
+1. Deploy the **CoreOS Server with Panamax** blueprint being sure to select the VLAN created above for the network.
+1. For the **Execute on Server** option, be sure to select the name of the DHCP_PXE server you created in the previous step, not the CoreOS machine you are currently creating. **This is a very important step.** The server credentials entered will **NOT** actually be used to login to the server as you will use SSH key authorization to access your CoreOS servers.
+1. After the Blueprint task is complete, view the **build log** and search for the text **"IP Address of CoreOS Server"** to obtain the IP address that was used for deploying the server. Take note of this address for future use as it will not be displayed in control panel.
+
+Panamax will be installed on the CoreOS machine by this point. 
+
 ## Amazon Web Services - EC2
 This is a guide to installing Panamax on [EC2 CoreOS AMI](http://coreos.com/docs/running-coreos/cloud-providers/ec2/)
 
