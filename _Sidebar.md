@@ -7,6 +7,7 @@
   * [[Submitting a Template|Panamax-Public-Templates#submit-a-template]]
 * [[Known Issues|Known Issues]]
 * [[FAQs|FAQs]]
+* [[Contributing|Contributing]]
 * [[Release Notes|Release-Notes]]
 
 ***
