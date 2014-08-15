@@ -22,4 +22,4 @@
 ## Contributing
 Help us make Panamax better by participating in its development. The Panamax project is provided under the [Apache 2.0 license](http://www.apache.org/licenses/LICENSE-2.0.html). 
 
-[View instructions on how to contribute](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Contributing)
+[View instructions on how to contribute](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Contributing-to-Panamax)
