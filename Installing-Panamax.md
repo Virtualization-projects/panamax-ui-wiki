@@ -37,17 +37,42 @@ For a menu of all commands available to you, simply run:
 
 ##Ubuntu Linux 12.04 or higher
 
-Ubuntu Desktop Users: Download and run script as shown.
+Ubuntu Desktop Users: Download and run the script as shown.
 
-`$ \curl  http://download.panamax.io/installer/ubuntu.sh | bash`
+`$ curl  http://download.panamax.io/installer/ubuntu.sh | bash`
 
-After the installation, Panamax will open a browser window automatically.
+After the installation, you can open a browser window at http://localhost:8888, to view Panamax.
+
 For a menu of all commands available to you, simply run:
 
 `$ panamax`
 
 [List of all available commands, aliases and parameters](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Panamax-Installer-Commands) for the Panamax Installer.
 [Release Notes](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Release-Notes)
+
+## Windows with Cgywin
+
+Please use the following instructions to install Panamax on Windows that has [Cygwin](https://cygwin.com/install.html) installed. A big thanks to Alan Kent for providing the instructions via his [blog post](http://alankent.wordpress.com/2014/08/13/playing-with-docker-coreos-and-panamax-on-windows/).
+
+Run the following commands from inside a [Cygwin](https://cygwin.com/install.html) bash terminal window:
+
+```
+$ mkdir ~/.panamax
+$ cd ~/.panamax
+$ curl -O http://download.panamax.io/installer/pmx-installer-latest.zip
+$ unzip pmx-installer-latest.zip
+$ ./panamax init
+```
+
+After the installation, you can open a browser window at http://localhost:8888, to view Panamax.
+
+For a menu of all commands available to you, simply run:
+
+`$ ./panamax`
+
+[List of all available commands, aliases and parameters](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Panamax-Installer-Commands) for the Panamax Installer.
+[Release Notes](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Release-Notes)
+
 
 # Cloud Provider Installation
 
