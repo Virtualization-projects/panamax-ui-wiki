@@ -111,6 +111,12 @@ Panamax will be installed on the CoreOS machine by this point.
     * Run: `$ service ssh restart`
 1. Run the following command on the DHCP_PXE server to give access to 3000 from public IP: `$ ssh -f -N root@<DHCP server private IP> -R *:3000:<Core OS Vm IP>:3000`
 1. Access Panamax at http://_public-IP_:3000 !
+
+### Reconfiguration after DHCP_PXE reboots
+When ever your DHCP_PXE server is rebooted, you need to restart the SSH tunnels between the DHCP server and the CoreOS VM. Following these steps to re-establish:
+
+1. Make note of the CoreOS private IP address by running the following on the DHCP_PXE server: `$ cat /var/log/syslog` - The IP will be included in the last entry.
+1. Run the following command on the DHCP_PXE server adding the IP address from above: `$ ssh -f -N root@10.96.41.12 -R *:3000:10.96.41.112:3000`
  
 ## Amazon Web Services - EC2
 This is a guide to installing Panamax on [EC2 CoreOS AMI](http://coreos.com/docs/running-coreos/cloud-providers/ec2/)
