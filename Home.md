@@ -11,6 +11,7 @@
 * [Installing Panamax](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Installing-Panamax)
 * [Panamax Public Templates](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Panamax-Public-Templates)
 * [Troubleshooting & Known Issues](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Troubleshooting-and-Known-Issues)
+* [[Frequently Asked Questions|FAQs]]
 * [Release Notes](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Release-Notes)
 
 ## Community Forums
