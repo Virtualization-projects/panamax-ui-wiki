@@ -83,7 +83,7 @@ For a menu of all commands available to you, simply run:
 
 # Cloud Provider Installation
 
-*NOTE: Panamax does not provide any authentication measures out of the box. When installing Panamax in any sort of public space both the API and the UI ought to be secured.*
+**NOTE: Panamax does not provide any authentication measures out of the box. When installing Panamax in any sort of public space both the API and the UI ought to be secured.**
 
 ## CenturyLink Cloud
 This is a guide to installing Panamax on [CenturyLink Cloud](http://www.centurylinkcloud.com)
