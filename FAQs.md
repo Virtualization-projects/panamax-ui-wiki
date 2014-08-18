@@ -32,4 +32,4 @@ You can see them in the [Panamax Public Templates repository](https://github.com
 
 ##### Why does my service seem to be in an infinite loop of starting/failing/stopping?
 
-When launching an image you will sometimes see a pattern where you service is stuck in a loop of starting/failing/stopping. While it can be disconcerting to see all of these errors piling up in the log output it's not entirely unexpected. Every service is initiated by systemd and by default is set to automatically restart.  See a [[detailed explanation here|Service-Restarting-and-systemd]]. 
+When launching an image you will sometimes see a pattern where a service is stuck in a loop of starting/failing/stopping. While it can be disconcerting to see all of these errors piling up in the log output it's not entirely unexpected. Every service is initiated by systemd and by default is set to automatically restart.  See a [[detailed explanation here|Service-Restarting-and-systemd]]. 
