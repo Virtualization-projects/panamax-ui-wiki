@@ -12,7 +12,7 @@ This can be accomplished in two ways: 1) via the terminal windows of your local 
 
 On your local machine, open a terminal window and run the following command:
 
-`$ VboxManage controlvm panamax-vm natpf1 rule1,tcp,,8997,,8080`
+`$ VBoxManage controlvm panamax-vm natpf1 rule1,tcp,,8997,,8080`
 
 This command invokes the VirutalBox command VirtualManage to add a port forwarding rule to the VM named, `panamax-vm`. The rule created is named `rule1`, the protocol is set to `tcp` and the port forwarding is set to `8997` from the local machine to `8080` to match the port on the CoreOS host.
 
