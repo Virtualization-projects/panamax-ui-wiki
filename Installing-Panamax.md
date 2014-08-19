@@ -36,6 +36,15 @@ For a menu of all commands available to you, simply run:
 [List of all available commands, aliases and parameters](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Panamax-Installer-Commands) for the Panamax Installer.
 [Release Notes](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Release-Notes)
 
+### Upgrade Panamax
+To upgrade Panamax to a newer version please run the following on your terminal window:
+
+`brew upgrade http://download.panamax.io/installer/brew/panamax.rb && panamax reinstall`
+
+To check the version of Panamax, run the following on your terminal window:
+
+`panamax info`
+
 ##Ubuntu Linux 12.04 or higher
 _Before installing, please review these [installation notes.](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Installing-Panamax#local-installation)_
 
