@@ -8,6 +8,7 @@
     * [[CenturyLink Cloud|Installing-Panamax#centurylink-cloud]]
     * [[Amazon EC2|Installing-Panamax#amazon-web-services---ec2]]
     * [[Brightbox|Installing-Panamax#brightbox]]
+    * [[Vultr|Installing-Panamax#vultr]]
     * [[OpenStack|Installing-Panamax#openstack]]
 * [[Public Templates|Panamax-Public-Templates]]
   * [[Submitting a Template|Panamax-Public-Templates#submit-a-template]]
