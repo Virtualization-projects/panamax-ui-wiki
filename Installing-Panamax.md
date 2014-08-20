@@ -121,6 +121,8 @@ Panamax will be installed on the CoreOS machine by this point.
 1. Run the following command on the DHCP_PXE server to give access to 3000 from public IP: `$ ssh -f -N root@<DHCP server private IP> -R *:3000:<Core OS Vm IP>:3000`
 1. Access Panamax at http://_public-IP_:3000 !
 
+_NOTE_: If you prefer not to expose a public IP to access Panamax, [see these instructions.](https://t3n.zendesk.com/entries/20914433-How-To-Configure-Client-VPN)
+
 ### Reconfiguration after DHCP_PXE reboots
 When ever your DHCP_PXE server is rebooted, you need to restart the SSH tunnels between the DHCP server and the CoreOS VM. Following these steps to re-establish:
 
