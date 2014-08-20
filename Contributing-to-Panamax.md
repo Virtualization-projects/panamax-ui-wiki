@@ -13,7 +13,7 @@ Have a useful idea for a Panamax feature? Please use the [customer feedback](htt
 
 ## Wiki Contributions
 
-We have made our wiki editable by the community. If questioning weather or not something should go in the wiki, consult one of our support channels.
+We have made our wiki editable by the community. If questioning whether or not something should go in the wiki, consult one of our support channels. Be sure to add a comment to your contribution!
 
 ## Code Contributions
 
