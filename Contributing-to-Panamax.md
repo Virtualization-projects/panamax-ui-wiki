@@ -11,6 +11,16 @@ Github Issues is a good place to track issues. However, it can be confusing to d
 
 Have a useful idea for a Panamax feature? Please use the [customer feedback](http://feedback.panamax.io/) site to comment on or request a feature.
 
+## Wiki Contributions
+
+Github doesn't make it easy on us when it comes to wiki PRs, so here are the steps (largely copied from: [Taffy](http://fusiongrokker.com/post/how-you-can-contribute-to-taffy-documentation)):
+
+1. Create a "panamax-wiki" repo under your github account
+2. Clone the panamax-ui.wiki repo: ```git clone https://github.com/CenturyLinkLabs/panamax-ui.wiki.git```
+3. Remove our origin, and add yours: ```git remote rm origin && git remote add origin git://github.com/<YOUR_USERNAME>/panamax-wiki.git```
+4. make your changes, and push ```git push -u origin master```
+5. create an issue in the panamax-ui project and add the "wiki-contribution" label, give us a link to your panamax-wiki repo and we'll handle the review and merge (and giving you street cred)
+
 ## Code Contributions
 
 ### The contribution cycle
