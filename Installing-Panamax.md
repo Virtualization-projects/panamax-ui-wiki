@@ -199,7 +199,7 @@ This is a guide to installing Panamax on [EC2 CoreOS AMI](http://coreos.com/docs
 
 1. Once the VM is created, SSH into the box.
 
-   `$ ssh core@,Public IP of the VM>`
+   `$ ssh core@<Public IP of the VM>`
 
 1. Run: `$ sudo su`
 1. Download & unzip the latest setup script from [http://download.panamax.io/installer/pmx-installer-latest.zip](http://download.panamax.io/installer/pmx-installer-latest.zip):
