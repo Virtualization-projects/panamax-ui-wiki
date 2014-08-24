@@ -211,3 +211,30 @@ This is a guide to installing Panamax on [EC2 CoreOS AMI](http://coreos.com/docs
 
 ## OpenStack
 [Running Panamax In CoreOS On Top Of OpenStack](http://cloudssky.com/en/blog/Running-Panamax-In-CoreOS-On-Top-Of-OpenStack/)
+
+## Rackspace
+
+### Create a CoreOS VM on Rackspace
+
+1. Go to the [Cloud Control Panel](https://mycloud.rackspace.com/)
+1. Click Create Server
+  1. Name: panamax
+  1. Image: Linux > CoreOS > Stable
+  1. Flavor: Performance 1 > 4 GB Performance
+  1. Advanced Options: (Optional) Create or use an existing SSH key for this server
+1. Click Create Server
+  1. Note the password and IPv4 address (when it appears)
+
+### Install Panamax
+
+1. Once the VM is created, SSH into the box.
+
+   `$ ssh core@<Public IP of the VM>`
+
+1. Run: `$ sudo su`
+1. Download & unzip the latest setup script from [http://download.panamax.io/installer/pmx-installer-latest.zip](http://download.panamax.io/installer/pmx-installer-latest.zip):
+
+    `$ curl -O http://download.panamax.io/installer/pmx-installer-latest.zip && unzip pmx-installer-latest.zip -d /var/panamax`
+1. Change to the /var/panamax directory: `$ cd /var/panamax`
+1. Run: `$ ./coreos install --stable`
+1. Once the installer completes, you can access panamax at: `http:// _Public IP_ :3000/`
