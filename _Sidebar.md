@@ -10,6 +10,7 @@
     * [[Brightbox|Installing-Panamax#brightbox]]
     * [[Vultr|Installing-Panamax#vultr]]
     * [[OpenStack|Installing-Panamax#openstack]]
+    * [[Rackspace|Installing-Panamax#rackspace]]
 * [[Public Templates|Panamax-Public-Templates]]
   * [[Submitting a Template|Panamax-Public-Templates#submit-a-template]]
 * [[Known Issues|Known Issues]]
