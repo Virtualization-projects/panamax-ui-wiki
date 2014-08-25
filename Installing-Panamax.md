@@ -271,6 +271,8 @@ users:
     coreos-ssh-import-github: Xe
 ```
 
+### PLEASE NOTE THAT IF YOU DO NOT DO THIS STEP YOU MAY NOT BE ABLE TO SSH INTO YOUR MACHINE. YOU HAVE BEEN WARNED.
+
 ```console
 $ ./provision.sh caml
 ```
@@ -283,17 +285,3 @@ As soon as the unit finishes, Panamax will be installed on your GCE node.
 
 [gcutil]: https://developers.google.com/compute/docs/gcutil/#install
 [devcons]: https://console.developers.google.com/project
-
-### Install Panamax
-
-1. Once the VM is created, SSH into the box.
-
-   `$ ssh core@<Public IP of the VM>`
-
-1. Run: `$ sudo su`
-1. Download & unzip the latest setup script from [http://download.panamax.io/installer/pmx-installer-latest.zip](http://download.panamax.io/installer/pmx-installer-latest.zip):
-
-    `$ curl -O http://download.panamax.io/installer/pmx-installer-latest.zip && unzip pmx-installer-latest.zip -d /var/panamax`
-1. Change to the /var/panamax directory: `$ cd /var/panamax`
-1. Run: `$ ./coreos install --stable`
-1. Once the installer completes, you can access panamax at: `http:// _Public IP_ :3000/`
