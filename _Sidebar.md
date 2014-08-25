@@ -11,6 +11,7 @@
     * [[Vultr|Installing-Panamax#vultr]]
     * [[OpenStack|Installing-Panamax#openstack]]
     * [[Rackspace|Installing-Panamax#rackspace]]
+    * [[Google Compute Engine|Installing-Panamax#google-compute-engine]]
 * [[Public Templates|Panamax-Public-Templates]]
   * [[Submitting a Template|Panamax-Public-Templates#submit-a-template]]
 * [[Known Issues|Known Issues]]
