@@ -94,6 +94,8 @@ For a menu of all commands available to you, simply run:
 
 **NOTE: Panamax does not provide any authentication measures out of the box. When installing Panamax in any sort of public space both the API and the UI ought to be secured.**
 
+Do not treat any data on a publicly accessible provisioned Panamax server as private.
+
 ## CenturyLink Cloud
 This is a guide to installing Panamax on [CenturyLink Cloud](http://www.centurylinkcloud.com)
 
