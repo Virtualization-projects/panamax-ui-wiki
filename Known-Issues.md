@@ -70,7 +70,7 @@ See `panamax help` for other install options.
 
 ##### Any service whose name contains the pattern _{a-f}{a-f} will fail to start and crash the systemd service
 
-This is a [known issue](https://github.com/coreos/go-systemd/pull/49) with the CoreOS implementation of systemd. The issue has been resolved and the fix will be available in the next release of CoreOS. 
+This is a [known issue](https://github.com/coreos/go-systemd/pull/49) with the CoreOS implementation of systemd. The discussion about the root cause can be found [here](http://lists.freedesktop.org/archives/systemd-devel/2013-March/009351.html). The issue has been resolved and the fix will be available in the next release of CoreOS. 
 
 Note that the naming issue only affects services whose name contains the pattern `_[a-f][a-f]` (specifically, an underscore followed by two occurrences of the letters A through F) -- so neither `tutum_mysql_latest` nor `dockerfile_mongodb_latest` should be impact by that particular issue.
 
