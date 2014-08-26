@@ -68,6 +68,10 @@ See [Ubuntu instructions.](https://github.com/CenturyLinkLabs/panamax-ui/wiki/In
 ## Windows with Cgywin
 _Before installing, please review these [installation notes.](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Installing-Panamax#local-installation)_
 
+
+FIRST: install vagrant >= 1.6 on your windows OS anad install virtualbox >= 1.2 on your windows OS
+Then, in your cygwin terminal, ln -s virtualbox to the installed windows VirtualBox.exe (e.g. ln -s ~/bin/virtualbox /cygdrive/c/Program Files/Oracle/VirtualBox/VirtualBox.exe) and add that to your path.
+
 Please use the following instructions to install Panamax on Windows that has [Cygwin](https://cygwin.com/install.html) installed. A big thanks to Alan Kent for providing the instructions via his [blog post](http://alankent.wordpress.com/2014/08/13/playing-with-docker-coreos-and-panamax-on-windows/).
 
 Run the following commands from inside a [Cygwin](https://cygwin.com/install.html) bash terminal window:
