@@ -24,7 +24,7 @@ The output in the example above has been truncated, but the value you're looking
 
     core@panamax-vm ~ $ sudo nsenter --target 1514 --mount --uts --ipc --net --pid
 
-4) You should now be at a prompt inside the PMX_API container. Change to the directory for the 'panamax_api' Rails application:
+4) You should now be at a prompt inside the PMX_API container. Change to the directory hosting the 'panamax_api' Rails application:
 
     root@cede0c97eb44:/# cd /usr/src/app
 
@@ -38,3 +38,4 @@ The output in the example above has been truncated, but the value you're looking
 
 7) Type "exit" three times and you should be back at the prompt on your host machine.
   
+The next time that you go to save a template through the Panamax web application you should be prompted to enter a new GitHub access token.
