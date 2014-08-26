@@ -69,7 +69,7 @@ See [Ubuntu instructions.](https://github.com/CenturyLinkLabs/panamax-ui/wiki/In
 _Before installing, please review these [installation notes.](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Installing-Panamax#local-installation)_
 
 
-FIRST: install vagrant >= 1.6 on your windows OS anad install virtualbox >= 1.2 on your windows OS
+FIRST: install vagrant >= 1.6 on your windows OS and install virtualbox >= 1.2 on your windows OS.
 
 Then, in your cygwin terminal, ln -s virtualbox to the installed windows VirtualBox.exe (e.g. ln -s ~/bin/virtualbox /cygdrive/c/Program Files/Oracle/VirtualBox/VirtualBox.exe) and add the directory of the softlink to your path.
 Panamax will then use the native windows application.
