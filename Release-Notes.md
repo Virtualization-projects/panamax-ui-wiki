@@ -1,4 +1,4 @@
-To view the version of the components of your Panamax installation, run `$ panamax info` on your terminal window. To update, run `$ panamax download`.
+To view the version of the components of your Panamax installation, run `$ panamax info` on your terminal window. To update, run `$ panamax download`. If you are prompted that your Panamax Installer is out of date and you have installed via brew (OS X), run `$ brew upgrade http://download.panamax.io/installer/brew/panamax.rb && panamax reinstall`.
 
 <table border=0 style="width:300px">
 <tr>
