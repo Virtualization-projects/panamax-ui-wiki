@@ -12,8 +12,8 @@ To view the version of the components of your Panamax installation, run `$ panam
 <tr>
   <td></td>
   <td><A HREF="https://github.com/CenturyLinkLabs/panamax-coreos/blob/master/CHANGELOG.md#012---2014-08-21">Installer:  0.1.2</A></td> 
-  <td>UI:    0.1.1</td>
-  <td>API:    0.1.1</td>
+  <td><A HREF="https://github.com/CenturyLinkLabs/panamax-ui/blob/master/CHANGELOG.md#011---2014-08-11">UI:    0.1.1</A></td>
+  <td><A HREF="https://github.com/CenturyLinkLabs/panamax-api/blob/master/CHANGELOG.md#011---2014-08-11">API:    0.1.1</A></td>
   <td>CoreOS:  367.1.0</td>
   <td>Docker:  1.0.1</td>
 </tr>
@@ -35,9 +35,9 @@ To view the version of the components of your Panamax installation, run `$ panam
 </tr>
 <tr>
   <td></td>  
-  <td>Installer:  0.1.0</td> 
-  <td>UI:  0.1.0</td>
-  <td>API:  0.1.0</td>
+  <td><A HREF="https://github.com/CenturyLinkLabs/panamax-coreos/blob/master/CHANGELOG.md#011---2014-08-12">Installer:  0.1.0</A></td> 
+  <td><A HREF="https://github.com/CenturyLinkLabs/panamax-ui/blob/master/CHANGELOG.md#011---2014-08-11">UI:    0.1.1</A></td>
+  <td><A HREF="https://github.com/CenturyLinkLabs/panamax-api/blob/master/CHANGELOG.md#011---2014-08-11">API:  0.1.0</A></td>
   <td>CoreOS:  367.1.0</td>
   <td>Docker:  1.0.1</td>
 </tr>
