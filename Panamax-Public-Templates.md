@@ -24,9 +24,7 @@ The [Panamax Public Template repository](https://github.com/CenturyLinkLabs/pana
 
 * **Use the power of Panamax!** - Avoid hardcoded Docker specifics in your images. The power of Panamax is the ability to make these configurations flexible.
 
-##Submit a Template!
-
-**\--> NOTE: This process is to submit template to the official template repository, if you want to enter the Panamax App Template Challenge (Contest) please be sure to follow the instructions from:** [http://panamax.io/contest](http://panamax.io/contest)
+##Submit a Public Template!
 
 1. Fork the official the official Panamax Template Repository from [https://github.com/CenturyLinkLabs/panamax-public-templates](https://github.com/CenturyLinkLabs/panamax-public-templates) to your personal GitHub account.
 
