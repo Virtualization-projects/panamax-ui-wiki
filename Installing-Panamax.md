@@ -71,8 +71,20 @@ _Before installing, please review these [installation notes.](https://github.com
 
 FIRST: install vagrant >= 1.6 on your windows OS and install virtualbox >= 1.2 on your windows OS.
 
-Then, in your cygwin terminal, ln -s virtualbox to the installed windows VirtualBox.exe (e.g. ln -s ~/bin/virtualbox /cygdrive/c/Program Files/Oracle/VirtualBox/VirtualBox.exe) and add the directory of the softlink to your path.
+Then, in your cygwin terminal, symlink your Virtualbox.exe and VBoxManage.exe files like so:
+```
+ln -s /cygdrive/c/Program\ Files/Oracle/VirtualBox/VirtualBox.exe /usr/bin/virtualbox
+ln -s /cygdrive/c/Program\ Files/Oracle/VirtualBox/VBoxManage.exe /usr/bin/VBoxManage
+```
 Panamax will then use the native windows application.
+
+You may also need to install additional cygwin packages.  I had to add the `bc` package as well.  You can do that by adding `apt-cyg` or by re-running the cygwin installer (this installer won't overwrite anything, just add packages).   To add packages (like the `bc` package) inside the cygwin terminal run:
+```
+wget http://apt-cyg.googlecode.com/svn/trunk/apt-cyg
+chmod +x apt-cyg
+mv apt-cyg /usr/local/bin/
+apt-cyg install bc
+```
 
 Please use the following instructions to install Panamax on Windows that has [Cygwin](https://cygwin.com/install.html) installed. A big thanks to Alan Kent for providing the instructions via his [blog post](http://alankent.wordpress.com/2014/08/13/playing-with-docker-coreos-and-panamax-on-windows/).
 
