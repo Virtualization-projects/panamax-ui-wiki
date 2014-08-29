@@ -245,6 +245,20 @@ This is a guide to installing Panamax on [EC2 CoreOS AMI](http://coreos.com/docs
 1. Click Create Server
   1. Note the password and IPv4 address (when it appears)
 
+### Install Panamax
+
+1. Once the VM is created, SSH into the box. If you used an SSH key, you can use that here instead of the password.
+
+   `$ ssh root@<Public IPv4 of the VM>`
+
+1. Download & unzip the latest setup script from [http://download.panamax.io/installer/pmx-installer-latest.zip](http://download.panamax.io/installer/pmx-installer-latest.zip):
+
+    `$ curl -O http://download.panamax.io/installer/pmx-installer-latest.zip && unzip pmx-installer-latest.zip -d /var/panamax`
+
+1. Change to the /var/panamax directory: `$ cd /var/panamax`
+1. Run: `$ ./coreos install --stable`
+1. Once the installer completes, you can access panamax at: `http://<Public IPv4 of the VM>:3000/`
+
 ## Google Compute Engine
 
 First, install the [Google Cloud SDK][gcutil] and log in.
