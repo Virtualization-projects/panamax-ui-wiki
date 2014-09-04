@@ -7,7 +7,7 @@ Panamax is currently in BETA
 
 **Local Installation Requirements**
 
-[VirtualBox 4.2](https://www.virtualbox.org/wiki/Downloads/) or higher
+[VirtualBox 4.3](https://www.virtualbox.org/wiki/Downloads/) or higher
 
 [Vagrant 1.6](http://www.vagrantup.com/downloads.html/) or higher
 
