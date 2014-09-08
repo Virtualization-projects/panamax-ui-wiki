@@ -8,6 +8,7 @@ To view the version of the components of your Panamax installation, run `$ panam
   <td>09/03/2014</td>
   <td></td>
   <td></td>
+  <td></td>
 </tr>
 <tr>
   <td></td>
@@ -16,6 +17,7 @@ To view the version of the components of your Panamax installation, run `$ panam
   <td><A HREF="https://github.com/CenturyLinkLabs/panamax-api/blob/master/CHANGELOG.md#changelog">API:    0.1.3</A></td>
   <td>CoreOS:  367.1.0</td>
   <td>Docker:  1.0.1</td>
+  <td>cAdvisor:  0.1.1</td>
 </tr>
 </table>
 
@@ -29,6 +31,7 @@ To view the version of the components of your Panamax installation, run `$ panam
   <td>08/27/2014</td>
   <td></td>
   <td></td>
+  <td></td>
 </tr>
 <tr>
   <td></td>
@@ -37,6 +40,7 @@ To view the version of the components of your Panamax installation, run `$ panam
   <td><A HREF="https://github.com/CenturyLinkLabs/panamax-api/blob/master/CHANGELOG.md#changelog">API:    0.1.2</A></td>
   <td>CoreOS:  367.1.0</td>
   <td>Docker:  1.0.1</td>
+  <td>cAdvisor:  0.1.1</td>
 </tr>
 </table>
 
@@ -49,6 +53,7 @@ To view the version of the components of your Panamax installation, run `$ panam
   <td>08/12/2014</td>
   <td></td>
   <td></td>
+  <td></td>
 </tr>
 <tr>
   <td></td>
@@ -57,6 +62,7 @@ To view the version of the components of your Panamax installation, run `$ panam
   <td><A HREF="https://github.com/CenturyLinkLabs/panamax-api/blob/master/CHANGELOG.md#011---2014-08-11">API:    0.1.1</A></td>
   <td>CoreOS:  367.1.0</td>
   <td>Docker:  1.0.1</td>
+  <td>cAdvisor:  0.1.1</td>
 </tr>
 </table>
 
@@ -70,6 +76,7 @@ To view the version of the components of your Panamax installation, run `$ panam
   <td>08/04/2014</td>
   <td></td>
   <td></td>
+  <td></td>
 </tr>
 <tr>
   <td></td>  
@@ -78,6 +85,7 @@ To view the version of the components of your Panamax installation, run `$ panam
   <td><A HREF="https://github.com/CenturyLinkLabs/panamax-api/blob/master/CHANGELOG.md#011---2014-08-11">API:  0.1.0</A></td>
   <td>CoreOS:  367.1.0</td>
   <td>Docker:  1.0.1</td>
+  <td>cAdvisor:  0.1.1</td>
 </tr>
 </table>
 * Initial BETA release of Panamax.
