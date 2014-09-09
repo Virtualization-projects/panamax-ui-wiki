@@ -189,7 +189,7 @@ This is a guide to installing Panamax on [EC2 CoreOS AMI](http://coreos.com/docs
    * 22,TCP, Source= Anywhere
    * 3000, TCP, Source = Anywhere
    * Any additional ports your application requires
-1. On the Image Library dashboard, search for the CoreOS image: _img-vxa1g_, and create a new Cloud Server
+1. On the Image Library dashboard, search for the CoreOS 410.0.0 image: _img-30dyh_, and create a new Cloud Server
    * Select the server cloud create above
    * Use, at minimum, the Small (2GB) Server type
 1. Create a new public IP on the Cloud IPs dashboard and assign it to the newly created CoreOS server
