@@ -7,6 +7,7 @@ The following images should never be deleted as they are core components of Pana
   - centurylink/panamax-ui:latest
   - google/cadvisor:0.1.0
 
+
 **Image Refresh**
 
 If you need to reinstall an image delete it as described above and relaunch the template.
