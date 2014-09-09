@@ -154,7 +154,7 @@ This is a guide to installing Panamax on [EC2 CoreOS AMI](http://coreos.com/docs
 
 ### Create a CoreOS VM in EC2
 1. Choose **Launch Instance** in EC2 Dashboard 
-1. Select **Community AMIs** in AMI Selection wizard and search for **CoreOS**. Recommended images are: _CoreOS-stable-367.1.0-hvm_ and _CoreOS-stable-367.1.0_.
+1. Select **Community AMIs** in AMI Selection wizard and search for **CoreOS**. Recommended images are: _CoreOS-stable-410.0.0-hvm_ and _CoreOS-stable-410.0.0_.
 1. Make sure the AMI has the following specs at **minimum**: 1 vCPU, 4 GB RAM, 40 GB HDD. For example, **m3.medium** at a minimum.
 1. Select Auto-assign Public IP as **enabled**.
 1. Change storage to Root (/dev/xvda) to 40GB General Purpose (SSD)
