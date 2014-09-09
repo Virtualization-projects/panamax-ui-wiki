@@ -114,6 +114,8 @@ For a menu of all commands available to you, simply run:
 
 Do not treat any data on a publicly accessible provisioned Panamax server as private.
 
+**When installing Panamax on a cloud provider, ensure the CoreOS version matches the version listed on our [release notes page](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Release-Notes) for our stable release.**
+
 ## CenturyLink Cloud
 This is a guide to installing Panamax on [CenturyLink Cloud](http://www.centurylinkcloud.com)
 
