@@ -211,7 +211,7 @@ This is a guide to installing Panamax on [EC2 CoreOS AMI](http://coreos.com/docs
 ## Vultr
 
 ### Create a CoreOS VM on Vultr
-1. [Follow these instructions](https://coreos.com/docs/running-coreos/cloud-providers/vultr/) using `http://storage.core-os.net/coreos/amd64-usr/367.1.0/` instead of `http://stable.release.core-os.net/amd64-usr/current` in the `set base-url` statement.
+1. [Follow these instructions](https://coreos.com/docs/running-coreos/cloud-providers/vultr/) using `http://storage.core-os.net/coreos/amd64-usr/410.0.0/` instead of `http://stable.release.core-os.net/amd64-usr/current` in the `set base-url` statement.
 1. When creating your VM, be sure to select the 2CPU, 2GB flavor at a minimum.
 1. Make note of the public IP for your CoreOS VM after its created
 
