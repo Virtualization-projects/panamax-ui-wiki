@@ -8,6 +8,7 @@
     * [[CenturyLink Cloud|Installing-Panamax#centurylink-cloud]]
     * [[Amazon EC2|Installing-Panamax#amazon-web-services---ec2]]
     * [[Brightbox|Installing-Panamax#brightbox]]
+    * [[Digital Ocean|Installing-Panamax#digital-ocean]]
     * [[Vultr|Installing-Panamax#vultr]]
     * [[OpenStack|Installing-Panamax#openstack]]
     * [[Rackspace|Installing-Panamax#rackspace]]
