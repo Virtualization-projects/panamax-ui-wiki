@@ -212,6 +212,29 @@ This is a guide to installing Panamax on [EC2 CoreOS AMI](http://coreos.com/docs
 1. Run: `$ ./coreos install --stable`
 1. Once the installer completes, you can access panamax at: `http:// _Public IP_ :3000/`
 
+## Digital Ocean
+
+_NOTE_: **Currently Digital Ocean only offers the Alpha channel of CoreOS. Panamax is not supported on this branch. Use at your own risk!**
+
+### Create a CoreOS VM on CoreOS
+1. Be sure to upload your Public ssh key to Digital Ocean prior to creating your CoreOS VM
+1. Create a new droplet and select CoreOS v431.0.0 - Use, at minimum, the 2GB server type
+1. After the droplet is created, view its detail and via the Settings section, select the Networking tab - make note of your public IP address.
+
+### Install Panamax
+
+1. Once the VM is created, SSH into the box. _NOTE_: you previously needed to upload your public key to Digital Ocean.
+
+   `$ ssh core@<Public IP of the VM>`
+
+1. Run: `$ sudo su`
+1. Download & unzip the latest setup script from [http://download.panamax.io/installer/pmx-installer-latest.zip](http://download.panamax.io/installer/pmx-installer-latest.zip):
+
+    `$ curl -O http://download.panamax.io/installer/pmx-installer-latest.zip && unzip pmx-installer-latest.zip -d /var/panamax`
+1. Change to the /var/panamax directory: `$ cd /var/panamax`
+1. Run: `$ ./coreos install --stable`
+1. Once the installer completes, you can access panamax at: `http:// _Public IP_ :3000/`
+
 ## Vultr
 
 ### Create a CoreOS VM on Vultr
