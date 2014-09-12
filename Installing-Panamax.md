@@ -216,7 +216,7 @@ This is a guide to installing Panamax on [EC2 CoreOS AMI](http://coreos.com/docs
 
 _NOTE_: **Currently Digital Ocean only offers the Alpha channel of CoreOS. Panamax is not supported on this branch. Use at your own risk!**
 
-### Create a CoreOS VM on CoreOS
+### Create a CoreOS VM on Digital Ocean
 1. Be sure to upload your Public ssh key to Digital Ocean prior to creating your CoreOS VM
 1. Create a new droplet and select CoreOS v431.0.0 - Use, at minimum, the 2GB server type
 1. After the droplet is created, view its detail and via the Settings section, select the Networking tab - make note of your public IP address.
