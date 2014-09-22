@@ -1,3 +1,11 @@
+## Using the CoreOS Private IP
+
+Beginning in Panamax Installer version 0.2.1, Panamax automatically creates a private IP for you CoreOS VM -- `10.0.0.200`. You can use this to access your application when you have a host port assigned to your container. For example, if you have the following host to container port binding: `8080 : 80 / TCP`, you can access your service using the private IP address: `http://10.0.0.200:8080`.
+
+If you opted for Panamax to create an alias for the private IP during installation or reinstallation, you can access your application's services via that domain. For example: `http://panamax.local:8080`.
+
+## Port Forwarding
+
 If your application has an endpoint that you need to be able to access outside of the container, you need a port exposed on the CoreOS host that points to the port in the container hosting the endpoint. For example, if your application runs an HTTP server on port 80, you need to bind a port from CoreOS to port 80 within Panamax. The following shows the host port, 8080, bound to the container port, 80.
 
 ![](http://panamax.ca.tier3.io/panamax_ui_wiki_screens/port_binding.png)
