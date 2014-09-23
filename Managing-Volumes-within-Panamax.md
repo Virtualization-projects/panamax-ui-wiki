@@ -12,7 +12,7 @@ For mounting a host directory, provide the local host path and the mapped contai
  _NOTE_: Within Panamax, the host is always the CoreOS instance, whether running in VirtualBox, a cloud provider or bare metal.
 
 ### Data Volume Containers
-Panamax also supports the [volumes from (--volumes-from)](http://docs.docker.com/userguide/dockervolumes/#creating-and-mounting-a-data-volume-container) command to allow sharing of persistent data between containers. To connect to a data volume container, click the 'Mount a new Data Volume Container' to display a select box which is populated by all the other services within the current application. Selecting an service and clicking save will add the selected service as a data volume container. If the service has any data volumes, they will be displayed adjacent to the name.
+Panamax also supports the [volumes from (--volumes-from)](http://docs.docker.com/userguide/dockervolumes/#creating-and-mounting-a-data-volume-container) command to allow sharing of persistent data between containers. To connect to a data volume container, click the 'Mount a new Data Volume Container' to display a select box which is populated by all the other services within the current application. Selecting a service and clicking save will add the selected service as a data volume container. If the service has any data volumes, they will be displayed adjacent to the name.
 
 ![data volume](http://panamax.ca.tier3.io/wiki_volumes/volumes_from.png)
 
