@@ -3,7 +3,7 @@ Panamax currently supports the volume (-v) command for mounting a host directory
 
 ![data volume](http://panamax.ca.tier3.io/wiki_volumes/container.png)
 
-The example above will create a volume inside the container at /my_path and the associated docker -v command will be displayed in the dynamic docker command line at the bottom of the screen.
+The example above will create a volume inside the container at /my_path and the associated docker -v command will be displayed in the docker command line at the bottom of the screen.
 
 ![data volume](http://panamax.ca.tier3.io/wiki_volumes/host-container.png)
 
