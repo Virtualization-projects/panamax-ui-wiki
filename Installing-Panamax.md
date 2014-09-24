@@ -118,6 +118,8 @@ Do not treat any data on a publicly accessible provisioned Panamax server as pri
 
 **When installing Panamax on a cloud provider, ensure the CoreOS version matches the version listed on our [release notes page](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Release-Notes) for our stable release.**
 
+**When installed on a cloud provider, Panamax will not alert you of updates. Check our [release notes page](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Release-Notes) frequently for information about the latest releases and features.**
+
 ## CenturyLink Cloud
 This is a guide to installing Panamax on [CenturyLink Cloud](http://www.centurylinkcloud.com)
 
