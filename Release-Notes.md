@@ -6,8 +6,8 @@ To view the version of the components of your Panamax installation, run `$ panam
 <tr>
   <th>Stable Release</th>
   <td>09/22/2014</td> 
-  <td>09/18/2014</td>
-  <td>09/18/2014</td>
+  <td>09/26/2014</td>
+  <td>09/26/2014</td>
   <td></td>
   <td></td>
   <td></td>
@@ -15,8 +15,8 @@ To view the version of the components of your Panamax installation, run `$ panam
 <tr>
   <td></td>
   <td><A HREF="https://github.com/CenturyLinkLabs/panamax-coreos/blob/master/CHANGELOG.md#changelog">Installer:  0.2.1</A></td> 
-  <td><A HREF="https://github.com/CenturyLinkLabs/panamax-ui/blob/master/CHANGELOG.md#changelog">UI:    0.2.1</A></td>
-  <td><A HREF="https://github.com/CenturyLinkLabs/panamax-api/blob/master/CHANGELOG.md#changelog">API:    0.2.1</A></td>
+  <td><A HREF="https://github.com/CenturyLinkLabs/panamax-ui/blob/master/CHANGELOG.md#changelog">UI:    0.2.2</A></td>
+  <td><A HREF="https://github.com/CenturyLinkLabs/panamax-api/blob/master/CHANGELOG.md#changelog">API:    0.2.2</A></td>
   <td>CoreOS:  410.0.0</td>
   <td>Docker:  1.1.2</td>
   <td>cAdvisor:  0.2.2</td>
