@@ -1,6 +1,6 @@
 _Short URL: [http://j.mp/pmx_install](http://j.mp/pmx_install)_
 
-We recommend Panamax is installed locally or but it can theoretically be installed anywhere [CoreOS can run.](http://coreos.com/docs/) The  instructions on this page represent known tested installations. 
+We recommend Panamax is installed locally but it can theoretically be installed anywhere [CoreOS can run.](http://coreos.com/docs/) The  instructions on this page represent known tested installations. 
 
 [![Installing Panamax Video](http://img.youtube.com/vi/15IKkYCfymk/0.jpg)](http://www.youtube.com/watch?v=15IKkYCfymk) 
 ***
