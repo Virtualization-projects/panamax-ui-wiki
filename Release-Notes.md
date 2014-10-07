@@ -1,6 +1,8 @@
 _Short URL: [http://j.mp/pmx_release](http://j.mp/pmx_release)_
 
-To view the version of the components of your Panamax installation, run `$ panamax info` on your terminal window. To update, run `$ panamax download`. If you are prompted that your Panamax Installer is out of date and you have installed via brew (OS X), run `$ brew upgrade http://download.panamax.io/installer/brew/panamax.rb && panamax reinstall`.
+To view the version of the components of your Panamax installation, run `$ panamax info` on your terminal window. To update, run `$ panamax download`. If you are prompted that your Panamax Installer is out of date and you have installed via brew (OS X), run `$ brew upgrade http://download.panamax.io/installer/brew/panamax.rb && panamax reinstall` or 
+`curl http://download.panamax.io/installer/ubuntu.sh | bash` if installed on Ubuntu.
+.
 
 <table border=0 style="width:300px">
 <tr>
