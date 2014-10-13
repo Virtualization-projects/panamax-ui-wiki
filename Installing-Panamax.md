@@ -160,7 +160,7 @@ This is a guide to installing Panamax on [EC2 CoreOS AMI](http://coreos.com/docs
 
 ### Create a CoreOS VM in EC2
 1. Choose **Launch Instance** in EC2 Dashboard 
-1. Select **Community AMIs** in AMI Selection wizard and search for **CoreOS**. Recommended images are: _CoreOS-stable-410.0.0-hvm_ and _CoreOS-stable-410.0.0_.
+1. Select **Community AMIs** in AMI Selection wizard and search for **CoreOS**. Recommended images are: _CoreOS-stable-444.4.0-hvm _ and _CoreOS-stable-444.4.0_.
 1. Make sure the AMI has the following specs at **minimum**: 1 vCPU, 4 GB RAM, 40 GB HDD. For example, **m3.medium** at a minimum.
 1. Select Auto-assign Public IP as **enabled**.
 1. Change storage to Root (/dev/xvda) to 40GB General Purpose (SSD)
@@ -195,7 +195,7 @@ This is a guide to installing Panamax on [EC2 CoreOS AMI](http://coreos.com/docs
    * 22,TCP, Source= Anywhere
    * 3000, TCP, Source = Anywhere
    * Any additional ports your application requires
-1. On the Image Library dashboard, search for the CoreOS 410.0.0 image: _img-30dyh_, and create a new Cloud Server
+1. On the Image Library dashboard, search for the CoreOS 444.4.0 image: _img-fpeuh_, and create a new Cloud Server
    * Select the server cloud create above
    * Use, at minimum, the Small (2GB) Server type
 1. Create a new public IP on the Cloud IPs dashboard and assign it to the newly created CoreOS server
@@ -216,11 +216,9 @@ This is a guide to installing Panamax on [EC2 CoreOS AMI](http://coreos.com/docs
 
 ## Digital Ocean
 
-_NOTE_: **Currently Digital Ocean only offers the Alpha channel of CoreOS. Panamax is not supported on this branch. Use at your own risk!**
-
 ### Create a CoreOS VM on Digital Ocean
 1. Be sure to upload your Public ssh key to Digital Ocean prior to creating your CoreOS VM
-1. Create a new droplet and select CoreOS v431.0.0 - Use, at minimum, the 2GB server type
+1. Create a new droplet and select CoreOS 444.4.0 - Use, at minimum, the 2GB server type
 1. After the droplet is created, view its detail and via the Settings section, select the Networking tab - make note of your public IP address.
 
 ### Install Panamax
@@ -240,7 +238,7 @@ _NOTE_: **Currently Digital Ocean only offers the Alpha channel of CoreOS. Panam
 ## Vultr
 
 ### Create a CoreOS VM on Vultr
-1. [Follow these instructions](https://coreos.com/docs/running-coreos/cloud-providers/vultr/) using `http://storage.core-os.net/coreos/amd64-usr/410.0.0/` instead of `http://stable.release.core-os.net/amd64-usr/current` in the `set base-url` statement.
+1. [Follow these instructions](https://coreos.com/docs/running-coreos/cloud-providers/vultr/) using `http://stable.release.core-os.net/amd64-usr/444.4.0/` in the `set base-url` statement.
 1. When creating your VM, be sure to select the 2CPU, 2GB flavor at a minimum.
 1. Make note of the public IP for your CoreOS VM after its created
 
