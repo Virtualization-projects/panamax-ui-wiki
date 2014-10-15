@@ -54,7 +54,7 @@ Ubuntu Desktop Users: Download and run the script as shown.
 
 `$ curl  http://download.panamax.io/installer/ubuntu.sh | bash`
 
-After the installation, you can open a browser window at http://localhost:8888, to view Panamax.
+After the installation, you can open a browser window at http://panamax.local:3000/, to view Panamax.
 
 For a menu of all commands available to you, simply run:
 
@@ -100,7 +100,7 @@ $ unzip pmx-installer-latest.zip
 $ ./panamax init
 ```
 
-After the installation, you can open a browser window at http://localhost:8888, to view Panamax.
+After the installation, you can open a browser window at http://panamax.local:3000/, to view Panamax.
 
 For a menu of all commands available to you, simply run:
 
