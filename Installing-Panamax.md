@@ -177,7 +177,6 @@ This is a guide to installing Panamax on [EC2 CoreOS AMI](http://coreos.com/docs
 
    `$ ssh -i  coreos-private-key.pem core@<AMI public DNS ID or Public IP of the VM>`
 
-1. Confirm your CoreOS version is 367.1.0 by running `$ cat /etc/os-release` and confirm you are on the stable branch by running `$ cat /etc/coreos/update.conf`
 1. Run: `$ sudo su`
 1. Download & unzip the latest setup script from [http://download.panamax.io/installer/pmx-installer-latest.zip](http://download.panamax.io/installer/pmx-installer-latest.zip):
 
