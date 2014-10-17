@@ -11,10 +11,4 @@ A good way to break down your documentation is into sections that logical fit th
 
 * **Post-Run Instructions:** Provide users of this template with any steps needed to complete the configuration of the application.
 
-* **Port-Forwarding:** To enable access to this application outside of your Docker Host, please provide instructions.
-  For Example:
-  If using Virtual Box, use the following command in your local machine's terminal window to create the port forwarding rule:
-  `VBoxManage controlvm panamax-vm natpf1 rule,tcp,,8997,,8080`
-  or use a [link to our wiki page instructions.](https://github.com/CenturyLinkLabs/panamax-ui/wiki/How-To%3A-Port-Forwarding-on-VirtualBox)
-
 * **Resources:** List any other resources that you may want to share.
