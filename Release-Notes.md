@@ -8,8 +8,8 @@ To view the version of the components of your Panamax installation, run `$ panam
 <tr>
   <th>Stable Release</th>
   <td>10/17/2014</td> 
-  <td>10/20/2014</td>
-  <td>10/20/2014</td>
+  <td>10/10/2014</td>
+  <td>10/10/2014</td>
   <td></td>
   <td></td>
   <td></td>
