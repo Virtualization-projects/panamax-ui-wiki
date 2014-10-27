@@ -95,8 +95,8 @@ Run the following commands from inside a [Cygwin](https://cygwin.com/install.htm
 ```
 $ mkdir ~/.panamax
 $ cd ~/.panamax
-$ curl -O http://download.panamax.io/installer/pmx-installer-latest.zip
-$ unzip pmx-installer-latest.zip
+$ curl -O http://download.panamax.io/installer/panamax-latest.tar.gz
+$ mkdir -p ~/.panamax && tar -C ~/.panamax -zxvf panamax-latest.tar.gz
 $ ./panamax init
 ```
 
@@ -178,9 +178,9 @@ This is a guide to installing Panamax on [EC2 CoreOS AMI](http://coreos.com/docs
    `$ ssh -i  coreos-private-key.pem core@<AMI public DNS ID or Public IP of the VM>`
 
 1. Run: `$ sudo su`
-1. Download & unzip the latest setup script from [http://download.panamax.io/installer/pmx-installer-latest.zip](http://download.panamax.io/installer/pmx-installer-latest.zip):
+1. Download & unzip the latest setup script from [http://download.panamax.io/installer/panamax-latest.tar.gz](http://download.panamax.io/installer/panamax-latest.tar.gz):
 
-    `$ curl -O http://download.panamax.io/installer/pmx-installer-latest.zip && unzip pmx-installer-latest.zip -d /var/panamax`
+    `$ curl -O http://download.panamax.io/installer/panamax-latest.tar.gz && mkdir -p /var/panamax && tar -C /var/panamax -zxvf panamax-latest.tar.gz`
 1. Change to the /var/panamax directory: `$ cd /var/panamax`
 1. Run: `$ ./coreos install --stable`
 1. Once the installer completes, you can access panamax at: `http:// _Public IP_ :3000/`
@@ -206,9 +206,9 @@ This is a guide to installing Panamax on [EC2 CoreOS AMI](http://coreos.com/docs
    `$ ssh core@<Public IP of the VM>`
 
 1. Run: `$ sudo su`
-1. Download & unzip the latest setup script from [http://download.panamax.io/installer/pmx-installer-latest.zip](http://download.panamax.io/installer/pmx-installer-latest.zip):
+1. Download & unzip the latest setup script from [http://download.panamax.io/installer/panamax-latest.tar.gz](http://download.panamax.io/installer/panamax-latest.tar.gz):
 
-    `$ curl -O http://download.panamax.io/installer/pmx-installer-latest.zip && unzip pmx-installer-latest.zip -d /var/panamax`
+    `$ curl -O http://download.panamax.io/installer/panamax-latest.tar.gz && mkdir -p /var/panamax && tar -C /var/panamax -zxvf panamax-latest.tar.gz`
 1. Change to the /var/panamax directory: `$ cd /var/panamax`
 1. Run: `$ ./coreos install --stable`
 1. Once the installer completes, you can access panamax at: `http:// _Public IP_ :3000/`
@@ -227,9 +227,9 @@ This is a guide to installing Panamax on [EC2 CoreOS AMI](http://coreos.com/docs
    `$ ssh core@<Public IP of the VM>`
 
 1. Run: `$ sudo su`
-1. Download & unzip the latest setup script from [http://download.panamax.io/installer/pmx-installer-latest.zip](http://download.panamax.io/installer/pmx-installer-latest.zip):
+1. Download & unzip the latest setup script from [http://download.panamax.io/installer/panamax-latest.tar.gz](http://download.panamax.io/installer/panamax-latest.tar.gz):
 
-    `$ curl -O http://download.panamax.io/installer/pmx-installer-latest.zip && unzip pmx-installer-latest.zip -d /var/panamax`
+    `$ curl -O http://download.panamax.io/installer/panamax-latest.tar.gz && mkdir -p /var/panamax && tar -C /var/panamax -zxvf panamax-latest.tar.gz`
 1. Change to the /var/panamax directory: `$ cd /var/panamax`
 1. Run: `$ ./coreos install --stable`
 1. Once the installer completes, you can access panamax at: `http:// _Public IP_ :3000/`
@@ -248,9 +248,9 @@ This is a guide to installing Panamax on [EC2 CoreOS AMI](http://coreos.com/docs
    `$ ssh core@<Public IP of the VM>`
 
 1. Run: `$ sudo su`
-1. Download & unzip the latest setup script from [http://download.panamax.io/installer/pmx-installer-latest.zip](http://download.panamax.io/installer/pmx-installer-latest.zip):
+1. Download & unzip the latest setup script from [http://download.panamax.io/installer/panamax-latest.tat.gz](http://download.panamax.io/installer/panamax-latest.tar.gz):
 
-    `$ curl -O http://download.panamax.io/installer/pmx-installer-latest.zip && unzip pmx-installer-latest.zip -d /var/panamax`
+    `$ curl -O http://download.panamax.io/installer/panamax-latest.tar.gz && mkdir -p /var/panamax && tar -C /var/panamax -zxvf panamax-latest.tar.gz`
 1. Change to the /var/panamax directory: `$ cd /var/panamax`
 1. Run: `$ ./coreos install --stable`
 1. Once the installer completes, you can access panamax at: `http:// _Public IP_ :3000/`
@@ -277,9 +277,9 @@ This is a guide to installing Panamax on [EC2 CoreOS AMI](http://coreos.com/docs
 
    `$ ssh root@<Public IPv4 of the VM>`
 
-1. Download & unzip the latest setup script from [http://download.panamax.io/installer/pmx-installer-latest.zip](http://download.panamax.io/installer/pmx-installer-latest.zip):
+1. Download & unzip the latest setup script from [http://download.panamax.io/installer/panamax-latest.tat.gz](http://download.panamax.io/installer/panamax-latest.tar.gz):
 
-    `$ curl -O http://download.panamax.io/installer/pmx-installer-latest.zip && unzip pmx-installer-latest.zip -d /var/panamax`
+    `$ curl -O http://download.panamax.io/installer/panamax-latest.tar.gz && mkdir -p /var/panamax && tar -C /var/panamax -zxvf panamax-latest.tar.gz`
 
 1. Change to the /var/panamax directory: `$ cd /var/panamax`
 1. Run: `$ ./coreos install --stable`
