@@ -248,7 +248,7 @@ This is a guide to installing Panamax on [EC2 CoreOS AMI](http://coreos.com/docs
    `$ ssh core@<Public IP of the VM>`
 
 1. Run: `$ sudo su`
-1. Download & unzip the latest setup script from [http://download.panamax.io/installer/panamax-latest.tat.gz](http://download.panamax.io/installer/panamax-latest.tar.gz):
+1. Download & unzip the latest setup script from [http://download.panamax.io/installer/panamax-latest.tar.gz](http://download.panamax.io/installer/panamax-latest.tar.gz):
 
     `$ curl -O http://download.panamax.io/installer/panamax-latest.tar.gz && mkdir -p /var/panamax && tar -C /var/panamax -zxvf panamax-latest.tar.gz`
 1. Change to the /var/panamax directory: `$ cd /var/panamax`
@@ -277,7 +277,7 @@ This is a guide to installing Panamax on [EC2 CoreOS AMI](http://coreos.com/docs
 
    `$ ssh root@<Public IPv4 of the VM>`
 
-1. Download & unzip the latest setup script from [http://download.panamax.io/installer/panamax-latest.tat.gz](http://download.panamax.io/installer/panamax-latest.tar.gz):
+1. Download & unzip the latest setup script from [http://download.panamax.io/installer/panamax-latest.tar.gz](http://download.panamax.io/installer/panamax-latest.tar.gz):
 
     `$ curl -O http://download.panamax.io/installer/panamax-latest.tar.gz && mkdir -p /var/panamax && tar -C /var/panamax -zxvf panamax-latest.tar.gz`
 
