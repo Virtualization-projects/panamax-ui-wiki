@@ -4,10 +4,10 @@ We recommend the Panamax Client (UI/API) is installed locally but it can theoret
 
 [![Installing Panamax Video](http://img.youtube.com/vi/15IKkYCfymk/0.jpg)](http://www.youtube.com/watch?v=15IKkYCfymk) 
 ***
-# Local Installation (Recommended) 
+# Panamax Client - Local Installation (Recommended) 
 Panamax is currently in BETA
 
-**Panamax Client - Local Client Installation Requirements**
+**Local Client Installation Requirements**
 
 [VirtualBox 4.3](https://www.virtualbox.org/wiki/Downloads/) or higher
 
