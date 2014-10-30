@@ -1,4 +1,4 @@
-# Cloud Provider Panamax Client UI/API Installation
+# Cloud Provider Panamax Client Installation
 
 **NOTE: Although we do not recommend installing the Panamax Client(UI/API) on a Cloud Provider it is possible, below are some archived directions prior to the remote agent/adapter capability being available.**
 
