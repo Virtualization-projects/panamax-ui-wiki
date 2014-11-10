@@ -175,6 +175,9 @@ _NOTE:_ You can run ``$ ./pmx-agent`` to reinstall, upgrade and run other option
 2. ``$ cd ~/pmx-agent``
 3. ``$ ./pmx-agent``
 
+* Learn more about the [Fleet Adapter](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Fleet-Adapter)
+* Learn more about the [Kubernetes Adapter](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Kubernetes-Adapter)
+
 ## Adding a deployment endpoint to the client
 With you copied token, browse to the Dashboard on the Panamax client and select Remote Deployment Targets:
 
