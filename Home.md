@@ -7,6 +7,9 @@ _Short URL: [http://j.mp/pmx_wiki](http://j.mp/pmx_wiki)_
 * [Panamax-API](https://github.com/CenturyLinkLabs/panamax-api)
 * [Panamax-CoreOS](https://github.com/CenturyLinkLabs/panamax-coreos)
 * [CTL Base UI kit](https://github.com/CenturyLinkLabs/ctl-base-ui)
+* [Panamax-Remote-Agent](https://github.com/CenturyLinkLabs/panamax-remote-agent)
+* [Panamax-Kubernetes-Adapter](https://github.com/CenturyLinkLabs/panamax-kubernetes-adapter)
+* [Panamax-Fleet-Adapter](https://github.com/CenturyLinkLabs/panamax-fleet-adapter)
 
 **Please note:** Panamax is **not** [even near 1.0 yet](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Release-Notes). It does function, but when it doesn’t we’d hope you report the bug or get involved actively developing it.  We think there are many possibilities to further enhance and extend the tool and [welcome your feedback and help](http://feedback.panamax.io/). 
 
