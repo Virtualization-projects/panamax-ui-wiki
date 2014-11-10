@@ -115,3 +115,4 @@ For a menu of all commands available to you, simply run:
 **NOTE:**  The [remote agent capability](http://www.centurylinklabs.com/panamax-status-update-remote-agent-and-adapters/) provides the ability to deploy an application to remote infrastructure targets.  It is not recommended to install the Panamax Client on Cloud Providers although it is still possible and the previous instructions remain here:  [Installing the Panamax Client(UI/API) on a Cloud Provider](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Cloud-Provider-Installation-of-Panamax-Client).
 
 # Panamax Remote Agent Installation 
+_Short URL:_ [http://j.mp/pmx_install_agent](http://j.mp/pmx_install_agent)
