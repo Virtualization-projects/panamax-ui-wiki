@@ -28,7 +28,39 @@ To understand how the Kubernetes Adapter translates a Panamax Template into Kube
       - host_port: 3306
         container_port: 3306
 
-This template describes two services and their corresponding configuration (note that some of the metadata you typically find in Panamax templates like `description` and `category` has been stripped out of this example for the sake of brevity)
+This template describes two services and their corresponding configuration (note that some of the metadata you typically find in Panamax templates like `description` and `category` has been stripped out of this example for the sake of brevity).
+
+For this template, there are three Kubernetes artifacts that will be created: two Pods and one Service (note that the use of the word "service" tends to get overloaded quite a bit -- whenever you see Service with a capital 'S', know that we're talking specifically about a Kubernetes Service).  There will be on pod created for each of the services described in the template. First the pod for the WordPress service:
+
+    {
+      "id": "wp-pod",
+      "kind": "Pod",
+      "apiVersion": "v1beta1",
+      "desiredState": {
+        "manifest": {
+          "id": "wp-pod",
+          "version": "v1beta1",
+          "containers": [{
+            "name": "wp",
+            "image": "centurylink/wordpress:3.9.1",
+            "ports": [{
+              "containerPort": 80,
+              "hostPort": 8000
+            }],
+            "env": [{
+              "name": "DB_PASSWORD", 
+              "value": "pass@word01"
+            }, {
+              "name": "DB_NAME", 
+              "value": "wordpress"
+            }]
+          }]
+        }
+      },
+      "labels": {
+        "name": "wp"
+      }
+    }
 
 ## Caveats
 
