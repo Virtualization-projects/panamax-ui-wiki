@@ -117,7 +117,7 @@ For a menu of all commands available to you, simply run:
 # Panamax Remote Agent Installation 
 _Short URL:_ [http://j.mp/pmx_install_agent](http://j.mp/pmx_install_agent)
 
-Installing the Panamax Remote Agent allows you to deploy your application directly from your Panamax client to a deployment endpoint. The following describes the process for preparing your deployment environment and how to install the Panamax Remote Agent and adaptor for your specific orchestrator.
+Installing the Panamax Remote Agent allows you to deploy your application directly from your Panamax client to a deployment endpoint. The following describes the process for preparing your deployment environment and how to install the Panamax Remote Agent and adapter for your specific orchestrator.
 
 ## Setup your deployment environment
 Panamax allows you to deploy your application to any node or cluster of nodes utilizing our remote agent. The first step is to setup your deployment endpoint on the cloud provider of your choice with the orchestrator of your choice. The following links should provide some guidance on how to setup an environment with specific orchestrators that Panamax currently supports:
@@ -166,7 +166,7 @@ Docker must be [installed](https://docs.docker.com/installation/#installation) o
 2. Run ``$ sudo su`` to ensure your docker commands will run with correct privileges
 3. Run ``$ sudo bash -c "$(curl http://download.panamax.io/agent/pmx-agent-install)"`` 
 4. Select (1) - `init`, to begin the installation process
-5. Follow the prompts, including choosing your adaptor, adding your API endpoint (typically a private IP) and Panamax Remote Agent endpoint (typically a public IP)
+5. Follow the prompts, including choosing your adapter, adding your API endpoint (typically a private IP) and Panamax Remote Agent endpoint (typically a public IP)
 6. Copy the displayed token (needed when adding the deployment endpoint to the client)
 
 _NOTE:_ You can run ``$ ./pmx-agent`` to reinstall, upgrade and run other options for the remote agent. The folder is located under root home. Access the folder, follow the following steps:
