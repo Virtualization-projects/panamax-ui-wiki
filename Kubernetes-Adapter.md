@@ -30,7 +30,7 @@ To understand how the Kubernetes Adapter translates a Panamax Template into Kube
 
 This template describes two services and their corresponding configuration (note that some of the metadata you typically find in Panamax templates like `description` and `category` has been stripped out of this example for the sake of brevity).
 
-For this template, there are three Kubernetes artifacts that will be created: two Pods and one Service (note that the use of the word "service" tends to get overloaded quite a bit -- whenever you see Service with a capital 'S', know that we're talking specifically about a Kubernetes Service).  There will be on pod created for each of the services described in the template. First the pod for the WordPress service:
+For this template, there are three Kubernetes artifacts that will be created: two Pods and one Service (note that the use of the word "service" tends to get overloaded quite a bit -- whenever you see Service with a capital 'S', know that we're talking specifically about a Kubernetes Service).  There will be on pod created for each of the services described in the template. First the Pod for the WordPress service:
 
     {
       "id": "wp-pod",
@@ -61,6 +61,36 @@ For this template, there are three Kubernetes artifacts that will be created: tw
         "name": "wp"
       }
     }
+
+And the Pod for the MySQL service:
+
+    {
+      "id": "db-pod",
+      "kind": "Pod",
+      "apiVersion": "v1beta1",
+      "desiredState": {
+        "manifest": {
+          "id": "db-pod",
+          "version": "v1beta1",
+          "containers": [{
+            "name": "db",
+            "image": "centurylink/mysql:5.5",
+            "ports": [{
+              "containerPort": 3306,
+              "hostPort": 3306
+            }],
+            "env": [{
+              "name": "MYSQL_ROOT_PASSWORD", 
+              "value": "pass@word01"
+            }]
+          }]
+        }
+      },
+      "labels": {
+        "name": "db"
+      }
+    }
+
 
 ## Caveats
 
