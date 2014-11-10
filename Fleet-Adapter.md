@@ -54,7 +54,7 @@ Fleet has no concept of service discovery, so in order to allow containers to st
 IP address derived from the value associated with the etcd key of the same name created when the dependency's container is created, e.g. DB_1_SERVICE_HOST=172.17.8.101
 
 **alias_PORT**
-Full URL for the dependency's container, e.g. DB_1_PORT=tcp://172.17.8.101:3306. These values correspond to the lowest exposed port binding rule.
+Full URL for the dependency's container, e.g. DB_1_PORT=tcp://172.17.8.101:3306. These values correspond to the lowest exposed port binding rule. If the child container in the link relationship exposes more than one port only the lowest numbered port will be used for the Fleet unit configuration.
  
 Additionally, for each port binding rule, the following 4 variables will be set:
 
@@ -129,6 +129,4 @@ Conflicts=wp@*.service
 * A dependent service can only exist on a single node. If a dependent service is scaled to more than one, it will automatically be limited to only one instance (a singleton service).  
 
 * In order for container links to work, you must explicitly define each port mapping rule for the services being deployed. When using container links locally Docker has the ability to inspect the image and see any exposed ports which were defined in the Dockerfile. With Fleet the linked containers may be on different nodes in the cluster so the exposed ports must be explicitly defined in the application template so that the resulting Fleet unit can be properly configured.
-
-* When using container links locally Docker will inject service discovery environment variables into the parent container for *each* of the ports exposed by the child container. When using Fleet and etcd for service discovery only a single port can be specified. If the child container in the link relationship exposes more than one port (see the point above) only the lowest numbered port will be used for the Fleet unit configuration.
     
