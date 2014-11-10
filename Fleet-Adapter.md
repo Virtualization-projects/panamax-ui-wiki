@@ -119,14 +119,19 @@ Conflicts=wp@*.service
 
 ## Caveats
 
-* Any volume configuration (either volumes mounted from the host or from other containers) defined in your application template will **not** translate to Fleet.
+#### Volume Configuration
+Any volume configuration (either volumes mounted from the host or from other containers) defined in your application template will **not** translate to Fleet.
 
-* Fleet allows only a narrow set of valid characters when naming services. When deploying with Panamax, names may only contain lowercase letters, numbers and the `-` (dash) character. In order to comply with the Fleet naming restrictions, the adapter will automatically alter the passed in service names -- all uppercase letters will be down-cased and any other dis-allowed characters will be substituted with a `-` (dash) character.
+#### Allowed Characters
+Fleet allows only a narrow set of valid characters when naming services. When deploying with Panamax, names may only contain lowercase letters, numbers and the `-` (dash) character. In order to comply with the Fleet naming restrictions, the adapter will automatically alter the passed in service names -- all uppercase letters will be down-cased and any other dis-allowed characters will be substituted with a `-` (dash) character.
 
-* For scaled services, each individual service will be given a name using the following convention:
+#### Naming Convention
+For scaled services, each individual service will be given a name using the following convention:
 `name@instance.suffix` where name is the service name, instance is the number of the service, and the suffix is '.service.'  If the service is a singleton, it follows the naming convention ```name.service```.
 
-* A dependent service can only exist on a single node. If a dependent service is scaled to more than one, it will automatically be limited to only one instance (a singleton service).  
+#### Scaling Dependent Services
+A dependent service can only exist on a single node. If a dependent service is scaled to more than one, it will automatically be limited to only one instance (a singleton service).  
 
-* In order for container links to work, you must explicitly define each port mapping rule for the services being deployed. When using container links locally Docker has the ability to inspect the image and see any exposed ports which were defined in the Dockerfile. With Fleet the linked containers may be on different nodes in the cluster so the exposed ports must be explicitly defined in the application template so that the resulting Fleet unit can be properly configured.
+#### Container Linking
+In order for container links to work, you must explicitly define each port mapping rule for the services being deployed. When using container links locally Docker has the ability to inspect the image and see any exposed ports which were defined in the Dockerfile. With Fleet the linked containers may be on different nodes in the cluster so the exposed ports must be explicitly defined in the application template so that the resulting Fleet unit can be properly configured.
     
