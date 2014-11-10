@@ -48,30 +48,3 @@ If the service is a singleton, it follows the naming convention name.service. Th
 
 * When using container links locally Docker will inject service discovery environment variables into the parent container for *each* of the ports exposed by the child container. When using Fleet and etcd for service discovery only a single port can be specified. If the child container in the link relationship exposes more than one port (see the point above) only the lowest numbered port will be used for the Fleet unit configuration.
     
-    Each container specified as a link will result in the following 2 environment variables being set on the dependent container:
-
-    **alias_SERVICE_HOST**
-
-    IP address derived from the value associated with the etcd key of the same name created when the dependency's container is created, e.g. DB_1_SERVICE_HOST=172.17.8.101
-
-    **alias_PORT**
-
-    Full URL for the dependency's container, e.g. DB_1_PORT=tcp://172.17.8.101:3306. These values correspond to the lowest exposed port binding rule.
- 
-    Additionally, for each port binding rule, the following 4 variables will be set:
-
-    **alias_PORT_num_protocol**
-
-    Full URL for the dependency's container, e.g. DB_1_PORT_3306_TCP=tcp://172.17.8.101:3306
-
-    **alias_PORT_num_protocol_PROTO**
-
-    Protocol (tcp or udp) for the dependency's container, e.g. DB_1_PORT_3306_TCP_PROTO=tcp
-
-    **alias_PORT_num_protocol_PORT**
-
-    Exposed port number for the dependency's container, e.g. DB_1_PORT_3306_TCP_PORT=3306
-
-    **alias_PORT_num_protocol_ADDR**
-
-    IP address for the dependency's container, e.g. DB_1_PORT_3306_TCP_ADDR=172.17.8.101
