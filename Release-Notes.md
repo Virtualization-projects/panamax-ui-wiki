@@ -8,6 +8,46 @@ To view the version of the components of your Panamax installation, run `$ panam
 <tr>
   <th>Stable Release</th>
   <td>10/17/2014</td> 
+  <td>11/10/2014</td>
+  <td>11/10/2014</td>
+  <td></td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>Client</td>
+  <td><A HREF="https://github.com/CenturyLinkLabs/panamax-coreos/blob/master/CHANGELOG.md#changelog">Installer:  0.3.2</A></td> 
+  <td><A HREF="https://github.com/CenturyLinkLabs/panamax-ui/blob/master/CHANGELOG.md#changelog">UI:    0.2.7</A></td>
+  <td><A HREF="https://github.com/CenturyLinkLabs/panamax-api/blob/master/CHANGELOG.md#changelog">API:    0.2.7</A></td>
+  <td>CoreOS:  444.5.0</td>
+  <td>Docker:  1.2.0</td>
+  <td>cAdvisor:  0.4.1</td>
+</tr>
+<th></th>
+  <td>11/10/2014</td> 
+  <td>11/10/2014</td>
+  <td>11/10/2014</td>
+  <td></td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>Remote Agent</td>
+  <td><A HREF="https://github.com/CenturyLinkLabs/panamax-remote-agent-installer/blob/master/CHANGELOG.md">Installer:  0.1.0</A></td> 
+  <td><A HREF="https://github.com/CenturyLinkLabs/panamax-remote-agent">Remote Agent:    0.1.0</A></td>
+  <td><A HREF="https://github.com/CenturyLinkLabs/panamax-kubernetes-adapter/blob/master/CHANGELOG.md">Kubernetes Adapter:    0.1.0</A></td>
+  <td><A HREF="https://github.com/CenturyLinkLabs/panamax-fleet-adapter/blob/master/CHANGELOG.md">Fleet Adapter:    0.1.0</A></td>
+  <td></td>
+  <td></td>
+</tr>
+</table>
+
+***
+
+<table border=0 style="width:300px">
+<tr>
+  <th>Stable Release</th>
+  <td>10/17/2014</td> 
   <td>10/21/2014</td>
   <td>10/21/2014</td>
   <td></td>
@@ -25,7 +65,6 @@ To view the version of the components of your Panamax installation, run `$ panam
 </tr>
 </table>
 
-***
 
 <table border=0 style="width:300px">
 <tr>
