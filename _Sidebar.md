@@ -4,7 +4,7 @@
   * [[Client - Ubuntu|Installing-Panamax#ubuntu-linux-1204-or-higher]]
   * [[Client - Debian|Installing-Panamax#debian-60-or-higher]]
   * [[Client - Windows|Installing-Panamax#windows-with-cgywin]]
-  * [[Remote Agent|Installing-Panamax#panamax-remote-agent-installation]]
+  * [[Remote Agent|Panamax Remote Agent Installation]]
 * [[Public Templates|Panamax-Public-Templates]]
   * [[Submitting a Template|Panamax-Public-Templates#submit-a-template]]
 * [[Known Issues|Known Issues]]
