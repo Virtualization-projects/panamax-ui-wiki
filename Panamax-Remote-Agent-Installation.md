@@ -61,7 +61,7 @@ Docker must be [installed](https://docs.docker.com/installation/#installation) o
  
 - The API endpoint url, which can be of any Fleet enabled node running in the cluster, should include `http://` and port 4001. For example: `http://10.x.x.x:4001`. This is typically a private IP.
 
-You can run ``$ ./pmx-agent`` to reinstall, upgrade and run other options for the remote agent. The folder is located under root home. Access the folder, follow the following steps:
+You can run ``$ ./pmx-agent`` to reinstall, upgrade and run other options for the remote agent. The folder is located under root home. Access the folder, following these steps:
 
 1. ``$ sudo su``
 2. ``$ cd ~/pmx-agent``
