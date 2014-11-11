@@ -119,6 +119,54 @@ With this service running, each of the containers will receive the following env
 
 Note that these environment variables follow exactly the same conventions that Docker uses when linking containers that are running on the same host. By using these environment variables in your application for service discovery you should be able to run the same container using both Docker links and Kubernetes Services.
 
+### Scaling
+
+During the deployment process, the user is provided an opportunity to scale the services being deployed. For example, if a user has a cluster of 3 nodes the user might choose to scale the WordPress service across all 3 nodes. 
+
+In this case the Kubernetes Adapter will create a Kubernetes Replication Controller for the WordPress Pod:
+
+    {  
+      "id":"wp-replication-controller",
+      "apiVersion":"v1beta1",
+      "kind":"ReplicationController",
+      "desiredState":{  
+        "replicas":3,
+        "replicaSelector":{  
+          "name":"wp"
+        },
+        "podTemplate":{  
+          "desiredState":{  
+            "manifest":{  
+              "id":"wp-replication-controller",
+              "version":"v1beta1",
+              "containers":[{  
+                "name":"wp",
+                "image":"centurylink/wordpress:3.9.1",
+                "ports":[{  
+                  "hostPort":8000,
+                  "containerPort":80,
+                  "protocol":"TCP"
+                }],
+                "env":[{  
+                  "name":"DB_PASSWORD",
+                  "value":"pass@word01"
+                }, {  
+                  "name":"DB_NAME",
+                  "value":"wordpress"
+                }]
+              }]
+            }
+          },
+          "labels":{  
+            "name":"wp"
+          }
+        }
+      },
+      "labels":{  
+        "name":"wp"
+      }
+    }
+
 ## Caveats
 
 * Any volume configuration (either volumes mounted from the host or from other containers) defined in your application template will **not** translate to Kubernetes.
