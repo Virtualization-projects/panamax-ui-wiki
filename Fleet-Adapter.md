@@ -1,4 +1,4 @@
-**The Fleet adapter in combination with the Panamax remote agent enables the deployment of a Panamax template to a Fleet-controlled cluster.**
+**The Fleet adapter, in combination with the Panamax remote agent, enables the deployment of a Panamax template to a Fleet-controlled cluster.**
 
 ## Template Translation
 
