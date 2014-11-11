@@ -1,4 +1,4 @@
-_Short URL:_ [http://j.mp/pmx_install_agent](http://j.mp/pmx_install_agent)
+_Short URL:_ [http://j.mp/pmx_installagent](http://j.mp/pmx_installagent)
 
 Installing the Panamax Remote Agent allows you to deploy your application directly from your Panamax client to a deployment endpoint. The following describes the process for preparing your deployment environment and how to install the Panamax Remote Agent and adapter for your specific orchestrator.
 
