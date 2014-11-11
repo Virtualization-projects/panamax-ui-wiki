@@ -91,6 +91,33 @@ And the Pod for the MySQL service:
       }
     }
 
+With Kubernetes, service discovery is facilitated by creating a Kubernetes Service and linking it to a Pod. Once a Service is running, any subsequent pods will receive a set of environment variables that contain information about the IP address and port number that can be used to connect to the container associated with the Service.
+
+For our sample template above, the Kubernetes Adatper will configure a single Service as follows:
+
+    {  
+      "id":"db-1",
+      "apiVersion":"v1beta1",
+      "kind":"Service",
+      "port":3306,
+      "labels":{  
+        "name":"db"
+      },
+      "selector":{  
+        "name":"db"
+      },
+      "containerPort":3306
+    }
+
+With this service running, each of the containers will receive the following environment variables when they are started:
+
+    DB_1_PORT=tcp://127.0.0.1:3306
+    DB_1_PORT_3306_TCP=tcp://127.0.0.1:3306
+    DB_1_PORT_3306_TCP_PROTO=tcp
+    DB_1_PORT_3306_TCP_PORT=3306
+    DB_1_PORT_3306_TCP_ADDR=127.0.0.1
+
+Note that these environment variables follow exactly the same conventions that Docker uses when linking containers that are running on the same host. By using these environment variables in your application for service discovery you should be able to run the same container using both Docker links and Kubernetes Services.
 
 ## Caveats
 
