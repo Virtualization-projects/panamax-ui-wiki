@@ -1,6 +1,6 @@
 _Short URL: [http://j.mp/pmx_install](http://j.mp/pmx_install)_
 
-We recommend the Panamax Client (UI/API) is installed locally but it can theoretically be installed anywhere [CoreOS can run.](http://coreos.com/docs/) The  instructions on this page represent known tested installations. 
+Panamax is comprised of the Panamax Client which can be used to create new Panamax Templates and deploy Templates and Images locally.  If you require to deploy templates to remote infrastructure (not local) be sure to also [install the Panamax Remote Agent](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Panamax-Remote-Agent-Installation) on the remote infrastructure you need to deploy to. 
 
 [![Installing Panamax Video](http://img.youtube.com/vi/15IKkYCfymk/0.jpg)](http://www.youtube.com/watch?v=15IKkYCfymk) 
 ***
@@ -113,4 +113,3 @@ For a menu of all commands available to you, simply run:
 ## Cloud Provider Installation - Panamax Client
 
 **NOTE:**  The [remote agent capability](http://www.centurylinklabs.com/panamax-status-update-remote-agent-and-adapters/) provides the ability to deploy an application to remote infrastructure targets.  It is not recommended to install the Panamax Client on Cloud Providers although it is still possible and the previous instructions remain here:  [Installing the Panamax Client(UI/API) on a Cloud Provider](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Cloud-Provider-Installation-of-Panamax-Client).
-
