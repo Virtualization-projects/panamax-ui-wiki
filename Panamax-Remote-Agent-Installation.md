@@ -52,7 +52,16 @@ Docker must be [installed](https://docs.docker.com/installation/#installation) o
 5. Follow the prompts, including choosing your adapter, adding your API endpoint (typically a private IP) and Panamax Remote Agent endpoint (typically a public IP)
 6. Copy the displayed token (needed when adding the deployment endpoint to the client)
 
-_NOTE:_ You can run ``$ ./pmx-agent`` to reinstall, upgrade and run other options for the remote agent. The folder is located under root home. Access the folder, follow the following steps:
+**_Notes for Kubernetes Adapter_:**
+ 
+- The API endpoint url (kubernetes-master node) should include `https://` and no port. For example: `https://10.x.x.x`. This is typically a private IP.
+- The default API username is `admin` and your password is located in `$ ~/.kubernetes_auth`.
+
+**_Notes for Fleet Adapter_:**
+ 
+- The API endpoint url, which can be of any Fleet enabled node running in the cluster, should include `http://` and port 4001. For example: `http://10.x.x.x:4001`. This is typically a private IP.
+
+You can run ``$ ./pmx-agent`` to reinstall, upgrade and run other options for the remote agent. The folder is located under root home. Access the folder, follow the following steps:
 
 1. ``$ sudo su``
 2. ``$ cd ~/pmx-agent``
