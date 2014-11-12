@@ -63,6 +63,15 @@ Docker must be [installed](https://docs.docker.com/installation/#installation) o
  
 - The API endpoint url, which can be of any Fleet enabled node running in the cluster, should include `http://` and port 4001. For example: `http://10.x.x.x:4001`. This is typically a private IP.
 
+**_Notes for running on Google Container Engine_:**
+
+- The API endpoint url (k8s-containercluster-master) should include `https://` and no port. For example: `https://10.x.x.x`. This is typically a private IP.
+- The default API username is `admin` and your password can be discovered by running the following commands where you have gcloud installed:
+
+     `$ gcloud components update preview`
+
+     `$ gcloud preview container clusters list -z _ZONE_`
+
 You can run ``$ ./pmx-agent`` to reinstall, upgrade and run other options for the remote agent. The folder is located under root home. Access the folder, following these steps:
 
 1. ``$ sudo su``
