@@ -167,11 +167,31 @@ In this case the Kubernetes Adapter will create a Kubernetes Replication Control
       }
     }
 
+The Replication Controller will do everything it can to ensure that exactly three instances of the WordPress service remain running at all times.
+
+Whenever a Replication Controller is created, the Kubernetes Adapter will also create a Kubernetes Service to act as a proxy/load-balancer for the replicated Pod:
+
+    {  
+      "id":"wp",
+      "apiVersion":"v1beta1",
+      "kind":"Service",
+      "port":8000,
+      "labels":{  
+        "name":"wp"
+      },
+      "selector":{  
+        "name":"wp"
+      },
+      "containerPort":80
+    }
+
+With this Service in place any requests to port 8000 will be automatically load-balanced between the three WordPress pods being managed by the Replication Controller.
+
 ## Caveats
 
 * Any volume configuration (either volumes mounted from the host or from other containers) defined in your application template will **not** translate to Kubernetes.
 
-* Kubernetes allows only a narrow set of valid characters when naming pods, replication controllers and services. Names may only contain lowercase letters, numbers and the `-` (dash) character. In order to comply with the Kubernetes naming restrictions, the adapter will automatically alter the passed in service names -- all uppercase letters will be down-cased and any other dis-allowed characters will be substituted with a `-` (dash) character.
+* Kubernetes allows only a narrow set of valid characters when naming Pods, Replication Controllers and Services. Names may only contain lowercase letters, numbers and the `-` (dash) character. In order to comply with the Kubernetes naming restrictions, the adapter will automatically alter the passed in service names -- all uppercase letters will be down-cased and any other dis-allowed characters will be substituted with a `-` (dash) character.
 
 * In order for container links to work, you must explicitly expose any ports that the linked-to container is listening on. When using container links locally Docker has the ability to inspect the image and see any exposed ports which were defined in the Dockerfile. With Kubernetes the linked containers may be on different nodes in the cluster so the exposed ports must be explicitly defined in the application template so that the Kubernetes Service can be properly configured.
 
