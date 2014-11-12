@@ -21,11 +21,13 @@ Panamax allows you to deploy your application to any node or cluster of nodes ut
 [Debugging FAQ](https://github.com/GoogleCloudPlatform/kubernetes/wiki/Debugging-FAQ)
 
 ###Fleet/etcd
+[Installing CoreOS On CentruyLink Cloud](http://www.centurylinklabs.com/tutorials/openstack/installing-coreos/)
+
+[Building CoreOS Server Cluster on the CenturyLink Cloud](https://t3n.zendesk.com/entries/47064274-Building-CoreOS-Server-Cluster-on-the-CenturyLink-Cloud)
+
 [Running CoreOS on Google Compute Engine](https://coreos.com/docs/running-coreos/cloud-providers/google-compute-engine/)
 
 [Running CoreOS on EC2](https://coreos.com/docs/running-coreos/cloud-providers/ec2/)
-
-[Building CoreOS Server Cluster on the CenturyLink Cloud](https://t3n.zendesk.com/entries/47064274-Building-CoreOS-Server-Cluster-on-the-CenturyLink-Cloud)
 
 ## Adding a Panamax Remote Agent node to your environment
 In order to install and utilize the Panamax Remote Agent, Panamax uses a dedicated installer node. The Panamax remote agent can run on Linux with docker installed. However, we recommend using CoreOS for simplicity. 
