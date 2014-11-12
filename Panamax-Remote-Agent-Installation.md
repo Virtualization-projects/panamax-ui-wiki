@@ -10,6 +10,8 @@ Panamax allows you to deploy your application to any node or cluster of nodes ut
 
 [Getting started on Google Compute Engine](https://github.com/GoogleCloudPlatform/kubernetes/blob/master/docs/getting-started-guides/gce.md)
 
+[Google Container Engine](https://cloud.google.com/container-engine/)
+
 [How To Install and Configure Kubernetes on top of a CoreOS Cluster](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-kubernetes-on-top-of-a-coreos-cluster)
 
 [Single-node CoreOS Setup](https://github.com/GoogleCloudPlatform/kubernetes/blob/master/docs/getting-started-guides/coreos/coreos_cloud_config.md)
