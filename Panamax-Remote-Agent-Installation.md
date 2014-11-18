@@ -93,3 +93,8 @@ Click on _Add a new Remote Deployment Target_, enter a friendly name and your co
 ![image](http://panamax.ca.tier3.io/panamax_ui_wiki_screens/Add_target.png)
 
 Click _Create Remote Deployment Target_ to save. The deploy target is now available to deploy applications.
+
+## Helpful Links
+[Fleet Adapter Troubleshooting](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Fleet-Adapter-Troubleshooting)
+
+[Kubernetes Adapter Troublshooting](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Kubernetes-Adapter-Troubleshooting)
