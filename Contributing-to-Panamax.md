@@ -1,4 +1,4 @@
-Panamax is comprised of a few git repos: [panamax-ui](https://github.com/CenturyLinkLabs/panamax-ui), [panamax-api](https://github.com/CenturyLinkLabs/panamax-api), and [panamax-coreos](https://github.com/CenturyLinkLabs/panamax-coreos). 
+Panamax is comprised of several git repos: [panamax-ui](https://github.com/CenturyLinkLabs/panamax-ui), [panamax-api](https://github.com/CenturyLinkLabs/panamax-api), [panamax-remote-agent](https://github.com/CenturyLinkLabs/panamax-remote-agent), and [panamax-coreos](https://github.com/CenturyLinkLabs/panamax-coreos). 
 Panamax templates can be stored in a git repo as well, the one that comes pre-installed in panamax is [panamax-public-templates](https://github.com/CenturyLinkLabs/panamax-public-template), which acts as the canonical template source.
 
 ## Reporting Issues
