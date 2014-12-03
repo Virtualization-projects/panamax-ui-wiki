@@ -1,3 +1,4 @@
+# Adapter Developer's Guide
 # Overview
 When composing an application with Panamax all of the Docker containers are executed within a local CoreOS instance. This local sandbox is perfect for validating that all of your containers work (and work well together) but once you've got your application configured the way you want it you're probably going to want to deploy it into an environment other than your local machine.
 
@@ -23,7 +24,7 @@ At start-up time, the Panamax Agent is associated with a single adapter using a 
 Adapters are simply containerized applications that expose a specific HTTP REST service interface (described in detail below). As long as the adapter adheres to the interface specification, the service can be implemented with any language/framework the developer choses. The only other requirement is that the adapter's Docker image must expose the port on which the service is listening (typically done via an `EXPOSE` instruction in the Dockerfile) -- this is how the Agent will discover the adapter endpoint when the two containers are linked.
 
 # API
-The adapter API is an HTTP REST service that accepts and returns JSON-encoded entities.
+The adapter API is an HTTP REST service that accepts and returns JSON-encoded entities (`Content-Type: application/json`).
 
 ## Entities
 The primary entity used in the adapter API is the Service. The Service is a representation of the Docker images (along with their configuration data) which comprise an application.
@@ -39,6 +40,7 @@ The primary entity used in the adapter API is the Service. The Service is a repr
 * *expose*: list of ports that should be exposed when the container is started
 * *environment*: list of Environment entities
 * *volumes*: list of Volume entities
+* *deployment*: Deployment entity
 * *desiredState*: state the user wishes the service to be in ("started", "stopped")
 * *currentState*: (read-only) state the service is currently in
 
@@ -58,6 +60,12 @@ The primary entity used in the adapter API is the Service. The Service is a repr
 ### Volume
 * *hostPath*: The host path to be mapped into the container
 * *containerPath*: (required) The path at which to mount the volume inside the container
+
+### Deployment
+The Deployment entity will likely be expanded in the future to account for additional deployment-specific attributes. For now it supports the following:
+
+* *count*: Number of instances of this service which should be created
+
 
 ## Endpoints
 ### Create Services
@@ -80,6 +88,9 @@ The adapter doesn't necessarily need to wait until all the services have started
 	  {
 	    "name": "wp",
 	    "source": "wordpress:latest"
+	    "deployment": {
+	      "count": 2
+	    }
 	  }
 	]
 
@@ -94,9 +105,13 @@ The adapter doesn't necessarily need to wait until all the services have started
 	    "currentState": "started"
 	  },
 	  {
-	    "id": "wp.service",
+	    "id": "wp.1.service",
 	    "currentState": "started"
-	  }
+	  },
+	  {
+	    "id": "wp.2.service",
+	    "currentState": "started"
+	  }	  
 	]
 	
 Returned Services may be partial entities containing just the service IDs or may echo back the full service entity (including the ID).
@@ -109,7 +124,7 @@ Returned Services may be partial entities containing just the service IDs or may
 
 ### Get Service
     GET /v1/services/(id) HTTP/1.1
-Returns the status of a previously created service.
+Returns the status of a previously created service. The value of the `currentState` field should give some indication of the status of the service at the time that the request is received. The exact value returned will likely vary between implementations.
 
 **Example Request:**
 
