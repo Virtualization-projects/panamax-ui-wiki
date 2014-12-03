@@ -18,7 +18,7 @@ Bootstrap an OS X machine with the components that makeup the Panamax Client.
 
 ### [Panamax Local Agent](https://github.com/CenturyLinkLabs/panamax-api)
 
-This is where most of the magic happens. The Local Agent is responsible for communicating with many dependencies, including the local Docker host, which enables Panamax to assemble multi-container applications. The local agent also communicates to remote agents (see below), Docker registries, and more. An API is exposed, by the Local Agent, enabling actions via the UI (see below) to be executed directly against the Local Agent.
+This is where most of the magic happens. The Local Agent is responsible for communicating with many dependencies, including the local Docker host, which enables Panamax to assemble multi-container applications. The local agent also communicates to remote agents (see below), Docker registries, and more. An API is exposed enabling actions via the UI (see below) to be executed directly against the Local Agent.
 
 * To be run as a Docker container
 * Dependencies: Fleet, CoreOS
