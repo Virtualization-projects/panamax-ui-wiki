@@ -18,7 +18,7 @@ Bootstrap an OS X machine with the components that makeup the Panamax Client.
 
 ### [Panamax Local Agent](https://github.com/CenturyLinkLabs/panamax-api)
 
-This is where most of the magic happens. The Local Agent is responsible for communicating with many dependencies, including the local Docker host, which enables Panamax to assemble multi-container applications. The local agent also communicates to remote agents (see below), Docker registries, and more. The Local Agent exposes an API. Anything that can be accomplished via the UI (see below) can be executed directly against the Local Agent via the REST API.
+This is where most of the magic happens. The Local Agent is responsible for communicating with many dependencies, including the local Docker host, which enables Panamax to assemble multi-container applications. The local agent also communicates to remote agents (see below), Docker registries, and more. An API is exposed by the Local Agent therefore any actions accomplished via the UI (see below) can be executed directly against the Local Agent.
 
 * To be run as a Docker container
 * Dependencies: Fleet, CoreOS
@@ -42,7 +42,7 @@ The User interface is where all the pointing, clicking, dragging, and dropping o
 
 The Panamax Client is built on top of CoreOS as it's Docker client. The Panamax Local Agent leverages many features of CoreOS in addition to the standard Docker features. 
 
-* [Fleet](https://github.com/coreos/fleet) - The Panamax Client does not always interact with Docker directly, but leverages Fleet as it's Container Orchestrator. CoreOS comes with Fleet installed. Fleet must be running in order for the Local Agent to function properly (the Panamax Client installer takes care of this, but in development one may need start fleet explicitly).
+* [Fleet](https://github.com/coreos/fleet) - The Panamax Client does not always interact with Docker directly, but leverages Fleet as it's Container Orchestrator. CoreOS comes with Fleet installed and must be running for the Local Agent to function properly (the Panamax Client installer takes care of this, but in development one may need start fleet explicitly).
 * [Docker](https://www.docker.com/) - For certain features, like searching local docker images, Panamax hits the Docker API directly.
 * [Journalctl](http://www.freedesktop.org/software/systemd/man/systemd-journal-gatewayd.service.html) - Panamax parses and surfaces some of the journal output.
 
@@ -63,7 +63,7 @@ Bootstrap a docker host machine with the components that makeup a Panamax Deploy
 
 ### [Panamax Remote Agent](https://github.com/CenturyLinkLabs/panamax-remote-agent)
 
-A small, containerized agent which runs in the remote environment (Deployment Target) and listens for requests from the Panamax Client via a REST API and coerces the requests into instructions that get passed to an Orchestration adapter.
+A small, containerized agent which runs in the remote environment (Deployment Target) and listens for requests from the Panamax Client via a REST API. These requests are coerced into instructions that get passed to an Orchestration adapter.
 
 * To be run as a Docker container
 * Dependencies: one of the Panamax Orchestration Adapters
