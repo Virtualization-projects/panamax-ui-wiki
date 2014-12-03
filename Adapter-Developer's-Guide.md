@@ -41,7 +41,6 @@ The primary entity used in the adapter API is the Service. The Service is a repr
 * *environment*: list of Environment entities
 * *volumes*: list of Volume entities
 * *deployment*: Deployment entity
-* *desiredState*: state the user wishes the service to be in ("started", "stopped")
 * *currentState*: (read-only) state the service is currently in
 
 ### Link
