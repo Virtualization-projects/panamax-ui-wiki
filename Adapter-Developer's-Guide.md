@@ -199,3 +199,132 @@ Ideas for additional adapters include:
 * Plain ol' Docker - Forget the fancy orchestrators, allow remote deployment of applications to any system running Docker
 * OpenShift / geard - Deploy applications via geard to an OpenShift cluster
 * Apache Mesos - Deploy applications to a Mesos cluster
+
+# Schema
+The following JSON schema describes the valid request body to be posted to the Create Services endpoint:
+
+    {
+      "$schema": "http://json-schema.org/draft-04/schema#",
+      "type": "array",  
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "source": {
+            "type": "string"
+          },
+          "command": {
+            "type": "string"
+          },
+          "currentState": {
+            "type": "string"
+          },
+          "expose": {
+            "type": "array",
+            "items": {
+              "type": ["integer","string"]
+            }
+          },
+          "ports": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "hostPort": {
+                  "type": ["integer", "string"]
+                },
+                "containerPort": {
+                  "type": ["integer", "string"]
+                },
+                "protocol": {
+                  "type": "string",
+                  "enum": ["UDP", "TCP"]
+                }
+              },
+              "required": ["containerPort"]
+            }
+          },
+          "links": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "alias": {
+                  "type": "string"
+                }
+              },
+              "required": ["name", "alias"]
+            }
+          },
+          "volumes": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "hostPath": {
+                  "type": "string"
+                },
+                "containerPath": {
+                  "type": "string"
+                }
+              },
+              "required": ["containerPath"]
+            }
+          },
+          "volumesFrom": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": ["name"]
+            }
+          },
+          "environment": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "variable": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "string"
+                }
+              },
+              "required": ["variable", "value"]
+            }
+          },
+          "deployment": {
+            "type": "object",
+            "items": {
+              "type": "object",
+              "additionalProperties": true,
+              "properties": {
+                "count": {
+                  "type": "integer"
+                }
+              }
+            }
+          }         
+        },
+        "required": ["name", "source"]
+      }
+    }
