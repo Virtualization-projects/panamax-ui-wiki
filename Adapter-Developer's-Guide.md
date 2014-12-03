@@ -11,17 +11,17 @@ Unlike local applications where having all containers on a single host is usuall
 * [geard](http://www.openshift.org/geard/)
 * [Mesos](http://mesos.apache.org/documentation/latest/docker-containerizer/)
 
-Instead of focusing on a single Docker orchestrator, the Panamax agent was designed so that it could interact with a variety of orchestration technologies. This is accomplished by encapsulating all of the orchestrator-specific logic in a dedicated adapter layer that is distinct from the agent. The user is able to select the adapter that matches the orchestration technologies available in their target environment.
+Instead of focusing on a single Docker orchestrator, the Panamax remote agent was designed so that it could interact with a variety of orchestration technologies. This is accomplished by encapsulating all of the orchestrator-specific logic in a dedicated adapter layer that is distinct from the agent. The user is able to select the adapter that matches the orchestration technologies available in their target environment.
 
-If an adapter doesn't yet exist for a particular clustering/orchestration technology it should be fairly easy for a developer to create an adapter that will meet their needs. The rest of this guide discusses the requirements for implementing an adapter that can work with the Panamax deployment agent.
+If an adapter doesn't yet exist for a particular clustering/orchestration technology it should be fairly easy for a developer to create an adapter that will meet their needs. The rest of this guide discusses the requirements for implementing an adapter that can work with the Panamax remote agent.
 
 
 # Architecture
-The Panamax Client doesn't communicate directly with the adapter, instead requests for remote deployment are sent the Panamax Agent. The Agent is responsible for securing the connection between the Client and the remote environment and maintaining state about deployed applications. 
+The Panamax Client doesn't communicate directly with the adapter, instead requests for remote deployment are sent to the Panamax Remote Agent. The Remote Agent is responsible for securing the connection between the Client and the remote environment and maintaining state about deployed applications. 
 
-At start-up time, the Panamax Agent is associated with a single adapter using a [Docker link](https://docs.docker.com/userguide/dockerlinks/#docker-container-linking). When the Agent receives a request to deploy/delete an application it will pass it along to the configured adapter for execution.
+At start-up time, the Panamax Remote Agent is associated with a single adapter using a [Docker link](https://docs.docker.com/userguide/dockerlinks/#docker-container-linking). When the Agent receives a request to deploy/delete an application it will pass it along to the configured adapter for execution.
 
-Adapters are simply containerized applications that expose a specific HTTP REST service interface (described in detail below). As long as the adapter adheres to the interface specification, the service can be implemented with any language/framework the developer choses. The only other requirement is that the adapter's Docker image must expose the port on which the service is listening (typically done via an `EXPOSE` instruction in the Dockerfile) -- this is how the Agent will discover the adapter endpoint when the two containers are linked.
+Adapters are simply containerized applications that expose a specific HTTP REST service interface (described in detail below). As long as the adapter adheres to the interface specification, the service can be implemented with any language/framework the developer choses. The only other requirement is that the adapter's Docker image must expose the port on which the service is listening (typically done via an `EXPOSE` instruction in the Dockerfile) -- this is how the Remote Agent will discover the adapter endpoint when the two containers are linked.
 
 # API
 The adapter API is an HTTP REST service that accepts and returns JSON-encoded entities (`Content-Type: application/json`).
