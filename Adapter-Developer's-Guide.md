@@ -204,7 +204,7 @@ Ideas for additional adapters include:
 The following JSON schema describes the valid request body to be posted to the Create Services endpoint:
 
     {
-      "$schema": "http://json-schema.org/draft-04/schema#",
+      "$schema": "http://json-schema.org/schema#",
       "type": "array",  
       "items": {
         "type": "object",
