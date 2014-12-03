@@ -4,7 +4,7 @@ When composing an application with Panamax all of the Docker containers are exec
 
 Panamax provides a remote deployment feature which allows the user to take an application template and send it to a remote environment for execution. Remote deployments are handled by a small, containerized agent which runs in the remote environment and listens for requests from the Panamax Client. 
 
-Unlike local applications where having all containers on a single host is usually sufficient, remote deployments will typically involve a cluster of machines and some sort of orchestrator for deploying containers across that cluster. There are a nubmer of such orchestrators:
+Unlike local applications where having all containers on a single host is usually sufficient, remote deployments will typically involve a cluster of machines and some sort of orchestrator for deploying containers across that cluster. There are a number of such orchestrators:
 
 * [Fleet](https://coreos.com/using-coreos/clustering/)
 * [Kubernetes](https://github.com/googlecloudplatform/kubernetes#kubernetes)
