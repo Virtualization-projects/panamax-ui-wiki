@@ -1,6 +1,9 @@
+
 # Panamax Components
 
 In an effort to organize all the Panamax components, some components have been logically grouped into a set of components (Panamax Client and Deployment Target).
+
+![diagram](http://www.gliffy.com/go/publish/image/6671015/M.png)
 
 ## Panamax Client
 
