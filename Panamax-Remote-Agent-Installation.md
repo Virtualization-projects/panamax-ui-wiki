@@ -21,7 +21,7 @@ Panamax allows you to deploy your application to any node or cluster of nodes ut
 [Debugging FAQ](https://github.com/GoogleCloudPlatform/kubernetes/wiki/Debugging-FAQ)
 
 ###Fleet/etcd
-[Installing CoreOS On CentruyLink Cloud](http://www.centurylinklabs.com/tutorials/openstack/installing-coreos/)
+[Installing CoreOS On CenturyLink Cloud](http://www.centurylinklabs.com/tutorials/openstack/installing-coreos/)
 
 [Building CoreOS Server Cluster on the CenturyLink Cloud](https://t3n.zendesk.com/entries/47064274-Building-CoreOS-Server-Cluster-on-the-CenturyLink-Cloud)
 
