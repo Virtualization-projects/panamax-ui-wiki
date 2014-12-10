@@ -17,8 +17,8 @@
 7. Browse to `localhost:3000` on your windows machine to view Panamax!
 
 ## Reinstall, Restart, Update Panamax
-1. Run `$ vagrant ssh` from the `panamax-vagrant ` directory.
+1. Run `$ vagrant ssh` from the `panamax-vagrant ` directory on Windows machine.
 2. When on the CoreOS, run `$ sudo su`
-3. Change the directory: `$ cd /var/panamax`
+3. Change the directory to panamax: `$ cd /var/panamax`
 4. Run `$ ./coreos`
 5. Make your selection
