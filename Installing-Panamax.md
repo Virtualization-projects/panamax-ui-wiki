@@ -71,7 +71,7 @@ See [Ubuntu instructions.](https://github.com/CenturyLinkLabs/panamax-ui/wiki/In
 _Before installing, please review these [installation notes.](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Installing-Panamax#panamax-client---local-installation-recommended)_
 
 
-FIRST: install vagrant >= 1.6 on your windows OS and install virtualbox >= 1.2 on your windows OS.
+FIRST: install vagrant >= 1.6 on your windows OS and install virtualbox >= 1.4.3+ on your windows OS.
 
 Then, in your cygwin terminal, symlink your Virtualbox.exe and VBoxManage.exe files like so:
 ```
