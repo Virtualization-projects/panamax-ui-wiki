@@ -63,6 +63,10 @@ For a menu of all commands available to you, simply run:
 [List of all available commands, aliases and parameters](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Panamax-Installer-Commands) for the Panamax Installer.
 [Release Notes](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Release-Notes)
 
+## Arch Linux
+
+See [Ubuntu instructions.](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Installing-Panamax#ubuntu-linux-1204-or-higher)
+
 ## Debian 6.0 or higher
 
 See [Ubuntu instructions.](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Installing-Panamax#ubuntu-linux-1204-or-higher)
