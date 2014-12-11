@@ -2,6 +2,7 @@
 * [[Installing Panamax]]
   * [[Client - Mac OSX|Installing-Panamax#mac-os-x-1090-or-higher]]
   * [[Client - Ubuntu|Installing-Panamax#ubuntu-linux-1204-or-higher]]
+  * [[Client - Arch Linux|Installing-Panamax#arch-linux]]
   * [[Client - Debian|Installing-Panamax#debian-60-or-higher]]
   * [[Client - Windows|Installing-Panamax#windows-with-cgywin]]
   * [[Remote Agent|Panamax Remote Agent Installation]]
