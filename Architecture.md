@@ -4,13 +4,13 @@
 In an effort to organize all the Panamax components, some components have been logically grouped into a set of components (Panamax Client and Deployment Target).
 
 [![diagram](http://panamax.ca.tier3.io/diagrams/panamax_architecture.svg)](http://panamax.ca.tier3.io/diagrams/panamax_architecture.svg)
-## Panamax Client
+## Local Client
 
-The Panamax Client is the core Panamax tool, that users may run on their local development machines, which enables the assembly of multi-container applications.
+The Local Client is the core Panamax tool, that users may run on their local development machines, which enables the assembly of multi-container applications.
 
-The Panamax Client is comprised of several components, some are Panamax specific and some are not. They are outlined below:
+The Local Client is comprised of several components, some are Panamax specific and some are not. They are outlined below:
 
-### [Panamax Client Installer](https://github.com/CenturyLinkLabs/panamax-coreos)
+### [Local Client Installer](https://github.com/CenturyLinkLabs/panamax-coreos)
 
 Bootstrap an OS X machine with the components that makeup the Panamax Client.
 
@@ -29,7 +29,7 @@ This is where most of the magic happens. The Local Agent is responsible for comm
 * Exposes an API: REST API
 
 
-### [Panamax User Interface](https://github.com/CenturyLinkLabs/panamax-ui) 
+### [Panamax UI](https://github.com/CenturyLinkLabs/panamax-ui) 
 
 The User interface is where all the pointing, clicking, dragging, and dropping occur. The UI proxies through the Local Agent to perform Panamax operations. 
 
@@ -51,7 +51,7 @@ The Panamax Client is built on top of CoreOS as it's Docker client. The Panamax 
 _NOTE: CoreOS is not specific to or owned/maintained by the Panamax team_
 
 
-## Deployment Target
+## Remote Deployment Target
 
 A Deployment Target facilitates the deployment of a Panamax Template. In practice this is typically accomplished via the Panamax Client. A single Panamax Client can register one or more deployment targets and a single Deployment target can be registered with multiple Panamax Clients.
 
