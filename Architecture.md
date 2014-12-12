@@ -3,8 +3,7 @@
 
 In an effort to organize all the Panamax components, some components have been logically grouped into a set of components (Panamax Client and Deployment Target).
 
-![diagram](http://www.gliffy.com/go/publish/image/6671015/M.png)
-
+[![diagram](http://panamax.ca.tier3.io/diagrams/panamax_architecture.svg)](http://panamax.ca.tier3.io/diagrams/panamax_architecture.svg)
 ## Panamax Client
 
 The Panamax Client is the core Panamax tool, that users may run on their local development machines, which enables the assembly of multi-container applications.
