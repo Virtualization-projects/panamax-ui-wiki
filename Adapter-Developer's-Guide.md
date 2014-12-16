@@ -1,4 +1,5 @@
-# Adapter Developer's Guide
+_Short URL: [http://j.mp/pmxdevadapter](http://j.mp/pmxdevadapter)_
+
 # Overview
 When composing an application with Panamax all of the Docker containers are executed within a local CoreOS instance. This local sandbox is perfect for validating that all of your containers work (and work well together) but once you've got your application configured the way you want it you're probably going to want to deploy it into an environment other than your local machine.
 
