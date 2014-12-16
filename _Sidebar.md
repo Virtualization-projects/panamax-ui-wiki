@@ -13,6 +13,7 @@
 * [[Contributing to Panamax|Contributing to Panamax]]
   * [[Reporting Issues|Contributing-to-Panamax#reporting-issues]]
   * [[Feature Requests|Contributing-to-Panamax#feature-requests]]
+* [[Architecture|Architecture]]
 * [[Release Notes|Release-Notes]]
 
 ***
