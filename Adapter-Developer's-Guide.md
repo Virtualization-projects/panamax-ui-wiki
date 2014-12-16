@@ -19,6 +19,8 @@ If an adapter doesn't yet exist for a particular clustering/orchestration techno
 # Architecture
 The Panamax Client doesn't communicate directly with the adapter, instead requests for remote deployment are sent to the Panamax Remote Agent. The Remote Agent is responsible for securing the connection between the Client and the remote environment and maintaining state about deployed applications. 
 
+[![diagram](http://panamax.ca.tier3.io/diagrams/panamax_architecture.svg)](http://panamax.ca.tier3.io/diagrams/panamax_architecture.svg)
+
 At start-up time, the Panamax Remote Agent is associated with a single adapter using a [Docker link](https://docs.docker.com/userguide/dockerlinks/#docker-container-linking). When the Agent receives a request to deploy/delete an application it will pass it along to the configured adapter for execution.
 
 Adapters are simply containerized applications that expose a specific HTTP REST service interface (described in detail below). As long as the adapter adheres to the interface specification, the service can be implemented with any language/framework the developer choses. The only other requirement is that the adapter's Docker image must expose the port on which the service is listening (typically done via an `EXPOSE` instruction in the Dockerfile) -- this is how the Remote Agent will discover the adapter endpoint when the two containers are linked.
