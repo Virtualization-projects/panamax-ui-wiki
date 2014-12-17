@@ -7,25 +7,25 @@ To view the version of the components of your Panamax installation, run `$ panam
 <table border=0 style="width:300px">
 <tr>
   <th>Stable Release</th>
-  <td>12/05/2014</td> 
-  <td>12/01/2014</td>
-  <td>12/01/2014</td>
+  <td>12/17/2014</td> 
+  <td>12/17/2014</td>
+  <td>12/17/2014</td>
   <td></td>
   <td></td>
   <td></td>
 </tr>
 <tr>
   <td>Client</td>
-  <td><A HREF="https://github.com/CenturyLinkLabs/panamax-coreos/blob/master/CHANGELOG.md#changelog">Installer:  0.3.3</A></td> 
-  <td><A HREF="https://github.com/CenturyLinkLabs/panamax-ui/blob/master/CHANGELOG.md#changelog">UI:    0.2.10</A></td>
-  <td><A HREF="https://github.com/CenturyLinkLabs/panamax-api/blob/master/CHANGELOG.md#changelog">API:    0.2.10</A></td>
-  <td>CoreOS:  494.4.0</td>
-  <td>Docker:  1.3.2</td>
-  <td>cAdvisor:  0.4.1</td>
+  <td><A HREF="https://github.com/CenturyLinkLabs/panamax-coreos/blob/master/CHANGELOG.md#changelog">Installer:  0.3.4</A></td> 
+  <td><A HREF="https://github.com/CenturyLinkLabs/panamax-ui/blob/master/CHANGELOG.md#changelog">UI:    0.2.11</A></td>
+  <td><A HREF="https://github.com/CenturyLinkLabs/panamax-api/blob/master/CHANGELOG.md#changelog">API:    0.2.11</A></td>
+  <td>CoreOS:  494.5.0</td>
+  <td>Docker:  1.3.3</td>
+  <td>cAdvisor:  0.6.2</td>
 </tr>
 <th></th>
   <td>11/14/2014</td> 
-  <td>12/01/2014</td>
+  <td>12/17/2014</td>
   <td>11/14/2014</td>
   <td>12/01/2014</td>
   <td></td>
@@ -34,7 +34,7 @@ To view the version of the components of your Panamax installation, run `$ panam
 <tr>
   <td>Remote Agent</td>
   <td><A HREF="https://github.com/CenturyLinkLabs/panamax-remote-agent-installer/blob/master/CHANGELOG.md">Installer:  0.1.2</A></td> 
-  <td><A HREF="https://github.com/CenturyLinkLabs/panamax-remote-agent">Remote Agent:    0.1.3</A></td>
+  <td><A HREF="https://github.com/CenturyLinkLabs/panamax-remote-agent">Remote Agent:    0.1.4</A></td>
   <td><A HREF="https://github.com/CenturyLinkLabs/panamax-kubernetes-adapter/blob/master/CHANGELOG.md">Kubernetes Adapter:    0.1.2</A></td>
   <td><A HREF="https://github.com/CenturyLinkLabs/panamax-fleet-adapter/blob/master/CHANGELOG.md">Fleet Adapter:    0.1.2</A></td>
   <td></td>
