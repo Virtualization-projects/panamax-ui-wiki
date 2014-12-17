@@ -52,6 +52,7 @@ Docker must be [installed](https://docs.docker.com/installation/#installation) o
 1. SSH into the Panamax remote agent node created above
 2. Run ``$ sudo su`` to ensure your docker commands will run with correct privileges
 3. Run ``$ sudo bash -c "$(curl http://download.panamax.io/agent/pmx-agent-install)"`` 
+4. Execute ``$ cd /root/pmx-agent && ./pmx-agent`` to invoke agent setup script.
 4. Select (1) - `init`, to begin the installation process
 5. Follow the prompts, including choosing your adapter, adding your API endpoint (typically a private IP) and Panamax Remote Agent endpoint (typically a public IP)
 6. Copy the displayed token (needed when adding the deployment endpoint to the client)
