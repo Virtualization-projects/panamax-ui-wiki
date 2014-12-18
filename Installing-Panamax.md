@@ -74,7 +74,35 @@ See [Ubuntu instructions.](https://github.com/CenturyLinkLabs/panamax-ui/wiki/In
 ## Windows with Cgywin
 _Before installing, please review these [installation notes.](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Installing-Panamax#panamax-client---local-installation-recommended)_
 
+### Method #1
+#### Prerequisites
+* Windows 7.1+ 64bit
+* [Cygwin](https://cygwin.com/setup-x86_64.exe) (with/add rsync and openssh packages)
+* [Vagrant 1.6.5](https://dl.bintray.com/mitchellh/vagrant/vagrant_1.6.5.msi) _NOTE: V1.7.0 does not work_ (tested on 1.6.5) 
+* [VirtualBox 4.3.10+](http://download.virtualbox.org/virtualbox/4.3.20/VirtualBox-4.3.20-96997-Win.exe) (tested on 4.3.20)
 
+#### Install CoreOS VM in VirtualBox
+1. Open Cygwin64 terminal on Windows machine
+2. Run `$ mkdir panamax-vagrant && cd panamax-vagrant` 
+3. Run `$ vagrant -v`, `$ rsync --version` to confirm that they are working and are in your PATH
+4. Run `$ curl -O http://download.panamax.io/installer/panamax-demo.tar.gz && tar -C . -zxvf panamax-demo.tar.gz && mv Vagrantfile-win Vagrantfile`
+5. Run `$ vagrant up` 
+6. After install, port forward guest (CoreOS) port 3000 to host (Windows) port 3000 in the VirtualBox GUI | Network | Port Forwarding on the panamax-vm or run on the terminal:
+
+    ```$ VBoxManage controlvm panamax-vm natpf1 rule1,tcp,,3000,,3000```
+7. Browse to `localhost:3000` on your windows machine to view Panamax!
+
+#### Reinstall, Restart, Update Panamax
+1. Run `$ vagrant ssh` from the `panamax-vagrant ` directory on Windows machine.
+2. When on the CoreOS, run `$ sudo su`
+3. Change the directory to panamax: `$ cd /var/panamax`
+4. Run `$ ./coreos`
+5. Make your selection
+
+[List of all available commands, aliases and parameters](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Panamax-Installer-Commands) for the Panamax Installer.
+[Release Notes](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Release-Notes)
+
+### Method #2 
 FIRST: install vagrant >= 1.6 on your windows OS and install virtualbox >= 1.4.3+ on your windows OS.
 
 Then, in your cygwin terminal, symlink your Virtualbox.exe and VBoxManage.exe files like so:
