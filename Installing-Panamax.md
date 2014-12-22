@@ -13,7 +13,7 @@ Panamax is currently in BETA
 
 [Vagrant 1.6](http://www.vagrantup.com/downloads.html/) or higher
 
-The Panamax installer creates a VM in VirtualBox called _panamax-vm_. This VM is built on [http://coreos.com/docs/running-coreos/platforms/vagrant/](CoreOS.)
+The Panamax installer creates a VM in VirtualBox called _panamax-vm_. This VM is built on [CoreOS](http://coreos.com/docs/running-coreos/platforms/vagrant/).
 
 **NOTE**: The _panamax-vm_ runs with 2 CPUs and 1GB of RAM by default. These may need to be increased based on the number of containers you have running on your VM or the resources they consume. Templates may specify system recommendations for proper performance in their documentation. Reference the [list of all available commands, aliases and parameters](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Panamax-Installer-Commands) on how to change your VM's specs to increase CPUs and RAM.
 
