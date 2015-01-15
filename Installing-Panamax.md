@@ -20,11 +20,21 @@ The Panamax installer creates a VM in VirtualBox called _panamax-vm_. This VM is
 ## Mac OS X 10.9.0 or higher
 _Before installing, please review these [installation notes.](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Installing-Panamax#panamax-client---local-installation-recommended)_
 
-To install Panamax on Mac, use [Homebrew](http://brew.sh/). Here are the steps:
+To install Panamax on Mac, you should use a package management system. You can use [Homebrew](http://brew.sh/) (recommended) or [MacPorts](https://www.macports.org/). Here are the steps:
+
+### Using Homebrew
 
 On your terminal window, run:
 
 `$ brew install http://download.panamax.io/installer/brew/panamax.rb`
+
+### Using MacPorts
+
+On your terminal window, run:
+
+`$ curl  http://download.panamax.io/installer/ubuntu.sh | bash`
+
+### Common to both
 
 Install and run Panamax! 
 
