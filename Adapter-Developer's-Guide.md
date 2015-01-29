@@ -44,7 +44,7 @@ The primary entity used in the adapter API is the Service. The Service is a repr
 * *environment*: list of Environment entities
 * *volumes*: list of Volume entities
 * *deployment*: Deployment entity
-* *currentState*: (read-only) state the service is currently in
+* * actualState*: (read-only) state the service is currently in
 
 ### Link
 * *name*: (required) name of service to link to
@@ -104,15 +104,15 @@ The adapter doesn't necessarily need to wait until all the services have started
 	[
 	  {
 	    "id: "db.service",
-	    "currentState": "started"
+	    "actualState": "started"
 	  },
 	  {
 	    "id": "wp.1.service",
-	    "currentState": "started"
+	    "actualState": "started"
 	  },
 	  {
 	    "id": "wp.2.service",
-	    "currentState": "started"
+	    "actualState": "started"
 	  }	  
 	]
 	
@@ -139,7 +139,7 @@ Returns the status of a previously created service. The value of the `currentSta
 	 
 	{
 	  "id": "db.service",
-	  "currentState": "started"
+	  "actualState": "started"
 	}
 	
 A successful response returns a partial Service entity containing the ID and the current state of the specified service. 
@@ -225,7 +225,7 @@ The following JSON schema describes the valid request body to be posted to the C
           "command": {
             "type": "string"
           },
-          "currentState": {
+          "actualState": {
             "type": "string"
           },
           "expose": {
