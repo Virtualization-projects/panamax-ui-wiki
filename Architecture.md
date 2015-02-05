@@ -55,7 +55,6 @@ _NOTE: CoreOS is not specific to or owned/maintained by the Panamax team_
 
 A Deployment Target facilitates the deployment of a Panamax Template. In practice this is typically accomplished via the Panamax Client. A single Panamax Client can register one or more deployment targets and a single Deployment target can be registered with multiple Panamax Clients.
 
-![Remote Target](http://panamax.ca.tier3.io/blog_assets/pmx_arch.png)
 ### [Deployment Target Installer](https://github.com/CenturyLinkLabs/panamax-remote-agent-installer)
 
 Bootstrap a docker host machine with the components that makeup a Panamax Deployment Target.
@@ -74,7 +73,7 @@ A small, containerized agent which runs in the remote environment (Deployment Ta
 * Framework: Rails
 * Exposes an API: REST API
 
-
+![Remote Target](http://panamax.ca.tier3.io/blog_assets/pmx_arch.png)
 ### [Orchestration Adapter](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Adapter-Developer's-Guide)
 
 Encapsulates all of the orchestrator-specific logic in a dedicated adapter layer that is distinct from the agent. The user is able to select the adapter that matches the orchestration technologies available in their target environment. [more...](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Adapter-Developer's-Guide)
