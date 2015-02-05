@@ -55,6 +55,7 @@ _NOTE: CoreOS is not specific to or owned/maintained by the Panamax team_
 
 A Deployment Target facilitates the deployment of a Panamax Template. In practice this is typically accomplished via the Panamax Client. A single Panamax Client can register one or more deployment targets and a single Deployment target can be registered with multiple Panamax Clients.
 
+![Remote Target](http://panamax.ca.tier3.io/blog_assets/pmx_arch.png)
 ### [Deployment Target Installer](https://github.com/CenturyLinkLabs/panamax-remote-agent-installer)
 
 Bootstrap a docker host machine with the components that makeup a Panamax Deployment Target.
