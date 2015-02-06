@@ -33,6 +33,15 @@ Learn more about the [Fleet Adapter](https://github.com/CenturyLinkLabs/panamax-
 
 [Running CoreOS on EC2](https://coreos.com/docs/running-coreos/cloud-providers/ec2/)
 
+###Marathon
+Learn more about the [Marathon Adapter](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Marathon-Adapter)
+
+[Getting started using Playa/Mesos](http://mesosphere.com/docs/getting-started/developer/vm-install/)
+
+[Installing Mesosphere in the Cloud](https://www.digitalocean.com/community/tutorials/how-to-configure-a-production-ready-mesosphere-cluster-on-ubuntu-14-04)
+
+[Marathon REST API](http://mesosphere.github.io/marathon/docs/rest-api.html)
+
 ## Adding a Panamax Remote Agent node to your environment
 In order to install and utilize the Panamax Remote Agent, Panamax uses a dedicated installer node. The Panamax remote agent can run on Linux with docker installed. However, we recommend using CoreOS for simplicity. 
 
