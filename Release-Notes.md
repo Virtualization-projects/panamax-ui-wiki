@@ -24,11 +24,11 @@ To view the version of the components of your Panamax installation, run `$ panam
   <td>cAdvisor:  0.6.2</td>
 </tr>
 <th></th>
-  <td>11/14/2014</td> 
+  <td>2/6/2015</td> 
   <td>12/17/2014</td>
   <td>11/14/2014</td>
   <td>12/01/2014</td>
-  <td></td>
+  <td>2/6/2015</td>
   <td></td>
 </tr>
 <tr>
@@ -37,7 +37,7 @@ To view the version of the components of your Panamax installation, run `$ panam
   <td><A HREF="https://github.com/CenturyLinkLabs/panamax-remote-agent">Remote Agent:    0.1.4</A></td>
   <td><A HREF="https://github.com/CenturyLinkLabs/panamax-kubernetes-adapter/blob/master/CHANGELOG.md">Kubernetes Adapter:    0.1.2</A></td>
   <td><A HREF="https://github.com/CenturyLinkLabs/panamax-fleet-adapter/blob/master/CHANGELOG.md">Fleet Adapter:    0.1.2</A></td>
-  <td></td>
+  <td><A HREF="https://github.com/CenturyLinkLabs/panamax-marathon-adapter/blob/master/CHANGELOG.md">Marathon Adapter:    0.1.0</A></td>
   <td></td>
 </tr>
 </table>
