@@ -32,21 +32,16 @@ To understand how the Marathon Adapter translates a Panamax Template into a depl
 The Panamax Remote Agent will receive the template with its deployment counts and overridden environment variables and pass that configuration to the adapter.  The adapter processes this request and will translate it into requests for Fleet units.
 
 ### Grouping
-TODO: Document the group deployment
+The Marathon Adapter creates a unique group name identifier and prefixes all services with this group name when they are translated into application deployments. Therefore, all template deployments are isolated from other template deployments. When all the applications within a group have been removed the group is also removed.
 
 ### Scaling
 During the deployment process, the user is provided an opportunity to scale the services being deployed.  For example, if a user has a cluster of 3 nodes the user might choose to scale the WordPress service across all 3 nodes.  The user may also override environment variables defined in the template so that during deployment, the values of these keys can be specific to the target deployment environment.
 
 A dependent service such as MySQL in the template above can only exist on a single node unless the application uses a proxy service in front of the dependency. If a dependent service is scaled to more than one, it will automatically be limited to only one instance (a singleton service).
 
-For scaled services, each individual service will be given a name using the following convention:
-`name@instance.suffix` where name is the service name, instance is the number of the service, and the suffix is '.service.'
+This approach was taken so that a template could be deployed on any Mesosphere cluster without assumptions bout the cluster having DNS or proxy services for service discovery and routing.
 
-If the template above were to include a request for 3 WordPress service instances, the names would be wp@1.service, wp@2.service, and wp@3.service.
-
-If the service is a singleton, it follows the naming convention ```name.service```.  This is solely for readability and ease when adding and retrieving the service values from etcd.
-
-If the template above were to include a request for 3 MySQL instances, a single instance would be deployed as db.service because it is a dependency of (i.e. linked to from) the WordPress service.
+[Mesosphere Service Discovery](http://mesosphere.com/docs/getting-started/service-discovery/)
 
 ### Service discovery
 TODO: Detail Discovery states
