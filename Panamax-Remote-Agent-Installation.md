@@ -6,6 +6,8 @@ Installing the Panamax Remote Agent allows you to deploy your application direct
 Panamax allows you to deploy your application to any node or cluster of nodes utilizing our remote agent. The first step is to setup your deployment endpoint on the cloud provider of your choice with the orchestrator of your choice. The following links should provide some guidance on how to setup an environment with specific orchestrators that Panamax currently supports:
 
 ###Kubernetes
+Learn more about the [Kubernetes Adapter](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Kubernetes-Adapter)
+
 [Kubernetes Project Home](https://github.com/GoogleCloudPlatform/kubernetes/) - lots of guides for setting up Kubernetes on different environments
 
 [Getting started on Google Compute Engine](https://github.com/GoogleCloudPlatform/kubernetes/blob/master/docs/getting-started-guides/gce.md)
@@ -21,6 +23,8 @@ Panamax allows you to deploy your application to any node or cluster of nodes ut
 [Debugging FAQ](https://github.com/GoogleCloudPlatform/kubernetes/wiki/Debugging-FAQ)
 
 ###Fleet/etcd
+Learn more about the [Fleet Adapter](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Fleet-Adapter)
+
 [Installing CoreOS On CenturyLink Cloud](http://www.centurylinklabs.com/tutorials/openstack/installing-coreos/)
 
 [Building CoreOS Server Cluster on the CenturyLink Cloud](https://t3n.zendesk.com/entries/47064274-Building-CoreOS-Server-Cluster-on-the-CenturyLink-Cloud)
