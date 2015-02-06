@@ -33,7 +33,7 @@ To view the version of the components of your Panamax installation, run `$ panam
 </tr>
 <tr>
   <td>Remote Agent</td>
-  <td><A HREF="https://github.com/CenturyLinkLabs/panamax-remote-agent-installer/blob/master/CHANGELOG.md">Installer:  0.1.2</A></td> 
+  <td><A HREF="https://github.com/CenturyLinkLabs/panamax-remote-agent-installer/blob/master/CHANGELOG.md">Installer:  0.1.3</A></td> 
   <td><A HREF="https://github.com/CenturyLinkLabs/panamax-remote-agent">Remote Agent:    0.1.4</A></td>
   <td><A HREF="https://github.com/CenturyLinkLabs/panamax-kubernetes-adapter/blob/master/CHANGELOG.md">Kubernetes Adapter:    0.1.2</A></td>
   <td><A HREF="https://github.com/CenturyLinkLabs/panamax-fleet-adapter/blob/master/CHANGELOG.md">Fleet Adapter:    0.1.2</A></td>
