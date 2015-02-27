@@ -5,6 +5,7 @@
   * [[Client - Arch Linux|Installing-Panamax#arch-linux]]
   * [[Client - Debian|Installing-Panamax#debian-60-or-higher]]
   * [[Client - Windows|Installing-Panamax#windows-with-cgywin]]
+  * [[Client - CoreOS|Installing-Panamax#installing-panamax-on-coreos]]
   * [[Remote Agent|Panamax Remote Agent Installation]]
 * [[Public Templates|Panamax-Public-Templates]]
   * [[Submitting a Template|Panamax-Public-Templates#submit-a-template]]
