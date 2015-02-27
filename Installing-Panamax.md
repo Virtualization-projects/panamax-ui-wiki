@@ -152,6 +152,21 @@ For a menu of all commands available to you, simply run:
 [Release Notes](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Release-Notes)
 
 
+### Installing Panamax on CoreOS
+If you already have CoreOS running on your cloud provider, use these steps to install Panamax. Make sure ports 3000 and 22 are open before you precede and open any additional ports needed to reach your running applications.
+
+1. Once the VM is created, SSH into the box per your cloud provider, using the username _core_.
+
+   `$ ssh core@<Public IP of the VM>`
+
+1. Run: `$ sudo su`
+1. Download & unzip the latest setup script from [http://download.panamax.io/installer/panamax-latest.tar.gz](http://download.panamax.io/installer/panamax-latest.tar.gz):
+
+    `$ curl -O http://download.panamax.io/installer/panamax-latest.tar.gz && mkdir -p /var/panamax && tar -C /var/panamax -zxvf panamax-latest.tar.gz`
+1. Change to the /var/panamax directory: `$ cd /var/panamax`
+1. Run: `$ ./coreos install --stable`
+1. Once the installer completes, you can access panamax at: `http:// _Public IP_ :3000/`
+
 ## Cloud Provider Installation - Panamax Client
 
 **NOTE:**  The [remote agent capability](http://www.centurylinklabs.com/panamax-status-update-remote-agent-and-adapters/) provides the ability to deploy an application to remote infrastructure targets.  It is not recommended to install the Panamax Client on Cloud Providers although it is still possible and the previous instructions remain here:  [Installing the Panamax Client(UI/API) on a Cloud Provider](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Cloud-Provider-Installation-of-Panamax-Client).
