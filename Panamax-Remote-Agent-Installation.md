@@ -72,7 +72,12 @@ Docker must be [installed](https://docs.docker.com/installation/#installation) o
 
 **_Notes for Kubernetes Adapter_:**
  
-- The API endpoint url (kubernetes-master node) should include `https://` and no port. For example: `https://10.x.x.x`. This is typically a private IP.
+- The API endpoint url (kubernetes-master node) should include `https://` and no port. For example: `https://10.x.x.x`. This is typically a private IP - where kubernetes apiserver service is exposed. Run the command "kubectl get services" to list the running services and find the one with apiserver LABEL and PORT 443 as below:
+NAME                LABELS                                    SELECTOR            IP                  PORT
+kubernetes          component=apiserver,provider=kubernetes   <none>              11.1.1.2            443
+
+As shown above, the private IP is: 11.1.1.2, hence the API endpoint url is: https://11.1.1.2
+
 - The default API username is `admin` and your password is located in `$ ~/.kubernetes_auth`.
 
 **_Notes for Fleet Adapter_:**
