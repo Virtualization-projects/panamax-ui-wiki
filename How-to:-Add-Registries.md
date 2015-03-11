@@ -1,4 +1,4 @@
-Panamax supports adding secure (https) and insecure (http) registries, as well as registries with basic auth and certificate authority. Based on the type of registries and authentication method (if any) can change determine how to set it up in Panamax.
+Panamax supports adding secure (https) and insecure (http) registries, as well as registries with basic auth and certificate authority. Based on the type of registries and authentication method (if any) can determine how to set it up in Panamax.
 
 ## Insecure and Secure Registries
 When installing Panamax, along with CPU and RAM allocation, you can set whether you want to connect to insecure registries. By default, this option is set to NO, which matches the default setting for the docker daemon. With this option set to NO, docker doesn't allow access to any registry with http. To allow for legacy insecure registry access, select Y during the Panamax installer setup. To change your setting, run `$ panamax reinstall` from a command prompt.
