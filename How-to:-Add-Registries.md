@@ -11,7 +11,7 @@ From a command prompt where you have Panamax installed:
 1. `$ panamax ssh`
 2. `$ docker login -e your_email.com -u your_username -p your_password https://your_registry_endpoint`
 
-This gives the docker daemon your creds and registry endpoint. Within Panamax, you now can use the [search command filter](#) to directly access a secure repository. You can repeat this for as many secure registries you have.
+This gives the docker daemon your creds and registry endpoint. Within Panamax, you now can use the [search command filter](https://github.com/CenturyLinkLabs/panamax-ui/wiki/How-to:-Add-Registries#running-an-image-from-a-private-repository) to directly access a secure repository. You can repeat this for as many secure registries you have.
 
 If you are using Certificate Authorities(CAs), you can add those as well. Here are the steps:
 
