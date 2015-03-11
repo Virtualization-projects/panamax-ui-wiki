@@ -29,4 +29,4 @@ Panamax now supports a search command filter to allow you to enter the absolute 
 
 Panamax will confirm your selection by displaying the image endpoint. To run the image, simply click the Run Image button to add it to your Panamax application. Be sure to check the journal output for the service to ensure no errors occurred.
 
-_NOTE: If your repository is behind basic auth, or needs certificate authority, be sure to read [Registries with Basic Authorization and Certificates](#) for instructions on how to add those to your Panamax install._
+_NOTE: If your repository is behind basic auth, or needs certificate authority, be sure to read [Registries with Basic Authorization and Certificates](https://github.com/CenturyLinkLabs/panamax-ui/wiki/How-to:-Add-Registries#registries-with-basic-authorization-and-certificates) for instructions on how to add those to your Panamax install._
