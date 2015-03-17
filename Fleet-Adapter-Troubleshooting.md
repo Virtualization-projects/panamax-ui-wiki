@@ -12,8 +12,8 @@ Currently, errors can appear on the GUI without much explanation of the underlyi
 
 1. SSH into your Remote Agent node (the node you have installed the remote agent and adapter on)
 2. Switch to root: `$ sudo su`
-3. Run: `$ docker logs pmx-agent` to output the logs of the PMX Agent
-4. Run: `$ docker logs pmx-adapter` to output the logs of the PMX Adapter
+3. Run: `$ docker logs pmx_agent` to output the logs of the PMX Agent
+4. Run: `$ docker logs pmx_adapter` to output the logs of the PMX Adapter
 
 ## Verify your Deployment
 The Panamax client GUI provides statuses for your running services, passing the "raw" status messages from your orchestrator in the deployment detail page. You can also view these and other useful information in the orchestrator directly.
