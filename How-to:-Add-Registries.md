@@ -11,10 +11,12 @@ In order to access a registry behind basic auth, you need to add your creds for 
 No action is needed.
 #### With Self-Signed Certificate
 Add your .pem file to CoreOS.Following these steps:
-    1. In a terminal window: `$ panamax ssh`
-    2. Complete the setup following these [instructions.](https://coreos.com/docs/cluster-management/setup/adding-certificate-authorities/)
-    3. Restart docker daemon: `$ systemctl restart docker.service`
-    4. Test your connection: `$ curl https://your_registry_endpoint/v1/_ping` - returns json description blob
+
+1. In a terminal window: `$ panamax ssh`
+2. Complete the setup following these [instructions.](https://coreos.com/docs/cluster-management/setup/adding-certificate-authorities/)
+3. Restart docker daemon: `$ systemctl restart docker.service`
+4. Test your connection: `$ curl https://your_registry_endpoint/v1/_ping` - returns json description blob
+
 ### Registry behind Basic Auth 
 #### With Self-Signed Certificate
 From a command prompt where you have Panamax installed:
