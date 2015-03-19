@@ -14,27 +14,16 @@ Add your .pem file to CoreOS.Following these steps:
 
 1. In a terminal window: `$ panamax ssh`
 2. Complete the setup following these [instructions.](https://coreos.com/docs/cluster-management/setup/adding-certificate-authorities/)
-3. Restart docker daemon: `$ systemctl restart docker.service`
+3. Restart docker daemon: `$ sudo systemctl restart docker.service`
 4. Test your connection: `$ curl https://your_registry_endpoint/v1/_ping` - returns json description blob
 
 ### Registry behind Basic Auth 
-#### With Self-Signed Certificate
-From a command prompt where you have Panamax installed:
-
-1. `$ panamax ssh`
-2. `$ docker login -e your_email.com -u your_username -p your_password https://your_registry_endpoint`
+1. Follow instructions for either Certificate Authority or Self-Signed Certificate above
+2. `$ panamax ssh`
+3. `$ docker login -e your_email.com -u your_username -p your_password https://your_registry_endpoint` - returns `Login Succeeded`
 
 This gives the docker daemon your creds and registry endpoint. Within Panamax, you now can use the [search command filter](https://github.com/CenturyLinkLabs/panamax-ui/wiki/How-to:-Add-Registries#running-an-image-from-a-private-repository) to directly access a secure repository. You can repeat this for as many secure registries you have.
 
-If you are using Certificate Authorities(CAs), you can add those as well. Here are the steps:
-
-From a command prompt where you have Panamax installed:
-
-1. `$ panamax ssh`
-2. Drop the certificate authority PEM file into /etc/ssl/certs
-3. Run the update-ca-certificates script
-
-More info can be [found here.](https://coreos.com/docs/cluster-management/setup/adding-certificate-authorities/)
 ## Running an Image from a Private Repository
 Panamax now supports a search command filter to allow you to enter the absolute URI to your image in a private registry or a docker private repository. For example, to use the image `my_private_repo/ubuntu:14.04` use the `!=` command in the search control to specific the absolute path to your image:
 
