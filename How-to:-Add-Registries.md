@@ -21,7 +21,7 @@ Add your .pem file to CoreOS.Following these steps:
 1. Follow instructions for either Certificate Authority or Self-Signed Certificate above
 2. `$ panamax ssh`
 3. `$ docker login -e your_email.com -u your_username -p your_password https://your_registry_endpoint` - returns `Login Succeeded`
-4. `sudo cp /home/core/.dockercfg / #Important, when Panamax attempts to pull, it will look here for credentials`
+4. `sudo cp /home/core/.dockercfg / #Important, when Panamax attempts to pull, it will look here(/) for credentials`
 
 This gives the docker daemon your creds and registry endpoint. Within Panamax, you now can use the [search command filter](https://github.com/CenturyLinkLabs/panamax-ui/wiki/How-to:-Add-Registries#running-an-image-from-a-private-repository) to directly access a secure repository. You can repeat this for as many secure registries you have.
 
