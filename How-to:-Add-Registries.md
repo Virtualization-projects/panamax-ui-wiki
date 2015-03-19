@@ -4,8 +4,19 @@ Panamax supports adding secure (https) and insecure (http) registries, as well a
 When installing Panamax, along with CPU and RAM allocation, you can set whether you want to connect to insecure registries. By default, this option is set to NO, which matches the default setting for the docker daemon. With this option set to NO, docker doesn't allow access to any registry with http. To allow for legacy insecure registry access, select Y during the Panamax installer setup. To change your setting, run `$ panamax reinstall` from a command prompt.
 
 ## Registries with Basic Authorization and Certificates
-In order to access a registry behind basic auth, you need to add your creds for that registry to docker itself. Here are the steps:
+In order to access a registry behind basic auth, you need to add your creds for that registry to docker itself.
 
+### Registry behind SSL
+#### With Certificate Authority
+No action is needed.
+#### With Self-Signed Certificate
+Add your .pem file to CoreOS.Following these steps:
+    1. In a terminal window: `$ panamax ssh`
+    2. Complete the setup following these [instructions.](https://coreos.com/docs/cluster-management/setup/adding-certificate-authorities/)
+    3. Restart docker daemon: `$ systemctl restart docker.service`
+    4. Test your connection: `$ curl https://your_registry_endpoint/v1/_ping` - returns json description blob
+### Registry behind Basic Auth 
+#### With Self-Signed Certificate
 From a command prompt where you have Panamax installed:
 
 1. `$ panamax ssh`
