@@ -26,7 +26,6 @@ This gives the docker daemon your creds and registry endpoint. Within Panamax, y
 ## Running an Image from a Private Repository
 Panamax now supports a search command filter to allow you to enter the absolute URI to your image in a private registry or a docker private repository. For example, to use the image `my_private_repo/ubuntu:14.04` use the `!=` command in the search control to specific the absolute path to your image:
 
-(screenshot)
 `!=my_domain.com/my_private_repo/ubuntu:14.04`
 
 Panamax will confirm your selection by displaying the image endpoint. To run the image, simply click the Run Image button to add it to your Panamax application. Be sure to check the journal output for the service to ensure no errors occurred.
