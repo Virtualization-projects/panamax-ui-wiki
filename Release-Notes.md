@@ -16,7 +16,7 @@ To view the version of the components of your Panamax installation, run `$ panam
 </tr>
 <tr>
   <td>Client</td>
-  <td><A HREF="https://github.com/CenturyLinkLabs/panamax-coreos/blob/master/CHANGELOG.md#changelog">Installer:  0.5.0</A></td> 
+  <td><A HREF="https://github.com/CenturyLinkLabs/panamax-coreos/blob/master/CHANGELOG.md#changelog">Installer:  0.5.1</A></td> 
   <td><A HREF="https://github.com/CenturyLinkLabs/panamax-ui/blob/master/CHANGELOG.md#changelog">UI:    0.2.16</A></td>
   <td><A HREF="https://github.com/CenturyLinkLabs/panamax-api/blob/master/CHANGELOG.md#changelog">API:    0.3.1</A></td>
   <td>CoreOS:  607.0.0</td>
