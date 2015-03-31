@@ -7,18 +7,18 @@ To view the version of the components of your Panamax installation, run `$ panam
 <table border=0 style="width:300px">
 <tr>
   <th>Stable Release</th>
-  <td>3/19/2015</td> 
-  <td>3/19/2015</td>
-  <td>3/19/2015</td>
+  <td>3/31/2015</td> 
+  <td>3/31/2015</td>
+  <td>3/31/2015</td>
   <td></td>
   <td></td>
   <td></td>
 </tr>
 <tr>
   <td>Client</td>
-  <td><A HREF="https://github.com/CenturyLinkLabs/panamax-coreos/blob/master/CHANGELOG.md#changelog">Installer:  0.4.0</A></td> 
-  <td><A HREF="https://github.com/CenturyLinkLabs/panamax-ui/blob/master/CHANGELOG.md#changelog">UI:    0.2.15</A></td>
-  <td><A HREF="https://github.com/CenturyLinkLabs/panamax-api/blob/master/CHANGELOG.md#changelog">API:    0.3.0</A></td>
+  <td><A HREF="https://github.com/CenturyLinkLabs/panamax-coreos/blob/master/CHANGELOG.md#changelog">Installer:  0.5.0</A></td> 
+  <td><A HREF="https://github.com/CenturyLinkLabs/panamax-ui/blob/master/CHANGELOG.md#changelog">UI:    0.2.16</A></td>
+  <td><A HREF="https://github.com/CenturyLinkLabs/panamax-api/blob/master/CHANGELOG.md#changelog">API:    0.3.1</A></td>
   <td>CoreOS:  607.0.0</td>
   <td>Docker:  1.5.0</td>
   <td>cAdvisor:  0.6.2</td>
