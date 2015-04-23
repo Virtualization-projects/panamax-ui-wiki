@@ -16,9 +16,9 @@ Learn more about the [Kubernetes Adapter](https://github.com/CenturyLinkLabs/pan
 
 [How To Install and Configure Kubernetes on top of a CoreOS Cluster](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-kubernetes-on-top-of-a-coreos-cluster)
 
-[Single-node CoreOS Setup](https://github.com/GoogleCloudPlatform/kubernetes/blob/master/docs/getting-started-guides/coreos/coreos_cloud_config.md)
+[Single-node CoreOS Setup](https://github.com/GoogleCloudPlatform/kubernetes/blob/master/docs/getting-started-guides/coreos/coreos_single_node_cluster.md)
 
-[Multi-node CoreOS Cluster Setup](https://github.com/GoogleCloudPlatform/kubernetes/blob/master/docs/getting-started-guides/coreos/coreos_cloud_config.md)
+[Multi-node CoreOS Cluster Setup](https://github.com/GoogleCloudPlatform/kubernetes/blob/master/docs/getting-started-guides/coreos/coreos_multinode_cluster.md)
 
 [Debugging FAQ](https://github.com/GoogleCloudPlatform/kubernetes/wiki/Debugging-FAQ)
 
