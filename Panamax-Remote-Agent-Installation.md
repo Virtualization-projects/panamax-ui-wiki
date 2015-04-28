@@ -124,3 +124,18 @@ Click _Create Remote Deployment Target_ to save. The deploy target is now availa
 [Fleet Adapter Troubleshooting](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Fleet-Adapter-Troubleshooting)
 
 [Kubernetes Adapter Troublshooting](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Kubernetes-Adapter-Troubleshooting)
+
+## Installing the Panamax CLI
+The Panamax CLI (`pmxcli`) is a stand-alone command-line utility for interacting with a remote agent. It offers the basic remote deployment features of Panamax in a smaller download free from all dependencies. 
+
+If you already have Panamax already (installer 0.6.0+), you already have the Panamax CLI installed. To test, run `pmxcli` in a terminal window on your local machine.
+
+If you'd like pmxcli stand-alone, 64-bit binaries for [OSX](http://download.panamax.io/panamaxcli/panamaxcli-darwin) and [Linux](http://download.panamax.io/panamaxcli/panamaxcli-linux) are available for direct download. Remember that you'll need to give yourself execute permissions after the file is downloaded, and you'll need to place it somewhere in your PATH (we'd suggest /usr/local/bin) if you'd like to run it from anywhere.
+
+For example from the OSX terminal:
+
+ `$ curl -O http://download.panamax.io/panamaxcli/panamaxcli-darwin && mv panamaxcli-darwin /usr/local/bin/pmxcli && chmod 755 /usr/local/bin/pmxcli`
+
+or Linux:
+
+`curl -O   http://download.panamax.io/panamaxcli/panamaxcli-linux && mv panamaxcli-darwin /usr/local/bin/pmxcli && chmod 755 /usr/local/bin/pmxcli`
