@@ -7,6 +7,7 @@
   * [[Client - Windows|Installing-Panamax#windows-with-cgywin]]
   * [[Client - CoreOS|Installing-Panamax#installing-panamax-on-coreos]]
   * [[Remote Agent|Panamax Remote Agent Installation]]
+  * [[Panamax CLI|Panamax-Remote-Agent-Installation#installing-the-panamax-cli]]
 * [[Public Templates|Panamax-Public-Templates]]
   * [[Submitting a Template|Panamax-Public-Templates#submit-a-template]]
 * [[Known Issues|Known Issues]]
