@@ -20,7 +20,7 @@
 
 ***
 
-* How To:
+* How To Videos:
   * [[Install Panamax|Installing Panamax]]
   * [[Create your first Application|How-To:-Create-your-first-Application]]
   * [[Create a Template|How-To:-Make-a-Template]]
