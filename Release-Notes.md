@@ -20,7 +20,7 @@ To view the version of the components of your Panamax installation, run `$ panam
   <td><A HREF="https://github.com/CenturyLinkLabs/panamax-ui/blob/master/CHANGELOG.md#changelog">UI:    0.2.20</A></td>
   <td><A HREF="https://github.com/CenturyLinkLabs/panamax-api/blob/master/CHANGELOG.md#changelog">API:    0.3.3</A></td>
   <td>CoreOS:  681.2.0</td>
-  <td>Docker:  1.5.0</td>
+  <td>Docker:  1.6.2</td>
   <td>cAdvisor:  0.13.0</td>
 </tr>
 <th></th>
