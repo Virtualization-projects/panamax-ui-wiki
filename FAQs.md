@@ -16,7 +16,7 @@ Not yet, currently an application exists on a single host but since CoreOS/Fleet
 
 Well, yes and no. Although Panamax can possibly (read not tested by us) be installed on Windows, we don't have an installer for Windows. But, that is a great opportunity for you to contribute to Panamax. Please find the Panamax installer [source code repo](https://github.com/CenturyLinkLabs/panamax-coreos) on Github.
 
-##### Can I save my templates or access my repos in BitBucket?
+##### Can I save my templates or access my repos in GitBucket?
 
 Currently, Panamax only supports GitHub repos. We do plan to add support for GitBucket in the future
 
