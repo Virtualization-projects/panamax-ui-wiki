@@ -138,4 +138,4 @@ For example from the OSX terminal:
 
 or Linux:
 
-`curl -O   http://download.panamax.io/panamaxcli/panamaxcli-linux && mv panamaxcli-darwin /usr/local/bin/pmxcli && chmod 755 /usr/local/bin/pmxcli`
+`curl -O   http://download.panamax.io/panamaxcli/panamaxcli-linux && mv panamaxcli-linux /usr/local/bin/pmxcli && chmod 755 /usr/local/bin/pmxcli`
