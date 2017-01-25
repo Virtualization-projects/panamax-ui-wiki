@@ -81,7 +81,7 @@ See [Ubuntu instructions.](https://github.com/CenturyLinkLabs/panamax-ui/wiki/In
 
 See [Ubuntu instructions.](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Installing-Panamax#ubuntu-linux-1204-or-higher)
 
-## Windows with Cgywin
+## Windows with Cygwin
 _Before installing, please review these [installation notes.](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Installing-Panamax#panamax-client---local-installation-recommended)_
 
 ### Method #1
