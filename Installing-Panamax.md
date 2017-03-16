@@ -28,6 +28,10 @@ On your terminal window, run:
 
 `$ brew install http://download.panamax.io/installer/brew/panamax.rb`
 
+If Error: Calling Formula.sha1 is disabled!, run:
+
+`$ brew install https://raw.githubusercontent.com/pamri/panamax-coreos/896e6d3820c897f208ee58ba4ba2d5825b420504/panamax.rb`
+
 ### Using MacPorts
 
 On your terminal window, run:
