@@ -61,7 +61,7 @@ To check the version of Panamax, run the following on your terminal window:
 
 `panamax info`
 
-##Ubuntu Linux 12.04 or higher
+## Ubuntu Linux 12.04 or higher
 _Before installing, please review these [installation notes.](https://github.com/CenturyLinkLabs/panamax-ui/wiki/Installing-Panamax#panamax-client---local-installation-recommended)_
 
 Ubuntu Desktop Users: Download and run the script as shown.
